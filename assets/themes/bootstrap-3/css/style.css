@@ -21,7 +21,8 @@ h1, h2, h3, h4 {
   background-color: #fdcd60;
 }
 
-
+img { width: 100%;}
+code { display: block;}
 
 /* posts index */
 .post > h3.title {

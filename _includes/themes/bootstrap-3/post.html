@@ -3,10 +3,11 @@
 </div>
 
 <div class="row post-full">
-  <div class="col-xs-12">
-    <div class="date">
+  <div class="col-xs-8">
+<!--     <div class="date">
       <span>{{ page.date | date_to_long_string }}</span>
-    </div>
+    </div> -->
+    {% if page.tagline %}<small>{{page.categories}}</small>{% endif %}
     <div class="content">
       {{ content }}
     </div>
@@ -27,7 +28,7 @@
     </ul>
   {% endunless %}  
   
-    <hr>
+<!--     <hr>
     <ul class="pagination">
     {% if page.previous %}
       <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous</a></li>
@@ -41,7 +42,17 @@
       <li class="next disabled"><a>Next &rarr;</a>
     {% endif %}
     </ul>
-    <hr>
+    <hr> -->
     {% include JB/comments %}
+  </div>
+
+
+  <div class="col-xs-4">
+    <ul class="posts">
+      {% for post in site.posts %}
+        <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
+      {% endfor %}
+    </ul>
+
   </div>
 </div>

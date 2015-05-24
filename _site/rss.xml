@@ -5,22 +5,23 @@
         <description>The Coding Diaries - Linda Peng</description>
         <link>http://username.github.io</link>
         <link>http://username.github.io</link>
-        <lastBuildDate>2015-05-24T01:50:40-04:00</lastBuildDate>
-        <pubDate>2015-05-24T01:50:40-04:00</pubDate>
+        <lastBuildDate>2015-05-24T02:25:41-04:00</lastBuildDate>
+        <pubDate>2015-05-24T02:25:41-04:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
-                <title>&lt;span data-rel=&quot;title&quot;&gt;Day 12: Swap Method #100daysofcode&lt;/span&gt;</title>
-                <description>&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+                <title>Day 12: Swap Method #100daysofcode</title>
+                <description>&lt;pre class=&quot;prettyprint&quot;&gt;
+swap(x,y)
 
-&lt;p&gt;
-  &lt;code&gt;swap(x,y)&amp;lt;br /&amp;gt;
-temp = x //store the original value of x&amp;lt;br /&amp;gt;
-x = y //give x a new value&amp;lt;br /&amp;gt;
-y = temp //give y the original value of x&lt;/code&gt;
-&lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
+temp = x //store the original value of x
+
+x = y //give x a new value
+
+y = temp //give y the original value of x
+
+&lt;/pre&gt;
 </description>
                 <link>http://username.github.io/day-12-swap-method-100daysofcode/</link>
                 <guid>http://username.github.io/day-12-swap-method-100daysofcode</guid>
