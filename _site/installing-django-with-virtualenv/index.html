@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title><span data-rel="title">Installing Django With Virtualenv</span></title>
+    
+    <meta name="author" content="Linda Peng">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap styles -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Sticky Footer -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
+    
+    <!-- Custom styles -->
+    <link href="/assets/themes/bootstrap-3/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <div id="wrap">
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">The Coding Diaries</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+
+      <div class="container">
+        
+<div class="page-header">
+  <h1><span data-rel="title">Installing Django With Virtualenv</span> </h1>
+</div>
+
+<div class="row post-full">
+  <div class="col-xs-12">
+    <div class="date">
+      <span>17 May 2014</span>
+    </div>
+    <div class="content">
+      <p><span data-rel="content"></span></p>
+
+<p>
+  I&#8217;ve been looking at a couple of other Django tutorials lately, and recently &#8212; thanks to David, another Django learner I talked to at a Python meetup &#8212; I started making do with two great resources:
+</p>
+
+<p>
+  <strong>A) Youtube Series with Mike Hibbert:</strong>
+</p>
+
+<p>
+</p>
+
+<p>
+  <strong>B) <a href="http://www.tangowithdjango.com/book/index.html" target="_blank">Tango with Django</a> by Leif Azzopardi and David Maxwell.</strong>
+</p>
+
+<p>
+  The Tango with Django book initially looked great, but I was disappointed to find that it doesn&#8217;t start off showing users how to run develop their app using virtualenv. (Some brief notes about using virtualenv doesn&#8217;t come until <a href="http://www.tangowithdjango.com/book/chapters/deploy.html#creating-a-virtual-environment" target="_blank">later in the book</a>.) Mike Hibbert&#8217;s video series, on the other hand, *starts off* walking the user through installation and virtualenv.
+</p>
+
+<p>
+  For the sake of my own memory and to save myself some time from having to go play/pause through all 17 minutes of the installation video again, I decided to jot down the steps to creating a new Django application using virtualenv:
+</p>
+
+<p>
+  <strong>1) Create a virtualenv:<br /> </strong>
+</p>
+
+<pre class="prettyprint">$ virtualenv --no-site-packages NAME-OF-VIRTUALENV</pre>
+
+<p>
+  Replace all capital letters with a name of your choosing.
+</p>
+
+<p>
+  <strong>2) Activate your virtualenv:</strong>
+</p>
+
+<pre class="prettyprint">$ source NAME-OF-VIRTUALENV&#47;bin&#47;activate</pre>
+
+<p>
+  This gets you into the virtual environment. You&#8217;ll notice that your command line now has this prefix:
+</p>
+
+<pre class="prettyprint">(NAME-OF-VIRTUALENV)Your-MacBook-Air:$</pre>
+
+<p>
+  <strong>3) Change directory into your project folder and install Django:</strong>
+</p>
+
+<pre class="prettyprint">$ cd NAME-OF-VIRTUALENV
+$ easy_install django</pre>
+
+<p>
+  You can also run <code> pip install -U django==1.5.4</code> instead of <code> easy_install django</code> if you want to install a specific version of Django instead of the latest version.
+</p>
+
+<p>
+  <strong>4) Start a new project:</strong>
+</p>
+
+<pre class="prettyprint">$ django-admin.py startproject YOURPROJECTNAME</pre>
+
+<p>
+  You&#8217;re creating a new project.
+</p>
+
+<p>
+  <strong>5) Preview your project in the browser:</strong>
+</p>
+
+<pre class="prettyprint">$ cd YOURPROJECTNAME
+$ python manage.py runserver</pre>
+
+<p>
+  After you type the second command, you&#8217;ll be able to preview your app in your local browser.
+</p>
+
+<p>
+  <span style="color: #000000;"><b>6) Create a new application within your Django project (think of an application as an ice crem tub inside your Django freezer &#8212; thanks for the metaphor, <a href="http://pydanny.com/announcing-two-scoops-of-django-1.6.html" target="_blank">Two Scoops of Django</a>!):</b></span>
+</p>
+
+<pre class="prettyprint">$ python manage.py startapp APPNAME</pre>
+
+<hr />
+
+<p><strong>Update:</strong> I found another good tutorial! The founder behind Coding for Entrepreneurs Youtube series demonstrates the creation of a Django project in virtualenv on his mac:&lt;/p&gt; </p>
+
+<p>
+</p>
+<p>&lt;/span&gt;</p>
+
+    </div>
+
+    
+
+    
+  
+    <hr>
+    <ul class="pagination">
+    
+      <li class="prev"><a href="/what-i-learned-from-participating-in-techcrunch-disrupts-2014-hackathon/" title="<span data-rel="title">What I learned from participating in TechCrunch Disrupt&#8217;s 2014 Hackathon</span>">&laquo; Previous</a></li>
+    
+      <li><a href="/archive.html">Archive</a></li>
+    
+      <li class="next"><a href="/resource-orm-query-api-from-the-full-web-framework-python-django-tutorial/" title="<span data-rel="title">RESOURCE: Querying your Django Web App Without Using SQL</span>">Next &raquo;</a></li>
+    
+    </ul>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    
+    
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+</div>
+
+
+      </div>
+
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p>&copy; 2015 Linda Peng
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+        </p>
+      </div>
+    </div>
+
+    
+
+
+
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-123-12']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

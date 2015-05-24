@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title><span data-rel="title">Never going back after git</span></title>
+    
+    <meta name="author" content="Linda Peng">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap styles -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Sticky Footer -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
+    
+    <!-- Custom styles -->
+    <link href="/assets/themes/bootstrap-3/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <div id="wrap">
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">The Coding Diaries</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+
+      <div class="container">
+        
+<div class="page-header">
+  <h1><span data-rel="title">Never going back after git</span> </h1>
+</div>
+
+<div class="row post-full">
+  <div class="col-xs-12">
+    <div class="date">
+      <span>27 June 2013</span>
+    </div>
+    <div class="content">
+      <p><span data-rel="content"></span></p>
+
+<p>
+  <strong>UPDATE: In March 2014, I attended an official git training by <a href="https://twitter.com/peterbell" target="_blank">@PeterBell</a>, hosted at Gilt! Here are my more comprehensive notes from the training: <a href="https://github.com/lpatmo/git-training-notes" target="_blank">https://github.com/lpatmo/git-training-notes</a></strong>
+</p>
+
+<p>
+  Git was a bit confusing when I first started exploring it, coming from using Subversion for version control. I was used to having everything I committed go <em>live</em>, and the idea that everything I committed would go to some virtual staging area on my computer <em>but not on my github account</em> did not immediately click until&#8230; well, it clicked.
+</p>
+
+<p>
+  And after that, everything was fine.
+</p>
+
+<p>
+  (As I heard a tech conference co-attendee explain to a github beginner once, the value in not having every single thing you commit automatically be seen live by your co-workers is that it gives you room to make mistakes. You can think of a &#8220;commit&#8221; as a documented &#8220;save&#8221;/snapshot of your code. But git lets you control which commits you push to your teammates, whereas subversion does not.)
+</p>
+
+<p>
+  <span style="color: #000000;"><strong>The typical commands I use when starting a new project with git:</strong></span>
+</p>
+
+<ul>
+  <li>
+    <strong style="font-size: 16px;">mkdir </strong>// Creates a directory
+  </li>
+  <li>
+    <strong>git init</strong> // I type this after I cd into the directory to initialize the git directory
+  </li>
+  <li>
+    <strong>[Create a repository on github.com]</strong> // All it takes is a click of a button &#8212; but this, confusingly, has to be done manually
+  </li>
+  <li>
+    <span style="color: #000000;"><span style="color: #000000;"><strong>[Copy/paste the two commands output in the &#8220;repository created&#8221; page into my terminal] </strong>// The first set of instructions does some extra stuff that I don&#8217;t need if I already initialized the repository using git init, I believe. //</span></span> <pre><code>git remote add origin https://github.com/&lt;strong&gt;username&lt;/strong&gt;/&lt;strong&gt;repository-name&lt;/strong&gt;.git </code></pre>
+    
+    <pre><code>git push -u origin master</code></pre>
+  </li>
+  
+  <li>
+    <strong>touch index.html</strong> // This creates a file called index.html in my current directory
+  </li>
+  <li>
+    <strong>pwd</strong> // Optional command that tells me where I am
+  </li>
+  <li>
+    <strong>ls // </strong>This command lists the files that are in the directory. Index.html should be in here now.
+  </li>
+  <li>
+    <strong>subl .</strong> // This command is configured using the sublime text editor, and opens up all the files in the directory in sublime.
+  </li>
+  <li>
+    <strong>git add index.html </strong>//Adds the file so that it can be committed
+  </li>
+  <li>
+    <strong>git commit index.html -m &#8220;first commit&#8221;</strong> //My first commit! If I have a couple of files ready to be committed, I can optionally type git commit . -m &#8220;first commit&#8221;. Be sure that you don&#8217;t forget the &#8220;-m&#8221; or the comment that you must type to explain the change you are documenting.
+  </li>
+  <li>
+    <strong>git status</strong> //Tells me what files I&#8217;ve changed by editing and saving in the editor, and which need to be <em>added</em> or <em>committed</em>. I&#8217;ll type this often to figure out which files I&#8217;ve changed by saving in the text editor.
+  </li>
+  <li>
+    <strong>git log </strong>//Tells me what my most recent commits were. Note that if I push my changes up to github.com, I&#8217;ll also be able to see my commit change logs there in a nicely visually highlighted way (green = additions; red = deletions).
+  </li>
+  <li>
+    <strong>git push </strong>//Pushes up my committed files to my github.com account when I&#8217;m satisfied with my commits. I&#8217;ll do this in bursts.
+  </li>
+  <li>
+    <strong>git pull</strong> // I update my local files with the commits that my teammates pushed up to the shared repository. I&#8217;ll do this before I start the day, and throughout the day.
+  </li>
+</ul>
+
+<p>
+  <span style="color: #000000;"><strong>Bug tracking ease</strong></span>
+</p>
+
+<p>
+  OH! Did I mention github&#8217;s issues/bug tracker and milestone counters? When I make a commit that resolves an issue number, I can write &#8220;<strong>resolves #87</strong>&#8221; in the commit message, and <em>it&#8217;ll automatically close issue #87 within the repository</em>. I found it amusing that at one point, I was using trello (a project management platform) with some hackathon friends to organize our bugs. We totally could have used github!
+</p>
+
+<p>
+  <span style="color: #000000;"><strong>Yes, to be sure&#8230;</strong></span>
+</p>
+
+<p>
+  Of course, merge issues often come up, and your terminal might spit back frustrating messages such as &#8220;You do not have permission&#8230;&#8221; or &#8220;Merge conflict in FILEPATH.&#8221; I&#8217;ll discuss a few of the most common error messages I&#8217;ve encountered in another post.
+</p>
+
+<p>
+  But anyway&#8230; Version control FTW. I am glad I won&#8217;t be going back to drag-and-drop FTP anytime soon.
+</p>
+<p>&lt;/span&gt;</p>
+
+    </div>
+
+    
+
+    
+  
+    <hr>
+    <ul class="pagination">
+    
+      <li class="prev"><a href="/reflections-on-write-speak-code-nyc-june-20th-22nd-2013/" title="<span data-rel="title">Reflections on Write-Speak-Code NYC &#8211; June 20th-22nd 2013</span>">&laquo; Previous</a></li>
+    
+      <li><a href="/archive.html">Archive</a></li>
+    
+      <li class="next"><a href="/calling-myself-a-front-end-web-developer/" title="<span data-rel="title">Calling myself a front-end web developer</span>">Next &raquo;</a></li>
+    
+    </ul>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    
+    
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+</div>
+
+
+      </div>
+
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p>&copy; 2015 Linda Peng
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+        </p>
+      </div>
+    </div>
+
+    
+
+
+
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-123-12']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

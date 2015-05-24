@@ -1,0 +1,294 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title><span data-rel="title">Re-reading Eloquent Javascript</span></title>
+    
+    <meta name="author" content="Linda Peng">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap styles -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Sticky Footer -->
+    <link href="/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
+    
+    <!-- Custom styles -->
+    <link href="/assets/themes/bootstrap-3/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <div id="wrap">
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">The Coding Diaries</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+
+      <div class="container">
+        
+<div class="page-header">
+  <h1><span data-rel="title">Re-reading Eloquent Javascript</span> </h1>
+</div>
+
+<div class="row post-full">
+  <div class="col-xs-12">
+    <div class="date">
+      <span>08 June 2014</span>
+    </div>
+    <div class="content">
+      <p><span data-rel="content"></span></p>
+
+<p>
+  I am re-reading <a href="http://eloquentjavascript.net/" target="_blank">Eloquent Javascript</a> with Arthur at the moment, and realizing how much of a mistake I made reading it the first time around &#8212; that is, I read it by myself, barely typed out any of the exercises before looking at the solutions, and skimmed past sections when it got confusing.
+</p>
+
+<p>
+  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2014/06/ejs.png"><img class="alignnone size-full wp-image-866" alt="ejs" src="http://www.thecodingdiaries.com/wp-content/uploads/2014/06/ejs.png" width="250" height="330" /></a>
+</p>
+
+<p>
+  (Although you can <a href="http://www.amazon.com/gp/product/1593272820?ie=UTF8&amp;tag=marijhaver-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1593272820" target="_blank">purchase this book</a> online, it&#8217;s free to read online.)
+</p>
+
+<p>
+  Arthur isn&#8217;t a programmer in the career sense, but he double majored in math along with italian, and apparently having had practice solving mathematical problems helps a lot.
+</p>
+
+<p>
+  Having a study partner also helps a lot. As we read, we&#8217;ll paraphrase the content out loud, quiz each other about what we just read, google an answer when the answer to a question isn&#8217;t immediately apparent, work on the exercises individually, share our respective solutions to the exercises using JSFiddle, and puzzle out root causes when something we coded renders something surprising.
+</p>
+
+<p>
+  For example:
+</p>
+
+<blockquote>
+  <p>
+    split and join are not precisely each other&#8217;s inverse. string.split(x).join(x) always produces the original value, but array.join(x).split(x) does not. Can you give an example of an array where .join(&#8221; &#8220;).split(&#8221; &#8220;) produces a different value? &#8211; <strong>Exercise 4.3</strong>
+  </p>
+</blockquote>
+
+<p>
+  <strong>We each approached the solution differently:</strong>
+</p>
+
+<pre class="prettyprint">var testo = &#91;&#34;This is a&#34;, &#34;sentence Arthur wrote.&#34;&#93;;
+console.log(testo.join(&#34; &#34;));
+console.log(testo.join(&#34; &#34;).split(&#34; &#34;));</pre>
+
+<pre class="prettyprint">array = &#91;&#34;this&#34;, &#34;is &#34;, &#34;a&#34;, &#34;sentence&#34;, &#34;Linda&#34;, &#34;wrote&#34;, &#34;with&#34;, &#34;an&#34;, &#34;extra&#34;, &#34;space&#34;, &#34;after&#34;, &#34;is&#34;&#93;;
+console.log(array.join(&#34; &#34;));
+console.log(array.join(&#34; &#34;).split(&#34; &#34;));</pre>
+
+<p>
+  To solve this, we had to truly understand what the .join() and .split() methods did in javascript.
+</p>
+
+<p>
+  <strong>There&#8217;s good documentation on Mozilla:</strong><br /> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join" target="_blank">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join<br /> </a>&#8220;The join() method joins all elements of an array into a string.&#8221;
+</p>
+
+<p>
+  In other words, you start with an array, and you turn it into a string!
+</p>
+
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split" target="_blank">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split<br /> </a>&#8220;The split() method splits a String object into an array of strings by separating the string into substrings.&#8221;
+</p>
+
+<p>
+  In other words, you split a string up into an array!
+</p>
+
+<p>
+  The two methods are not exact opposites of each other, though, as we just demonstrated via the book exercise.
+</p>
+<p>&lt;/span&gt;</p>
+
+    </div>
+
+    
+
+    
+  
+    <hr>
+    <ul class="pagination">
+    
+      <li class="prev"><a href="/review-getting-started-with-django-video-series-on-vimeo-kickstarter-backed-part-i/" title="<span data-rel="title">REVIEW: Getting Started with Django Video Series on Vimeo (Kickstarter-backed), Part I</span>">&laquo; Previous</a></li>
+    
+      <li><a href="/archive.html">Archive</a></li>
+    
+      <li class="next"><a href="/tech-meetup-appreciation-post-with-photos/" title="<span data-rel="title">Tech Meetup Appreciation Post (With Photos!)</span>">Next &raquo;</a></li>
+    
+    </ul>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    
+    
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+</div>
+
+
+      </div>
+
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p>&copy; 2015 Linda Peng
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+        </p>
+      </div>
+    </div>
+
+    
+
+
+
+
+  <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-123-12']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
