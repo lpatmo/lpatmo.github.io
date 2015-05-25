@@ -9,7 +9,7 @@ highlighter: pygments
 # so be sure to set them if your theme uses them.
 #
 title : The Coding Diaries
-tagline: test
+tagline: Front-end dev with no CS degree. My hope is for this blog to be helpful for others starting out too.
 author :
   name : Linda Peng
   email : blah@email.test
