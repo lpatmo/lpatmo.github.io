@@ -29,7 +29,7 @@ code { display: block;}
 
 /*sidebar*/
 ul.sidebar li { display: list-item;}
-ul.sidebar { margin-top: 50px; list-style: none;}
+ul.sidebar { list-style: none;}
 
 ul.sidebar li:before {
   content: "✔ ";
