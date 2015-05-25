@@ -6,7 +6,6 @@ permalink: /sassconf-nyc-reportback-2014/
 wiziapp_processed:
   - 1
 ---
-<span data-rel="content">
 
 <p>
   I went to <a href="sassconf.com">SASSConf</a> (my first SASS Conference!) in October 2014 and had a blast. The conference &#8212; organized by <a href="https://twitter.com/itsmisscs">@itsmisscs</a> and <a href="https://twitter.com/Snugug">@Snugug</a> and supported by a team of volunteers &#8212; had probably the most robust agenda in a conference I'd seen for a while.
@@ -20,7 +19,7 @@ wiziapp_processed:
   The first day of the conference was set aside for scheduled speaker talks, the second day was set aside for two back-to-back workshops (you could choose from one of two during the morning and afternoon), and the third day was set aside for an un-conference. A lot of care was put into everything from speaker accommodations and food to technical learning opportunities. Oh &#8212; and the after-party on Friday encompassed a karoake and open bar that took place on a boat. A boat.
 </p>
 
-<img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-4.jpg" alt="A boat!" /> 
+<img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-4.jpg" alt="A boat!" width="100%" /> 
 
 <p>
   Before I get into more beautiful boat pictures, though, let me recap my main three technical takeaways from the conference:
@@ -155,7 +154,7 @@ $bp-full: 1200px;`
 </ul>
 
 <p>
-  <img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-2.jpg" alt="SASS Stage" />
+  <img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-2.jpg" alt="SASS Stage" width="100%" />
 </p>
 
 <p>
@@ -186,7 +185,7 @@ $bp-full: 1200px;`
 </p>
 
 <p>
-  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-5.jpg"><img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-5.jpg" alt="I won a free conference book!" /></a>
+  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-5.jpg"><img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-5.jpg" alt="I won a free conference book!" width="100%"/></a>
 </p>
 
 <p>
@@ -194,7 +193,7 @@ $bp-full: 1200px;`
 </p>
 
 <p>
-  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-1.jpg"><img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-1.jpg" alt="SASS Bag" /></a>
+  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-1.jpg"><img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-1.jpg" alt="SASS Bag" width="100%" /></a>
 </p>
 
 <p>
@@ -202,7 +201,7 @@ $bp-full: 1200px;`
 </p>
 
 <p>
-  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-1-1.jpg"><img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-1-1.jpg" alt="photo 1 (1)" /></a>
+  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-1-1.jpg"><img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-1-1.jpg" alt="photo 1 (1)" width="100%" /></a>
 </p>
 
 <p>
@@ -210,7 +209,7 @@ $bp-full: 1200px;`
 </p>
 
 <p>
-  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-2-1.jpg"><img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-2-1.jpg" alt="photo 2 (1)" /></a>
+  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-2-1.jpg"><img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-2-1.jpg" alt="photo 2 (1)" width="100%" /></a>
 </p>
 
 <p>
@@ -218,7 +217,7 @@ $bp-full: 1200px;`
 </p>
 
 <p>
-  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-3-1.jpg"><img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-3-1.jpg" alt="photo 3 (1)" /></a>
+  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-3-1.jpg" width="100%"><img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-3-1.jpg" alt="photo 3 (1)" width="100%" /></a>
 </p>
 
 <p>
@@ -226,7 +225,7 @@ $bp-full: 1200px;`
 </p>
 
 <p>
-  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-4-1.jpg"><img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-4-1.jpg" alt="photo 4 (1)" /></a>
+  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-4-1.jpg"><img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-4-1.jpg" alt="photo 4 (1)" width="100%" /></a>
 </p>
 
 <p>
@@ -234,7 +233,7 @@ $bp-full: 1200px;`
 </p>
 
 <p>
-  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-5-1.jpg"><img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-5-1.jpg" alt="photo 5 (1)" /></a>
+  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-5-1.jpg"><img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-5-1.jpg" alt="photo 5 (1)" width="100%" /></a>
 </p>
 
 <p>
@@ -242,7 +241,7 @@ $bp-full: 1200px;`
 </p>
 
 <p>
-  <img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-3.jpg" alt="SASS Boat" />
+  <img src="http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-3.jpg" width="100%" alt="SASS Boat" />
 </p>
 
 <p>
@@ -251,4 +250,4 @@ $bp-full: 1200px;`
 
 <p>
   &nbsp;
-</p></span>
+</p>

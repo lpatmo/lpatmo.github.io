@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 3051772946
 ---
-<span data-rel="content">
 
 <p>
   I recently had the pleasure of connecting with five talented people who had wisdom to share about their journeys into tech. I&#8217;ll let their words speak for themselves.
@@ -344,4 +343,4 @@ dsq_thread_id:
 
 <hr />
 
-<a href="http://bit.ly/1t1aXg7" target="_blank">Click here to read Part I of this interview series.</a></p> </span>
+<a href="http://bit.ly/1t1aXg7" target="_blank">Click here to read Part I of this interview series.</a></p> 

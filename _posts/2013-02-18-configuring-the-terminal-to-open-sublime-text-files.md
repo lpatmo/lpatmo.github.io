@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1169546148
 ---
-<span data-rel="content">
 
 <p>
   I&#8217;d noticed a couple of people typing in &#8220;subl file/path&#8221; in their terminal to open up a file after they cd&#8217;ed into the folder, but much to my surprise, the &#8220;subl&#8221; command did not work for me. Turns out I had yet to install it!
@@ -36,4 +35,4 @@ dsq_thread_id:
 
 <p>
   &nbsp;
-</p></span>
+</p>

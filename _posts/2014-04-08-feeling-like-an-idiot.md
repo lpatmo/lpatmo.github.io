@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2595097378
 ---
-<span data-rel="content">
 
 <p>
   Last week, I helped a co-worker debug their jQuery. This weekend, I helped a stranger at a tech office hours meetup debug their R commands on a windows machine. Both times, I received incredible gratitude, and I felt proud of myself &#8212; in part for being a good google searcher of windows machine problems, and in part because I knew I&#8217;d improved my javascript skills since the very beginning.
@@ -52,4 +51,4 @@ dsq_thread_id:
 
 <p>
   &nbsp;
-</p></span>
+</p>

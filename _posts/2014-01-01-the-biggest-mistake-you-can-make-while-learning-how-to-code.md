@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2087733300
 ---
-<span data-rel="content">
 
 <p>
   It&#8217;s a nice a time to learn web development nowadays. The number of resources available is incredible &#8212; codecademy, udacity, coursera, codeschool, treehouse, MIT EdX.
@@ -20,4 +19,4 @@ dsq_thread_id:
 
 <p>
   When I started learning, I didn&#8217;t realize how a lot of &#8220;coding&#8221; was actually a lot of debugging. It&#8217;s a constant up-and-down struggle of solving problems. But most problems are solvable, and it just takes patience and a lot of persistence to keep going.
-</p></span>
+</p>

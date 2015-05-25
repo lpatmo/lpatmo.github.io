@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1243054490
 ---
-<span data-rel="content">
 
 <p>
   I flipped through this book in the same way that I flipped through the <a href="http://www.thecodingdiaries.com/html-and-css-book/" target="_blank">HTML & CSS book</a> I noted earlier &#8212; that is, from cover to cover.
@@ -32,4 +31,4 @@ dsq_thread_id:
 
 <p>
   Yes, yes, everyone learns by googling &#8212; but this book is a pretty good compilation of the common questions that anyone who hasn&#8217;t had a formal course in CSS(3) would have, and would probably save the beginner a lot of time.
-</p></span>
+</p>

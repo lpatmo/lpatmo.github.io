@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2773598596
 ---
-<span data-rel="content">
 
 <p>
   What do you get when you combine awkward developers with awkward comedians in a single room over a weekend?
@@ -71,4 +70,4 @@ dsq_thread_id:
 
 <p>
   &nbsp;
-</p></span>
+</p>

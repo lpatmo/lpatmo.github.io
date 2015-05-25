@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1035145791
 ---
-<span data-rel="content">
 
 <p>
   A year ago, Zed Shaw&#8217;s <a href="http://learnpythonthehardway.org/" target="_blank">&#8220;Learn Python The Hard Way&#8221;</a> was <em>the</em> online resource I was hearing about from everyone. I never ended up trying it out, but I flipped back to it just now and was&#8230; gratified, I suppose, to skim through the first few chapters and realize that everything was familiar, and setting up the development environment and working with the terminal did not so seem so challenging after all.
@@ -20,4 +19,4 @@ dsq_thread_id:
 
 <p>
   Gah, there really are too many online resources out there for learning web technology. All I can do is attempt to continue to chronicle my experiences.
-</p></span>
+</p>

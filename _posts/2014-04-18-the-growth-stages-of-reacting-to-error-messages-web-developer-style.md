@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2620548771
 ---
-<span data-rel="content">
 
 <p>
   <strong>Stage 1 (beginner level):</strong> Panic and call your hosting company.
@@ -54,4 +53,4 @@ dsq_thread_id:
 
 <p>
   *Yes, I am embarrassed to admit this did happen when I messed up some PHP on my first ever self-hosted WordPress site. <em>This was before I even knew CSS, okay? Okay.</em>
-</p></span>
+</p>

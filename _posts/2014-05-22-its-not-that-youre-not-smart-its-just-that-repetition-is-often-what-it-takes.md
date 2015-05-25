@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2703974381
 ---
-<span data-rel="content">
 
 <p>
   I am still in the middle of learning Django.
@@ -34,4 +33,4 @@ dsq_thread_id:
 
 <p>
   Anyway, tldr: don&#8217;t give up. Revisit. Read carefully. Re-read.
-</p></span>
+</p>

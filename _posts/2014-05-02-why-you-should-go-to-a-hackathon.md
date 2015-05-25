@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2654527107
 ---
-<span data-rel="content">
 
 <p>
   I went to my first hackathon in November 2012, registered as a &#8220;designer&#8221; instead of a &#8220;developer,&#8221; found myself the only woman on a team, and proceeded to have the most fun, nerve-wracking, up-and-down weekend ever with a group of strangers.
@@ -134,4 +133,4 @@ dsq_thread_id:
 
 <p>
   &nbsp;
-</p></span>
+</p>

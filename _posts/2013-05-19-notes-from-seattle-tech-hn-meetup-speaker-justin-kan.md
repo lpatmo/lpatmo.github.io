@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1298227032
 ---
-<span data-rel="content">
 
 <p>
   <strong>Justin Kan</strong>, of justin.tv fame, stopped by the <a href="http://www.zillow.com/">Zillow offices</a> to give a short presentation about the many ideas he and his co-founders entertained before they landed on the &#8220;right&#8221; product &#8212; that is, something that had market value and market traction.
@@ -31,7 +30,7 @@ dsq_thread_id:
 </p>
 
 <p>
-  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2013/05/justinkan2.jpg"><img title="justinkan2" src="http://www.thecodingdiaries.com/wp-content/uploads/2013/05/justinkan2.jpg" alt="" width="576" height="432" /></a>
+  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2013/05/justinkan2.jpg"><img title="justinkan2" src="http://www.thecodingdiaries.com/wp-content/uploads/2013/05/justinkan2.jpg" alt="" width="100%" /></a>
 </p>
 
 <p>
@@ -47,7 +46,7 @@ dsq_thread_id:
 </p>
 
 <p>
-  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2013/05/justinkan1.jpg"><img class="alignnone  wp-image-508" title="justinkan1" src="http://www.thecodingdiaries.com/wp-content/uploads/2013/05/justinkan1.jpg" alt="" width="576" height="432" /></a>
+  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2013/05/justinkan1.jpg"><img class="alignnone  wp-image-508" title="justinkan1" src="http://www.thecodingdiaries.com/wp-content/uploads/2013/05/justinkan1.jpg" alt="" width="100%" /></a>
 </p>
 
 <p>
@@ -56,4 +55,4 @@ dsq_thread_id:
 
 <p>
   &nbsp;
-</p></span>
+</p>

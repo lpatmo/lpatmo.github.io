@@ -6,7 +6,6 @@ permalink: /on-the-road-to-competency-two-helpful-searching-tips/
 wiziapp_processed:
   - 1
 ---
-<span data-rel="content">
 
 <p>
   Last year, jumping from an HTML/CSS/JS mindset to working with full-stack apps was confusing. A single rendered page on a full-stack (e.g. Rails or Django or MeteorJS) app could be drawing in code from *multiple* files in different folders. I was often confused about where everything was located.
@@ -42,4 +41,4 @@ wiziapp_processed:
 
 <p>
   Interesting to reflect that in addition to being competent at &#8220;googling&#8221; for solutions on the internet, part of being a developer is becoming competent at searching for things in your own codebase.
-</p></span>
+</p>

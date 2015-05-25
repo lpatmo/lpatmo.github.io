@@ -6,7 +6,6 @@ permalink: /learning-tdd/
 wiziapp_processed:
   - 1
 ---
-<span data-rel="content">
 
 <p>
   Just discovered <a href="https://github.com/gregmalcolm/python_koans" target="_blank">https://github.com/gregmalcolm/python_koans</a> by way of someone who proposed a <a href="http://hangouts.codebuddies.org/posts/igZTy45aYYE9fKGtR" target="_blank">CodeBuddies hangout</a> on this tonight.
@@ -26,4 +25,4 @@ wiziapp_processed:
 
 <p>
   I recently had a coffee chat with <a href="http://twitter.com/saronyitbarek" target="_blank">@saronyitbarek</a>, who swore by TDD, and a lot of what she told me made sense &#8212; i.e. the idea of outlining your steps before you start to code. We&#8217;d just installed <a href="https://github.com/django-nose/django-nose" target="_blank">nose</a> at work too, so I plan to try to get into the habit of it too.
-</p></span>
+</p>

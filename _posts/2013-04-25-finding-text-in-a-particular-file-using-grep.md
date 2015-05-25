@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1238476683
 ---
-<span data-rel="content">
 
 <p>
   My understanding of grep is pretty elementary. I&#8217;ve recently found it useful for searching for texts contained in particular strings, though. For example:
@@ -20,4 +19,4 @@ dsq_thread_id:
 
 <p>
   More here:<br /> <a href="http://www.cyberciti.biz/faq/howto-search-find-file-for-text-string/" target="_blank">http://www.cyberciti.biz/faq/howto-search-find-file-for-text-string/</a>
-</p></span>
+</p>

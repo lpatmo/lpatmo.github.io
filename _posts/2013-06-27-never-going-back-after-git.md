@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1452243416
 ---
-<span data-rel="content">
 
 <p>
   <strong>UPDATE: In March 2014, I attended an official git training by <a href="https://twitter.com/peterbell" target="_blank">@PeterBell</a>, hosted at Gilt! Here are my more comprehensive notes from the training: <a href="https://github.com/lpatmo/git-training-notes" target="_blank">https://github.com/lpatmo/git-training-notes</a></strong>
@@ -96,4 +95,4 @@ dsq_thread_id:
 
 <p>
   But anyway&#8230; Version control FTW. I am glad I won&#8217;t be going back to drag-and-drop FTP anytime soon.
-</p></span>
+</p>

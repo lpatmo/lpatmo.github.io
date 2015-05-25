@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2895693645
 ---
-<span data-rel="content">
 
 <p>
   Went to my first <a href="https://twitter.com/hashtag/wcnyc?src=hash" target="_blank">Wordcamp in NYC</a> this weekend! Funny enough, one of the first people I met upon entering the conference was <a href="https://twitter.com/karmatosed" target="_blank">@karmatosed</a>, whose <a href="http://www.packtpub.com/buddypress-theme-development/book?utm_source=social+media&utm_medium=email&utm_campaign=social+media" target="_blank">Buddypress Theme Development book</a> I had just downloaded for offline reading on my Safari Books Online mobile app. (I had *literally* been reading it on the subway just a few minutes before I met her. :D) So many accomplished WordPress developers at this conference.
@@ -118,4 +117,4 @@ $ wp core download</pre>
 
 <p>
   &nbsp;
-</p></span>
+</p>

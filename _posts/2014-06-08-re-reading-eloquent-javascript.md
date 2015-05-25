@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2748203639
 ---
-<span data-rel="content">
 
 <p>
   I am re-reading <a href="http://eloquentjavascript.net/" target="_blank">Eloquent Javascript</a> with Arthur at the moment, and realizing how much of a mistake I made reading it the first time around &#8212; that is, I read it by myself, barely typed out any of the exercises before looking at the solutions, and skimmed past sections when it got confusing.
@@ -74,4 +73,4 @@ console.log(array.join(&#34; &#34;).split(&#34; &#34;));</pre>
 
 <p>
   The two methods are not exact opposites of each other, though, as we just demonstrated via the book exercise.
-</p></span>
+</p>

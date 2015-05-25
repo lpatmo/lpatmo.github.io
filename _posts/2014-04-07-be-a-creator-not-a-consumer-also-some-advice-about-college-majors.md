@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2613615151
 ---
-<span data-rel="content">
 
 <p>
   As much as I love meeting and talking with tech-y people (and sometimes talking tech with unfortunate non-techie friends and family, heh), I sometimes check myself re: whether I&#8217;m spending too much time talking the talk and not walking the walk.
@@ -40,4 +39,4 @@ dsq_thread_id:
 
 <p>
   It&#8217;ll take work, but hey &#8212; that film/arts/English/tech concentration you&#8217;re so passionate about? Probably worth more than a 2.7 average GPA in a subject you&#8217;re terrible at, as long as you&#8217;ve created something to show for it at the end.
-</p></span>
+</p>

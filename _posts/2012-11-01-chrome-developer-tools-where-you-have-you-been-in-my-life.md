@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1131830064
 ---
-<span data-rel="content">
 
 <p>
   I remember the first time someone told me that I should be using Chrome Developer tools, or Firebug, or some variation thereof in the browser to help with my front-end coding.
@@ -24,4 +23,4 @@ dsq_thread_id:
 
 <p>
   Once upon a time, I remember feeling at a loss about the hex code of a background color of an element I was trying to replicate. Now, it&#8217;s simple: open Chrome Developer Tools, perhaps click on the element with the inspector tool, and look at the CSS.
-</p></span>
+</p>

@@ -4,7 +4,7 @@
  <title>The Coding Diaries</title>
  <link href="http://username.github.io/" rel="self"/>
  <link href="http://username.github.io"/>
- <updated>2015-05-24T23:56:52-04:00</updated>
+ <updated>2015-05-25T00:37:20-04:00</updated>
  <id>http://username.github.io</id>
  <author>
    <name>Linda Peng</name>
@@ -35,9 +35,7 @@ y = temp //give y the original value of x
    <link href="http://username.github.io/day-11-100daysofcode/"/>
    <updated>2015-05-05T00:00:00-04:00</updated>
    <id>http://username.github.io/day-11-100daysofcode</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;
     General tip: do not write tests (e.g. unit tests or integration tests) without a database!
   &lt;/li&gt;
@@ -45,7 +43,6 @@ y = temp //give y the original value of x
     Use &lt;code&gt;ag &quot;search term&quot; -l -G js&lt;/code&gt; (note: you need to have the &lt;a href=&quot;https://github.com/ggreer/the_silver_searcher/blob/master/doc/ag.1.md&quot;&gt;silver searcher&lt;/a&gt; to search for files ending in .js that include the search term).
   &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -54,9 +51,7 @@ y = temp //give y the original value of x
    <link href="http://username.github.io/day-10-100daysofcode/"/>
    <updated>2015-05-05T00:00:00-04:00</updated>
    <id>http://username.github.io/day-10-100daysofcode</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;
     Don&#39;t use .fetch() inside the mongo console. Foo.find.fetch() works inside the browser console, though.
   &lt;/li&gt;
@@ -64,7 +59,6 @@ y = temp //give y the original value of x
     I didn&#39;t know &lt;code&gt;chmod +x manage.py&lt;/code&gt; was a shortcut that lets you type &lt;code&gt;./manage.py test&lt;/code&gt; instead of having to type out &lt;code&gt;python manage.py test&lt;/code&gt;!
   &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -73,9 +67,7 @@ y = temp //give y the original value of x
    <link href="http://username.github.io/day-9-100daysofcode/"/>
    <updated>2015-04-30T00:00:00-04:00</updated>
    <id>http://username.github.io/day-9-100daysofcode</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;
     You can search by regex in sublime text!
   &lt;/li&gt;
@@ -83,7 +75,6 @@ y = temp //give y the original value of x
     SASS Guidelines &lt;a href=&quot;http://sass-guidelin.es/&quot;&gt;http://sass-guidelin.es/&lt;/a&gt; is a good resource.
   &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -92,9 +83,7 @@ y = temp //give y the original value of x
    <link href="http://username.github.io/day-8-100daysofcode/"/>
    <updated>2015-04-29T00:00:00-04:00</updated>
    <id>http://username.github.io/day-8-100daysofcode</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;
     I did not know rewriting &lt;code&gt;&lt;/code&gt; so that I could have more control over each of the form elements was as easy as transforming it into:
   &lt;/li&gt;
@@ -115,7 +104,6 @@ y = temp //give y the original value of x
 &lt;p&gt;
   This post is a part of the &lt;a href=&quot;http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs&quot;&gt;#100daysofcode&lt;/a&gt; challenge.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -124,9 +112,7 @@ y = temp //give y the original value of x
    <link href="http://username.github.io/day-7-100daysofcode/"/>
    <updated>2015-04-28T00:00:00-04:00</updated>
    <id>http://username.github.io/day-7-100daysofcode</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;
     Python uses &quot;classical inheritance. JS uses &quot;prototypal&quot; inheritance.
   &lt;/li&gt;
@@ -206,7 +192,6 @@ pass
 &lt;p&gt;
   This post is a part of the &lt;a href=&quot;http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs&quot;&gt;#100daysofcode&lt;/a&gt; challenge.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -215,9 +200,7 @@ pass
    <link href="http://username.github.io/day-6-100daysofcode/"/>
    <updated>2015-04-28T00:00:00-04:00</updated>
    <id>http://username.github.io/day-6-100daysofcode</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;
     It&#39;s common to use adjectives as the names for decorator functions.
   &lt;/li&gt;
@@ -299,7 +282,6 @@ move(ben);
 &lt;p&gt;
   This post is a part of the &lt;a href=&quot;http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs&quot;&gt;#100daysofcode&lt;/a&gt; challenge.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -308,16 +290,13 @@ move(ben);
    <link href="http://username.github.io/day-5-100daysofcode/"/>
    <updated>2015-04-27T00:00:00-04:00</updated>
    <id>http://username.github.io/day-5-100daysofcode</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Today I Learned: If you need to do a lot of relational queries with your data, try not to use mongoDB. &lt;a href=&quot;http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/&quot;&gt;(More Info)&lt;/a&gt; + overheard from engineers&#39; experience at a tech meetup
 &lt;/p&gt;
 
 &lt;p&gt;
   This post is a part of the &lt;a href=&quot;http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs&quot;&gt;#100daysofcode&lt;/a&gt; challenge.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -326,9 +305,7 @@ move(ben);
    <link href="http://username.github.io/day-4-random-100daysofocode/"/>
    <updated>2015-04-27T00:00:00-04:00</updated>
    <id>http://username.github.io/day-4-random-100daysofocode</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;
     &lt;code&gt;&lt;/code&gt; will wrap the form in &lt;code&gt;&amp;lt;p&amp;gt;&lt;/code&gt; tags. (Django)
   &lt;/li&gt;
@@ -337,7 +314,6 @@ move(ben);
 &lt;p&gt;
   This post is a part of the &lt;a href=&quot;http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs&quot;&gt;#100daysofcode&lt;/a&gt; challenge.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -346,9 +322,7 @@ move(ben);
    <link href="http://username.github.io/day-3-random-100daysofcode/"/>
    <updated>2015-04-23T00:00:00-04:00</updated>
    <id>http://username.github.io/day-3-random-100daysofcode</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;
     &lt;code&gt;white-space: pre-wrap&lt;/code&gt; preserves white spaces and breaks lines at newlines. (CSS)
   &lt;/li&gt;
@@ -384,7 +358,6 @@ class Ox(models.Model):
 &lt;p&gt;
   This post is a part of the &lt;a href=&quot;http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs&quot;&gt;#100daysofcode&lt;/a&gt; challenge.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -393,9 +366,7 @@ class Ox(models.Model):
    <link href="http://username.github.io/day-2-random-100daysofcode/"/>
    <updated>2015-04-22T00:00:00-04:00</updated>
    <id>http://username.github.io/day-2-random-100daysofcode</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;
     In a tuple such as: &lt;pre&gt;&lt;code&gt;  GENDER_CHOICES = (
     (&quot;M&quot;, &quot;Male&quot;),
@@ -475,9 +446,7 @@ admin.site.register(Invite, InviteAdmin)
    <link href="http://username.github.io/day-1-random-100daysofcode/"/>
    <updated>2015-04-21T00:00:00-04:00</updated>
    <id>http://username.github.io/day-1-random-100daysofcode</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;
     Note to self: if a div inside a div isn&#39;t recognizing the parent div as a parent when it&#39;s set to &lt;code&gt;position: absolute&lt;/code&gt;, it&#39;s because the closest parent needs to be set to &lt;code&gt;position: relative.&lt;/code&gt; Otherwise, it&#39;ll default to &lt;code&gt;position: static&lt;/code&gt;. (CSS)
   &lt;/li&gt;
@@ -510,7 +479,6 @@ $(&amp;#39;textarea&amp;#39;).height(this.scrollHeight);
 &lt;p&gt;
   This post is a part of the &lt;a href=&quot;http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs&quot;&gt;#100daysofcode&lt;/a&gt; challenge.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -519,9 +487,7 @@ $(&amp;#39;textarea&amp;#39;).height(this.scrollHeight);
    <link href="http://username.github.io/the-100daysofcode-challenge/"/>
    <updated>2015-04-20T00:00:00-04:00</updated>
    <id>http://username.github.io/the-100daysofcode-challenge</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   I am pretty sure I am a better developer than I was 100 days ago, but some days I look at my coworkers&amp;#8217; commits, or think about all the frameworks I still don&amp;#8217;t have great experience with, and wonder about the actual rate of my progress.
 &lt;/p&gt;
 
@@ -561,7 +527,6 @@ $(&amp;#39;textarea&amp;#39;).height(this.scrollHeight);
 &lt;p&gt;
   &amp;nbsp;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -570,9 +535,7 @@ $(&amp;#39;textarea&amp;#39;).height(this.scrollHeight);
    <link href="http://username.github.io/sassconf-nyc-reportback-2014/"/>
    <updated>2015-03-02T00:00:00-05:00</updated>
    <id>http://username.github.io/sassconf-nyc-reportback-2014</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   I went to &lt;a href=&quot;sassconf.com&quot;&gt;SASSConf&lt;/a&gt; (my first SASS Conference!) in October 2014 and had a blast. The conference &amp;#8212; organized by &lt;a href=&quot;https://twitter.com/itsmisscs&quot;&gt;@itsmisscs&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/Snugug&quot;&gt;@Snugug&lt;/a&gt; and supported by a team of volunteers &amp;#8212; had probably the most robust agenda in a conference I&#39;d seen for a while.
 &lt;/p&gt;
 
@@ -584,7 +547,7 @@ $(&amp;#39;textarea&amp;#39;).height(this.scrollHeight);
   The first day of the conference was set aside for scheduled speaker talks, the second day was set aside for two back-to-back workshops (you could choose from one of two during the morning and afternoon), and the third day was set aside for an un-conference. A lot of care was put into everything from speaker accommodations and food to technical learning opportunities. Oh &amp;#8212; and the after-party on Friday encompassed a karoake and open bar that took place on a boat. A boat.
 &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-4.jpg&quot; alt=&quot;A boat!&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-4.jpg&quot; alt=&quot;A boat!&quot; width=&quot;100%&quot; /&gt; &lt;/p&gt;
 
 &lt;p&gt;
   Before I get into more beautiful boat pictures, though, let me recap my main three technical takeaways from the conference:
@@ -719,7 +682,7 @@ $bp-full: 1200px;`
 &lt;/ul&gt;
 
 &lt;p&gt;
-  &lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-2.jpg&quot; alt=&quot;SASS Stage&quot; /&gt;
+  &lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-2.jpg&quot; alt=&quot;SASS Stage&quot; width=&quot;100%&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -750,7 +713,7 @@ $bp-full: 1200px;`
 &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-5.jpg&quot;&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-5.jpg&quot; alt=&quot;I won a free conference book!&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-5.jpg&quot;&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-5.jpg&quot; alt=&quot;I won a free conference book!&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -758,7 +721,7 @@ $bp-full: 1200px;`
 &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-1.jpg&quot;&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-1.jpg&quot; alt=&quot;SASS Bag&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-1.jpg&quot;&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-1.jpg&quot; alt=&quot;SASS Bag&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -766,7 +729,7 @@ $bp-full: 1200px;`
 &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-1-1.jpg&quot;&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-1-1.jpg&quot; alt=&quot;photo 1 (1)&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-1-1.jpg&quot;&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-1-1.jpg&quot; alt=&quot;photo 1 (1)&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -774,7 +737,7 @@ $bp-full: 1200px;`
 &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-2-1.jpg&quot;&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-2-1.jpg&quot; alt=&quot;photo 2 (1)&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-2-1.jpg&quot;&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-2-1.jpg&quot; alt=&quot;photo 2 (1)&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -782,7 +745,7 @@ $bp-full: 1200px;`
 &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-3-1.jpg&quot;&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-3-1.jpg&quot; alt=&quot;photo 3 (1)&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-3-1.jpg&quot; width=&quot;100%&quot;&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-3-1.jpg&quot; alt=&quot;photo 3 (1)&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -790,7 +753,7 @@ $bp-full: 1200px;`
 &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-4-1.jpg&quot;&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-4-1.jpg&quot; alt=&quot;photo 4 (1)&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-4-1.jpg&quot;&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-4-1.jpg&quot; alt=&quot;photo 4 (1)&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -798,7 +761,7 @@ $bp-full: 1200px;`
 &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-5-1.jpg&quot;&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-5-1.jpg&quot; alt=&quot;photo 5 (1)&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-5-1.jpg&quot;&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-5-1.jpg&quot; alt=&quot;photo 5 (1)&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -806,7 +769,7 @@ $bp-full: 1200px;`
 &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-3.jpg&quot; alt=&quot;SASS Boat&quot; /&gt;
+  &lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-3.jpg&quot; width=&quot;100%&quot; alt=&quot;SASS Boat&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -816,7 +779,6 @@ $bp-full: 1200px;`
 &lt;p&gt;
   &amp;nbsp;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -825,9 +787,7 @@ $bp-full: 1200px;`
    <link href="http://username.github.io/on-the-road-to-competency-two-helpful-searching-tips/"/>
    <updated>2015-03-02T00:00:00-05:00</updated>
    <id>http://username.github.io/on-the-road-to-competency-two-helpful-searching-tips</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Last year, jumping from an HTML/CSS/JS mindset to working with full-stack apps was confusing. A single rendered page on a full-stack (e.g. Rails or Django or MeteorJS) app could be drawing in code from *multiple* files in different folders. I was often confused about where everything was located.
 &lt;/p&gt;
 
@@ -862,7 +822,6 @@ $bp-full: 1200px;`
 &lt;p&gt;
   Interesting to reflect that in addition to being competent at &amp;#8220;googling&amp;#8221; for solutions on the internet, part of being a developer is becoming competent at searching for things in your own codebase.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -871,9 +830,7 @@ $bp-full: 1200px;`
    <link href="http://username.github.io/learning-tdd/"/>
    <updated>2015-03-02T00:00:00-05:00</updated>
    <id>http://username.github.io/learning-tdd</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Just discovered &lt;a href=&quot;https://github.com/gregmalcolm/python_koans&quot; target=&quot;_blank&quot;&gt;https://github.com/gregmalcolm/python_koans&lt;/a&gt; by way of someone who proposed a &lt;a href=&quot;http://hangouts.codebuddies.org/posts/igZTy45aYYE9fKGtR&quot; target=&quot;_blank&quot;&gt;CodeBuddies hangout&lt;/a&gt; on this tonight.
 &lt;/p&gt;
 
@@ -892,7 +849,6 @@ $bp-full: 1200px;`
 &lt;p&gt;
   I recently had a coffee chat with &lt;a href=&quot;http://twitter.com/saronyitbarek&quot; target=&quot;_blank&quot;&gt;@saronyitbarek&lt;/a&gt;, who swore by TDD, and a lot of what she told me made sense &amp;#8212; i.e. the idea of outlining your steps before you start to code. We&amp;#8217;d just installed &lt;a href=&quot;https://github.com/django-nose/django-nose&quot; target=&quot;_blank&quot;&gt;nose&lt;/a&gt; at work too, so I plan to try to get into the habit of it too.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -901,9 +857,7 @@ $bp-full: 1200px;`
    <link href="http://username.github.io/learning-to-code-but-feeling-lost-i-interviewed-some-experts-and-heres-what-i-found-part-ii/"/>
    <updated>2014-09-25T00:00:00-04:00</updated>
    <id>http://username.github.io/learning-to-code-but-feeling-lost-i-interviewed-some-experts-and-heres-what-i-found-part-ii</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   I recently had the pleasure of connecting with five talented people who had wisdom to share about their journeys into tech. I&amp;#8217;ll let their words speak for themselves.
 &lt;/p&gt;
 
@@ -1237,7 +1191,7 @@ $bp-full: 1200px;`
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://bit.ly/1t1aXg7&quot; target=&quot;_blank&quot;&gt;Click here to read Part I of this interview series.&lt;/a&gt;&amp;lt;/p&amp;gt; &amp;lt;/span&amp;gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://bit.ly/1t1aXg7&quot; target=&quot;_blank&quot;&gt;Click here to read Part I of this interview series.&lt;/a&gt;&amp;lt;/p&amp;gt; &lt;/p&gt;
 </content>
  </entry>
  
@@ -1246,9 +1200,7 @@ $bp-full: 1200px;`
    <link href="http://username.github.io/learning-to-code-but-feeling-lost-i-interviewed-some-experts-and-heres-what-i-found/"/>
    <updated>2014-08-06T00:00:00-04:00</updated>
    <id>http://username.github.io/learning-to-code-but-feeling-lost-i-interviewed-some-experts-and-heres-what-i-found</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   &lt;a href=&quot;http://bit.ly/1wN20uK&quot;&gt;Read Part II of this interview series.&lt;/a&gt;
 &lt;/p&gt;
 
@@ -1276,7 +1228,7 @@ $bp-full: 1200px;`
   &lt;strong&gt;&lt;em&gt;About the interviewer:&lt;/em&gt;&lt;/strong&gt;
 &lt;/p&gt;
 
-&lt;p&gt;
+&lt;p style=&quot;clear: both;&quot;&gt;
   &lt;strong&gt;&lt;em&gt;&lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/linda.jpeg&quot;&gt;&lt;img style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Linda&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/linda.jpeg&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;/strong&gt;&lt;strong&gt;Linda Peng &lt;/strong&gt; (&lt;a href=&quot;http://twitter.com/lpnotes&quot; target=&quot;_blank&quot;&gt;@lpnotes&lt;/a&gt;) works at actionkit.com, blogs at this blog, plays violin when she&amp;#8217;s not geeking out about web development, and has started spending her weekends experimenting with &lt;a href=&quot;http://bit.ly/1qTUcUc&quot; target=&quot;_blank&quot;&gt;codebuddies.org&lt;/a&gt; to help people learning from code tutorials get un-stuck faster via virtual study groups.
 &lt;/p&gt;
 
@@ -1284,23 +1236,35 @@ $bp-full: 1200px;`
   &lt;span style=&quot;text-decoration: underline;&quot;&gt;&lt;strong&gt;Interviewee Profiles&lt;/strong&gt;&lt;/span&gt;
 &lt;/p&gt;
 
-&lt;p&gt;
+&lt;p style=&quot;clear: both;&quot;&gt;
   &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.22-PM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-938&quot; style=&quot;float: left; margin-right: 10px;&quot; alt=&quot;Lenny&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.22-PM.png&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Lenny Bogdonoff&lt;/strong&gt; is a developer at &lt;em&gt;The New Yorker&lt;/em&gt; and currently working on the New Public Arts Foundation. You can follow him &lt;a href=&quot;http://twitter.com/rememberlenny&quot; target=&quot;_blank&quot;&gt;@rememberlenny&lt;/a&gt;.
 &lt;/p&gt;
 
 &lt;p&gt;
   &amp;nbsp;
 &lt;/p&gt;
-
 &lt;p&gt;
+  &amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;nbsp;
+&lt;/p&gt;
+
+&lt;p style=&quot;clear: both;&quot;&gt;
   &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.37-PM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-939&quot; style=&quot;float: left; margin-right: 10px;&quot; alt=&quot;Henry&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.37-PM.png&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Henry Qin&lt;/strong&gt; is a PHD candidate in Computer Science at Stanford University working on RAMCloud, a distributed, low-latency key-value store.
 &lt;/p&gt;
 
 &lt;p&gt;
   &amp;nbsp;
 &lt;/p&gt;
-
 &lt;p&gt;
+  &amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;nbsp;
+&lt;/p&gt;
+
+&lt;p style=&quot;clear: both;&quot;&gt;
   &lt;strong&gt;&lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.52-PM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-940&quot; style=&quot;float: left; margin-right: 10px;&quot; alt=&quot;Betsy&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.52-PM.png&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;Betsy Cannon&lt;/strong&gt; is a product engineer at Tumblr, Hacker School alumna, and collector of forks. She posts about math and forks at &lt;a href=&quot;http://forklady42.tumblr.com&quot; target=&quot;_blank&quot;&gt;forklady42.tumblr.com&lt;/a&gt;.
 &lt;/p&gt;
 
@@ -1308,7 +1272,7 @@ $bp-full: 1200px;`
   &amp;nbsp;
 &lt;/p&gt;
 
-&lt;p&gt;
+&lt;p style=&quot;clear: both;&quot;&gt;
   &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.36.03-PM.png&quot;&gt;&lt;img style=&quot;float: left; margin-right: 10px;&quot; alt=&quot;Felicia&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.36.03-PM.png&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Felicia O’Garro&lt;/strong&gt; is a developer evangelist at NineFold and co-founder of Code Crew, a meetup in NYC for people learning to code. You can follow her &lt;a href=&quot;http://twitter.com/feliciaogarro&quot; target=&quot;_blank&quot;&gt;@feliciaogarro&lt;/a&gt;.
 &lt;/p&gt;
 
@@ -1316,11 +1280,18 @@ $bp-full: 1200px;`
   &amp;nbsp;
 &lt;/p&gt;
 
-&lt;p&gt;
+&lt;p style=&quot;clear: both;&quot;&gt;
   &lt;img class=&quot;alignnone size-full wp-image-942&quot; style=&quot;font-size: 12px; line-height: 18px; float: left; margin-right: 10px;&quot; alt=&quot;Darrell&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.36.15-PM.png&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;strong&gt;Darrell Simmons&lt;/strong&gt; is a freelance front-end developer currently working on &lt;a href=&quot;http://bit.ly/1kFMiQK&quot; target=&quot;_blank&quot;&gt;30Websites.com&lt;/a&gt; &amp;#8211; a project that helps people learn to code. He writes at &lt;a href=&quot;http://hellodrell.tumblr.com&quot; target=&quot;_blank&quot;&gt;hellodrell.tumblr.com&lt;/a&gt; and tweets &lt;a href=&quot;http://twitter.com/drell424&quot; target=&quot;_blank&quot;&gt;@drell424&lt;/a&gt;
 &lt;/p&gt;
 
-&lt;h2&gt;
+&lt;p&gt;
+  &amp;nbsp;
+&lt;/p&gt;
+&lt;p&gt;
+  &amp;nbsp;
+&lt;/p&gt;
+
+&lt;h2 style=&quot;clear: both;&quot;&gt;
   &lt;strong&gt;1. When did you first start learning to code, and what technologies are you most familiar with?&lt;/strong&gt;
 &lt;/h2&gt;
 
@@ -1549,7 +1520,6 @@ $bp-full: 1200px;`
 &lt;p&gt;
   &lt;a href=&quot;http://bit.ly/1wN20uK&quot;&gt;Read Part II of this interview series.&lt;/a&gt;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1558,9 +1528,7 @@ $bp-full: 1200px;`
    <link href="http://username.github.io/how-to-volunteer-in-the-nyc-tech-community-with-little-to-no-effort-and-gain-a-lot-in-the-process/"/>
    <updated>2014-08-05T00:00:00-04:00</updated>
    <id>http://username.github.io/how-to-volunteer-in-the-nyc-tech-community-with-little-to-no-effort-and-gain-a-lot-in-the-process</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Some people think that volunteering requires a lot of effort. You apply to a program; they accept you; you train for a few hours, and then you commit to volunteering a couple of hours every week.
 &lt;/p&gt;
 
@@ -1616,7 +1584,6 @@ $bp-full: 1200px;`
 &lt;p&gt;
   If you&amp;#8217;d like to add to my list by offering a recommendation, please leave a comment below!
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1625,9 +1592,7 @@ $bp-full: 1200px;`
    <link href="http://username.github.io/using-vvv-to-develop-wordpress-sites-locally-alternative-to-using-mamp-pro/"/>
    <updated>2014-08-02T00:00:00-04:00</updated>
    <id>http://username.github.io/using-vvv-to-develop-wordpress-sites-locally-alternative-to-using-mamp-pro</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Went to my first &lt;a href=&quot;https://twitter.com/hashtag/wcnyc?src=hash&quot; target=&quot;_blank&quot;&gt;Wordcamp in NYC&lt;/a&gt; this weekend! Funny enough, one of the first people I met upon entering the conference was &lt;a href=&quot;https://twitter.com/karmatosed&quot; target=&quot;_blank&quot;&gt;@karmatosed&lt;/a&gt;, whose &lt;a href=&quot;http://www.packtpub.com/buddypress-theme-development/book?utm_source=social+media&amp;amp;utm_medium=email&amp;amp;utm_campaign=social+media&quot; target=&quot;_blank&quot;&gt;Buddypress Theme Development book&lt;/a&gt; I had just downloaded for offline reading on my Safari Books Online mobile app. (I had *literally* been reading it on the subway just a few minutes before I met her. :D) So many accomplished WordPress developers at this conference.
 &lt;/p&gt;
 
@@ -1736,7 +1701,6 @@ $ wp core download&lt;/pre&gt;
 &lt;p&gt;
   &amp;nbsp;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1745,9 +1709,7 @@ $ wp core download&lt;/pre&gt;
    <link href="http://username.github.io/my-original-motivation-for-learning-how-to-code/"/>
    <updated>2014-06-22T00:00:00-04:00</updated>
    <id>http://username.github.io/my-original-motivation-for-learning-how-to-code</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   My original motivation for learning how to code wasn&amp;#8217;t because developers were in high demand career-wise, or because there was a lot of support for women interested in tech.
 &lt;/p&gt;
 
@@ -1868,7 +1830,6 @@ $ wp core download&lt;/pre&gt;
 &lt;p&gt;
   &amp;nbsp;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1877,9 +1838,7 @@ $ wp core download&lt;/pre&gt;
    <link href="http://username.github.io/comedy-hack-day-reportback/"/>
    <updated>2014-06-18T00:00:00-04:00</updated>
    <id>http://username.github.io/comedy-hack-day-reportback</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   What do you get when you combine awkward developers with awkward comedians in a single room over a weekend?
 &lt;/p&gt;
 
@@ -1941,7 +1900,6 @@ $ wp core download&lt;/pre&gt;
 &lt;p&gt;
   &amp;nbsp;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -1950,9 +1908,7 @@ $ wp core download&lt;/pre&gt;
    <link href="http://username.github.io/quizzing-yourself-is-the-best-way-maybe-more-learning-how-to-code-revelations/"/>
    <updated>2014-06-10T00:00:00-04:00</updated>
    <id>http://username.github.io/quizzing-yourself-is-the-best-way-maybe-more-learning-how-to-code-revelations</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   If you&amp;#8217;ve met me at all, you might realize that I love discussing web development and exchanging tutorials/resources and tips with other people. Naturally, when I heard a woman with a computer engineering background at a javascript meetup talk about picking up jQuery via a free Kindle e-book, my ears perked up.
 &lt;/p&gt;
 
@@ -2011,7 +1967,6 @@ $ wp core download&lt;/pre&gt;
 &lt;p&gt;
   To be continued!
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -2020,9 +1975,7 @@ $ wp core download&lt;/pre&gt;
    <link href="http://username.github.io/tech-meetup-appreciation-post-with-photos/"/>
    <updated>2014-06-08T00:00:00-04:00</updated>
    <id>http://username.github.io/tech-meetup-appreciation-post-with-photos</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   There is just something about listening to people talk about a programming concept in person &amp;#8212; or having to explain a programming concept to another person &amp;#8212; that makes &lt;em&gt;mastering the material&lt;/em&gt; a lot more fun, and the frustrations much easier to struggle through.
 &lt;/p&gt;
 
@@ -2123,7 +2076,6 @@ $ wp core download&lt;/pre&gt;
 &lt;p&gt;
   &amp;nbsp;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -2132,9 +2084,7 @@ $ wp core download&lt;/pre&gt;
    <link href="http://username.github.io/re-reading-eloquent-javascript/"/>
    <updated>2014-06-08T00:00:00-04:00</updated>
    <id>http://username.github.io/re-reading-eloquent-javascript</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   I am re-reading &lt;a href=&quot;http://eloquentjavascript.net/&quot; target=&quot;_blank&quot;&gt;Eloquent Javascript&lt;/a&gt; with Arthur at the moment, and realizing how much of a mistake I made reading it the first time around &amp;#8212; that is, I read it by myself, barely typed out any of the exercises before looking at the solutions, and skimmed past sections when it got confusing.
 &lt;/p&gt;
 
@@ -2199,7 +2149,6 @@ console.log(array.join(&amp;#34; &amp;#34;).split(&amp;#34; &amp;#34;));&lt;/pre
 &lt;p&gt;
   The two methods are not exact opposites of each other, though, as we just demonstrated via the book exercise.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -2208,9 +2157,7 @@ console.log(array.join(&amp;#34; &amp;#34;).split(&amp;#34; &amp;#34;));&lt;/pre
    <link href="http://username.github.io/review-getting-started-with-django-video-series-on-vimeo-kickstarter-backed-part-i/"/>
    <updated>2014-05-29T00:00:00-04:00</updated>
    <id>http://username.github.io/review-getting-started-with-django-video-series-on-vimeo-kickstarter-backed-part-i</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   W00t, I just deployed my first Django app on Heroku! Only took about a day of debugging, but the tutorial is pretty great.
 &lt;/p&gt;
 
@@ -2322,7 +2269,6 @@ console.log(array.join(&amp;#34; &amp;#34;).split(&amp;#34; &amp;#34;));&lt;/pre
 &lt;p&gt;
   NOTE: if there is a vagrant conflict, make sure to vagrant halt on the other instance of vagrant running.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -2331,9 +2277,7 @@ console.log(array.join(&amp;#34; &amp;#34;).split(&amp;#34; &amp;#34;));&lt;/pre
    <link href="http://username.github.io/learning-to-code-tip-find-a-study-partner/"/>
    <updated>2014-05-28T00:00:00-04:00</updated>
    <id>http://username.github.io/learning-to-code-tip-find-a-study-partner</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Find a study partner.
 &lt;/p&gt;
 
@@ -2368,7 +2312,6 @@ console.log(array.join(&amp;#34; &amp;#34;).split(&amp;#34; &amp;#34;));&lt;/pre
 &lt;p&gt;
   Make it a habit. Do this an hour a day.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -2377,9 +2320,7 @@ console.log(array.join(&amp;#34; &amp;#34;).split(&amp;#34; &amp;#34;));&lt;/pre
    <link href="http://username.github.io/its-not-that-youre-not-smart-its-just-that-repetition-is-often-what-it-takes/"/>
    <updated>2014-05-22T00:00:00-04:00</updated>
    <id>http://username.github.io/its-not-that-youre-not-smart-its-just-that-repetition-is-often-what-it-takes</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   I am still in the middle of learning Django.
 &lt;/p&gt;
 
@@ -2404,7 +2345,6 @@ console.log(array.join(&amp;#34; &amp;#34;).split(&amp;#34; &amp;#34;));&lt;/pre
 &lt;p&gt;
   Anyway, tldr: don&amp;#8217;t give up. Revisit. Read carefully. Re-read.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -2413,9 +2353,7 @@ console.log(array.join(&amp;#34; &amp;#34;).split(&amp;#34; &amp;#34;));&lt;/pre
    <link href="http://username.github.io/more-pythondjango-revelations/"/>
    <updated>2014-05-19T00:00:00-04:00</updated>
    <id>http://username.github.io/more-pythondjango-revelations</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Ok, I&amp;#8217;m still due to write a proper full review of &lt;a href=&quot;https://www.udacity.com/course/ud036&quot; target=&quot;_blank&quot;&gt;Udacity&amp;#8217;s Intro to Object-Oriented Programming&lt;/a&gt; course at some point (hopefully soon), but for now, I wanted to take a moment to say: I&amp;#8217;m so glad I made myself go through all the videos there, because a lot of the confusing things from before, from when I was trying to familiarize myself with Django for the first time, aren&amp;#8217;t so confusing anymore.
 &lt;/p&gt;
 
@@ -2452,7 +2390,6 @@ class Person(models.Model):
 &lt;p&gt;
   If all goes well, perhaps I&amp;#8217;ll stick with it and see how it goes. More soon.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -2461,9 +2398,7 @@ class Person(models.Model):
    <link href="http://username.github.io/may-2014-to-do-list/"/>
    <updated>2014-05-19T00:00:00-04:00</updated>
    <id>http://username.github.io/may-2014-to-do-list</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;ul&gt;
+   <content type="html">&lt;ul&gt;
   &lt;li&gt;
     &lt;s&gt;Finish Udacity&amp;#8217;s Object-Oriented Programming Tutorial (Python)&lt;/s&gt; Finished! Review coming soon.
   &lt;/li&gt;
@@ -2493,7 +2428,6 @@ class Person(models.Model):
     Review of Codeschool.com&amp;#8217;s Chrome Browser tutorial (surprisingly good!)
   &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -2502,9 +2436,7 @@ class Person(models.Model):
    <link href="http://username.github.io/resource-orm-query-api-from-the-full-web-framework-python-django-tutorial/"/>
    <updated>2014-05-18T00:00:00-04:00</updated>
    <id>http://username.github.io/resource-orm-query-api-from-the-full-web-framework-python-django-tutorial</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   In case you need to query your Django API but don&amp;#8217;t want to write SQL, here&amp;#8217;s a useful video showing a summary of all the commands you can use:&lt;br /&gt;
 &lt;/p&gt;
 
@@ -2531,7 +2463,6 @@ class Person(models.Model):
 &lt;p&gt;
   Yes, I know this means I could try to read better, too. Just wanted to point out the usefulness of screencasts as a teaching method, I suppose &amp;#8212; especially for computer-based learning.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -2540,9 +2471,7 @@ class Person(models.Model):
    <link href="http://username.github.io/installing-django-with-virtualenv/"/>
    <updated>2014-05-17T00:00:00-04:00</updated>
    <id>http://username.github.io/installing-django-with-virtualenv</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   I&amp;#8217;ve been looking at a couple of other Django tutorials lately, and recently &amp;#8212; thanks to David, another Django learner I talked to at a Python meetup &amp;#8212; I started making do with two great resources:
 &lt;/p&gt;
 
@@ -2631,7 +2560,6 @@ $ python manage.py runserver&lt;/pre&gt;
 
 &lt;p&gt;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -2640,9 +2568,7 @@ $ python manage.py runserver&lt;/pre&gt;
    <link href="http://username.github.io/what-i-learned-from-participating-in-techcrunch-disrupts-2014-hackathon/"/>
    <updated>2014-05-05T00:00:00-04:00</updated>
    <id>http://username.github.io/what-i-learned-from-participating-in-techcrunch-disrupts-2014-hackathon</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Wow, what a night. After acquiring a ticket to the Techcrunch hackathon through pure chance, I ended up entering the door at 12:30pm on Saturday, May 3rd without a strong idea for a hack or a team. Luckily, it wasn&amp;#8217;t too hard to find a team to join after I simply started chatting with the folks who were already seated at the tables.
 &lt;/p&gt;
 
@@ -2653,9 +2579,8 @@ $ python manage.py runserver&lt;/pre&gt;
 &lt;p&gt;
   We stayed up all night.
 &lt;/p&gt;
-&lt;figure id=&quot;attachment_722&quot; aria-labelledby=&quot;figcaption_attachment_722&quot; class=&quot;wp-caption alignnone&quot; style=&quot;width: 964px&quot;&gt;
 
-&lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/05/tc.jpg&quot;&gt;&lt;img class=&quot;size-full wp-image-722&quot; alt=&quot;Techcrunch 2014&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/05/tc.jpg&quot; width=&quot;960&quot; height=&quot;720&quot; /&gt;&lt;/a&gt;&lt;figcaption id=&quot;figcaption_attachment_722&quot; class=&quot;wp-caption-text&quot;&gt;Techcrunch Hackathon 2014. I took this photo a little past midnight.&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/05/tc.jpg&quot;&gt;&lt;img class=&quot;size-full wp-image-722&quot; alt=&quot;Techcrunch 2014&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/05/tc.jpg&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;&amp;lt;figcaption id=&quot;figcaption_attachment_722&quot; class=&quot;wp-caption-text&quot;&amp;gt;Techcrunch Hackathon 2014. I took this photo a little past midnight.&amp;lt;/figcaption&amp;gt;&lt;/p&gt;
 
 &lt;p&gt;
   &lt;strong&gt;Lesson Learned #1: Don&amp;#8217;t pull an all-nighter. &lt;/strong&gt;&lt;br /&gt; The pain from pulling an all-nighter is probably ten times worse than the pain from simply waking up tired in the morning. My plan for the next 24-hour hackathon I attend, I think, would be to finish the bulk of the code by midnight, submit the project description by 1AM to qualify for a presentation spot, make everyone go home to nap, come back in the morning, and start again refreshed.
@@ -2702,7 +2627,7 @@ $ python manage.py runserver&lt;/pre&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/05/oopjs.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-733&quot; alt=&quot;oopjs&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/05/oopjs.png&quot; width=&quot;560&quot; height=&quot;371&quot; /&gt;&lt;/a&gt;&lt;br /&gt; &lt;em&gt;primitives are pass-by-value.&lt;/em&gt;&lt;br /&gt; &lt;em&gt; Primitives include undefined, null, boolean, string, number, object {bar: &amp;#8220;something&amp;#8221;} and are pass-by-value. Values are not connected.&lt;/em&gt;&lt;br /&gt; &lt;em&gt; Special objects include function, array, regexp&lt;/em&gt;&lt;br /&gt; &lt;em&gt;Objects are pass-by-reference.&lt;/em&gt;&lt;br /&gt; &amp;#8212; Haphazard notes from very late night in the late, when I thought it would be a good idea to refresh my understanding of object-oriented javascript by watching &lt;a href=&quot;http://www.objectplayground.com/&quot; target=&quot;_blank&quot;&gt;http://www.objectplayground.com&lt;/a&gt;.
+  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/05/oopjs.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-733&quot; alt=&quot;oopjs&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/05/oopjs.png&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;&lt;br /&gt; &lt;em&gt;primitives are pass-by-value.&lt;/em&gt;&lt;br /&gt; &lt;em&gt; Primitives include undefined, null, boolean, string, number, object {bar: &amp;#8220;something&amp;#8221;} and are pass-by-value. Values are not connected.&lt;/em&gt;&lt;br /&gt; &lt;em&gt; Special objects include function, array, regexp&lt;/em&gt;&lt;br /&gt; &lt;em&gt;Objects are pass-by-reference.&lt;/em&gt;&lt;br /&gt; &amp;#8212; Haphazard notes from very late night in the late, when I thought it would be a good idea to refresh my understanding of object-oriented javascript by watching &lt;a href=&quot;http://www.objectplayground.com/&quot; target=&quot;_blank&quot;&gt;http://www.objectplayground.com&lt;/a&gt;.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -2722,7 +2647,7 @@ $ python manage.py runserver&lt;/pre&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/05/summer.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-723&quot; alt=&quot;summer&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/05/summer.jpg&quot; width=&quot;3264&quot; height=&quot;2448&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/05/summer.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-723&quot; alt=&quot;summer&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/05/summer.jpg&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -2740,7 +2665,6 @@ $ python manage.py runserver&lt;/pre&gt;
 &lt;p&gt;
   &amp;nbsp;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -2749,9 +2673,7 @@ $ python manage.py runserver&lt;/pre&gt;
    <link href="http://username.github.io/why-you-should-go-to-a-hackathon/"/>
    <updated>2014-05-02T00:00:00-04:00</updated>
    <id>http://username.github.io/why-you-should-go-to-a-hackathon</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   I went to my first hackathon in November 2012, registered as a &amp;#8220;designer&amp;#8221; instead of a &amp;#8220;developer,&amp;#8221; found myself the only woman on a team, and proceeded to have the most fun, nerve-wracking, up-and-down weekend ever with a group of strangers.
 &lt;/p&gt;
 
@@ -2876,7 +2798,6 @@ $ python manage.py runserver&lt;/pre&gt;
 &lt;p&gt;
   &amp;nbsp;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -2885,9 +2806,7 @@ $ python manage.py runserver&lt;/pre&gt;
    <link href="http://username.github.io/review-coding-for-entrepreneurs-video-series-tutorial-build-a-django-app/"/>
    <updated>2014-04-22T00:00:00-04:00</updated>
    <id>http://username.github.io/review-coding-for-entrepreneurs-video-series-tutorial-build-a-django-app</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   This tutorial took a couple of hours on Saturday afternoon and a couple of hours at Hacker Hours today, + 2 hours this evening to finish. All 21 videos were free, and you can start watching it here:
 &lt;/p&gt;
 
@@ -2917,7 +2836,6 @@ $ python manage.py runserver&lt;/pre&gt;
 &lt;p&gt;
   Summary: This ended being a pretty-good-start-to-but-not-entirely-comprehensive Django tutorial. I&amp;#8217;m going to hit a textbook next.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -2926,9 +2844,7 @@ $ python manage.py runserver&lt;/pre&gt;
    <link href="http://username.github.io/udacitys-intro-to-object-oriented-programming-class/"/>
    <updated>2014-04-20T00:00:00-04:00</updated>
    <id>http://username.github.io/udacitys-intro-to-object-oriented-programming-class</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Udacity just launched an intro to object-oriented programming class using python (as always), and I am super excited! I&amp;#8217;d already gone through some of its &lt;a href=&quot;https://www.udacity.com/course/cs101&quot; target=&quot;_blank&quot;&gt;Intro to Computer Science&lt;/a&gt; and &lt;a href=&quot;https://www.udacity.com/course/cs253&quot; target=&quot;_blank&quot;&gt;Web Development&lt;/a&gt; curriculum. What I really like about the videos is that they stop occasionally to quiz you. In addition, they give you exercises and homework assignments to submit, and forums to go to if you have a question.
 &lt;/p&gt;
 
@@ -2942,7 +2858,6 @@ $ python manage.py runserver&lt;/pre&gt;
 
 &lt;p&gt;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -2951,9 +2866,7 @@ $ python manage.py runserver&lt;/pre&gt;
    <link href="http://username.github.io/review-zed-shaws-learn-python-the-hard-way-chapters-1-43/"/>
    <updated>2014-04-20T00:00:00-04:00</updated>
    <id>http://username.github.io/review-zed-shaws-learn-python-the-hard-way-chapters-1-43</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Learning Python was a lot easier after being familiar with Javascript.
 &lt;/p&gt;
 
@@ -3150,7 +3063,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   Update: This already happened for some bullet points, hah!
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3159,9 +3071,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/the-growth-stages-of-reacting-to-error-messages-web-developer-style/"/>
    <updated>2014-04-18T00:00:00-04:00</updated>
    <id>http://username.github.io/the-growth-stages-of-reacting-to-error-messages-web-developer-style</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   &lt;strong&gt;Stage 1 (beginner level):&lt;/strong&gt; Panic and call your hosting company.
 &lt;/p&gt;
 
@@ -3206,7 +3116,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   *Yes, I am embarrassed to admit this did happen when I messed up some PHP on my first ever self-hosted WordPress site. &lt;em&gt;This was before I even knew CSS, okay? Okay.&lt;/em&gt;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3215,9 +3124,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/yay-i-got-this-two-gold-star-difficulty-question-on-udacity-right/"/>
    <updated>2014-04-10T00:00:00-04:00</updated>
    <id>http://username.github.io/yay-i-got-this-two-gold-star-difficulty-question-on-udacity-right</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   &lt;strong&gt;The question:&lt;/strong&gt;
 &lt;/p&gt;
 
@@ -3258,7 +3165,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   &amp;nbsp;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3267,9 +3173,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/well-played-alleynyc/"/>
    <updated>2014-04-10T00:00:00-04:00</updated>
    <id>http://username.github.io/well-played-alleynyc</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Early last year, some of &lt;a href=&quot;http://www.meetup.com/codecrewny/&quot; target=&quot;_blank&quot;&gt;my&lt;/a&gt; &lt;a href=&quot;http://www.meetup.com/hackerhours/&quot; target=&quot;_blank&quot;&gt;favorite&lt;/a&gt; &lt;a href=&quot;http://www.meetup.com/nycpython/&quot; target=&quot;_blank&quot;&gt;casual&lt;/a&gt; NYC tech meetups were meeting in coffee shops and the New York Public Library on the weekends. Then, suddenly, I was getting e-mails from &lt;em&gt;all three meetups &lt;/em&gt;about a free new venue on Sunday afternoons &amp;#8212; at a co-working place called &lt;a href=&quot;https://www.google.com/maps/place/AlleyNYC/@40.75313,-73.989527,17z/data=!3m1!4b1!4m2!3m1!1s0x89c2511bf60bc5a9:0xb3062668f38c06a6&quot; target=&quot;_blank&quot;&gt;AlleyNYC&lt;/a&gt;, right under Times Square and to the west of Bryant Park.
 &lt;/p&gt;
 
@@ -3300,7 +3204,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   Sharing economy, indeed.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3309,9 +3212,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/feeling-like-an-idiot/"/>
    <updated>2014-04-08T00:00:00-04:00</updated>
    <id>http://username.github.io/feeling-like-an-idiot</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Last week, I helped a co-worker debug their jQuery. This weekend, I helped a stranger at a tech office hours meetup debug their R commands on a windows machine. Both times, I received incredible gratitude, and I felt proud of myself &amp;#8212; in part for being a good google searcher of windows machine problems, and in part because I knew I&amp;#8217;d improved my javascript skills since the very beginning.
 &lt;/p&gt;
 
@@ -3354,7 +3255,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   &amp;nbsp;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3363,9 +3263,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/be-a-creator-not-a-consumer-also-some-advice-about-college-majors/"/>
    <updated>2014-04-07T00:00:00-04:00</updated>
    <id>http://username.github.io/be-a-creator-not-a-consumer-also-some-advice-about-college-majors</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   As much as I love meeting and talking with tech-y people (and sometimes talking tech with unfortunate non-techie friends and family, heh), I sometimes check myself re: whether I&amp;#8217;m spending too much time talking the talk and not walking the walk.
 &lt;/p&gt;
 
@@ -3396,7 +3294,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   It&amp;#8217;ll take work, but hey &amp;#8212; that film/arts/English/tech concentration you&amp;#8217;re so passionate about? Probably worth more than a 2.7 average GPA in a subject you&amp;#8217;re terrible at, as long as you&amp;#8217;ve created something to show for it at the end.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3405,9 +3302,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/javascript-vs-python-simple-naming-differences/"/>
    <updated>2014-04-05T00:00:00-04:00</updated>
    <id>http://username.github.io/javascript-vs-python-simple-naming-differences</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   I stumbled upon this 7-minute video about objects in Javascript on YouTube:
 &lt;/p&gt;
 
@@ -3437,7 +3332,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   If you&amp;#8217;re switching from either language for the first time, don&amp;#8217;t get tripped up!
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3446,9 +3340,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/learning-python-the-hard-way/"/>
    <updated>2014-02-13T00:00:00-05:00</updated>
    <id>http://username.github.io/learning-python-the-hard-way</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   &amp;#8230; and I say &amp;#8220;the hard way&amp;#8221; because I suddenly need to know it for &lt;em&gt;work&lt;/em&gt; work.
 &lt;/p&gt;
 
@@ -3459,7 +3351,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   Bring it on. :-)
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3468,9 +3359,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/angularjs-firebase/"/>
    <updated>2014-02-12T00:00:00-05:00</updated>
    <id>http://username.github.io/angularjs-firebase</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   This is a pretty cool presentation demo-ing AngularJS + Firebase, an API to store and sync data in real-time. The presenter creates an asynchronous commenting web app (think: youtube comments that refresh by themselves!) using only a couple lines of javascript.
 &lt;/p&gt;
 
@@ -3480,7 +3369,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   I first heard about Firebase this weekend when I saw a javascript developer get up a NodeJS real-time chat web app within a couple of hours. Glad I heard about it then; else I wouldn&amp;#8217;t have clicked on the link in my twitter feed to this video.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3489,9 +3377,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/yes-coding-can-be-fun/"/>
    <updated>2014-02-10T00:00:00-05:00</updated>
    <id>http://username.github.io/yes-coding-can-be-fun</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   A friend, who once took a computer science class in college (but did not particularly like it), asked me how a hackathon over the weekend went. However, he said it in a way that suggested that it must&amp;#8217;ve been terribly boring, as if we just stared at our computer screens all weekend. &lt;em&gt;And you do this for fun?&lt;/em&gt;
 &lt;/p&gt;
 
@@ -3526,7 +3412,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   In my opinion, web development is also more fun because I get to showcase my work in a URL to curious inquirers any day. But that&amp;#8217;s just me.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3535,9 +3420,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/w3-validator-is-a-lifesaver/"/>
    <updated>2014-02-02T00:00:00-05:00</updated>
    <id>http://username.github.io/w3-validator-is-a-lifesaver</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   W3 Validator &amp;#8212; &lt;a href=&quot;http://validator.w3.org/&quot; target=&quot;_blank&quot;&gt;http://validator.w3.org/&lt;/a&gt; &amp;#8212; has been a lifesaver on a few separate occasions for me within the past year. It&amp;#8217;s been particularly helpful when:
 &lt;/p&gt;
 
@@ -3570,9 +3453,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/the-biggest-mistake-you-can-make-while-learning-how-to-code/"/>
    <updated>2014-01-01T00:00:00-05:00</updated>
    <id>http://username.github.io/the-biggest-mistake-you-can-make-while-learning-how-to-code</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   It&amp;#8217;s a nice a time to learn web development nowadays. The number of resources available is incredible &amp;#8212; codecademy, udacity, coursera, codeschool, treehouse, MIT EdX.
 &lt;/p&gt;
 
@@ -3583,7 +3464,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   When I started learning, I didn&amp;#8217;t realize how a lot of &amp;#8220;coding&amp;#8221; was actually a lot of debugging. It&amp;#8217;s a constant up-and-down struggle of solving problems. But most problems are solvable, and it just takes patience and a lot of persistence to keep going.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3592,9 +3472,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/some-thoughts-on-human-invention/"/>
    <updated>2013-09-12T00:00:00-04:00</updated>
    <id>http://username.github.io/some-thoughts-on-human-invention</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   I just caught the tail end of &lt;a href=&quot;http://www.pbs.org/wgbh/nova/tech/ground-supertower.html&quot;&gt;Ground Zero Supertower&lt;/a&gt;, a NOVA documentary that aired on 9/11/2013, and am quite amazed by the level of money, effort, dangerous + heavy machinery, and risks that thousands poured into building the new skyscraper, memorial and museum. With the transport and mechanical costs (think: mixtures fried in 3000 fahrenheit temperatures to create heavy glass, then transported a few thousand miles away) needed to create the monuments, I&amp;#8217;m reminded by how hardcore engineering seems so much more *difficult* than software engineering.
 &lt;/p&gt;
 
@@ -3605,7 +3483,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   **Also why I love hackathons, but that&amp;#8217;s another story.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3614,9 +3491,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/calling-myself-a-front-end-web-developer/"/>
    <updated>2013-09-06T00:00:00-04:00</updated>
    <id>http://username.github.io/calling-myself-a-front-end-web-developer</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   This time last year, I was hesitant to call myself a front-end developer. What&amp;#8217;s changed?
 &lt;/p&gt;
 
@@ -3672,7 +3547,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   To be honest, I&amp;#8217;m pretty curious about what this entry will look next year. As long as I continue to enjoy learning web development (and blogging about it), there&amp;#8217;s hope yet, I think.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3681,9 +3555,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/never-going-back-after-git/"/>
    <updated>2013-06-27T00:00:00-04:00</updated>
    <id>http://username.github.io/never-going-back-after-git</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   &lt;strong&gt;UPDATE: In March 2014, I attended an official git training by &lt;a href=&quot;https://twitter.com/peterbell&quot; target=&quot;_blank&quot;&gt;@PeterBell&lt;/a&gt;, hosted at Gilt! Here are my more comprehensive notes from the training: &lt;a href=&quot;https://github.com/lpatmo/git-training-notes&quot; target=&quot;_blank&quot;&gt;https://github.com/lpatmo/git-training-notes&lt;/a&gt;&lt;/strong&gt;
 &lt;/p&gt;
 
@@ -3770,7 +3642,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   But anyway&amp;#8230; Version control FTW. I am glad I won&amp;#8217;t be going back to drag-and-drop FTP anytime soon.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3779,9 +3650,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/reflections-on-write-speak-code-nyc-june-20th-22nd-2013/"/>
    <updated>2013-06-24T00:00:00-04:00</updated>
    <id>http://username.github.io/reflections-on-write-speak-code-nyc-june-20th-22nd-2013</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   I landed at Write-Speak-Code just a couple of weeks after AdaCamp, and boy, it did not disappoint. The group was slightly smaller than AdaCamp&amp;#8217;s and more training-focused. I had to miss the second day (Speak day!) to go to my brother&amp;#8217;s high school graduation, but to make up for it, I took a lot of notes on Days One and Three.
 &lt;/p&gt;
 
@@ -3817,7 +3686,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;h2&gt;
   &lt;span style=&quot;font-size: 16px;&quot;&gt; &lt;/span&gt;
 &lt;/h2&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3826,9 +3694,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/using-the-not-selector-in-jquery/"/>
    <updated>2013-06-23T00:00:00-04:00</updated>
    <id>http://username.github.io/using-the-not-selector-in-jquery</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Was trying to figure out how to select every &lt;li&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt; item in a row except the one with a class of &amp;#8220;active.&amp;#8221; As always, &lt;/span&gt;&lt;a style=&quot;font-size: 16px;&quot; href=&quot;http://stackoverflow.com/questions/520250/jquery-if-div-doesnt-have-class-x&quot; target=&quot;_blank&quot;&gt;Stackoverflow&lt;/a&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt; reminded me that jQuery came with &amp;#8220;:not.&amp;#8221;&lt;/span&gt;
 
 
@@ -3850,9 +3716,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/how-to-write-a-good-bug-report/"/>
    <updated>2013-06-23T00:00:00-04:00</updated>
    <id>http://username.github.io/how-to-write-a-good-bug-report</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   What you need:
 &lt;/p&gt;
 
@@ -3884,7 +3748,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   Just one of the many things we discussed at the &lt;a href=&quot;http://sf.adacamp.org/&quot; target=&quot;_blank&quot;&gt;Adacamp&lt;/a&gt; unconference.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3893,16 +3756,13 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/front-end-vs-back-end/"/>
    <updated>2013-06-23T00:00:00-04:00</updated>
    <id>http://username.github.io/front-end-vs-back-end</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Are some people more naturally suited to being front-end developers versus back-end developers, or vice versa?
 &lt;/p&gt;
 
 &lt;p&gt;
   My understanding of front-end development (which I love) is that it&amp;#8217;s useful to have a good understanding of the back-end technologies. I haven&amp;#8217;t done enough back-end work to discuss whether I like it or not&amp;#8230; but I&amp;#8217;ve talked to a couple of people by now who&amp;#8217;ve said that they&amp;#8217;re die-hard back-end developers who hate doing front-end work.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3911,9 +3771,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/thank-goodness-i-save-all-my-bug-solutions-in-e-mails/"/>
    <updated>2013-06-21T00:00:00-04:00</updated>
    <id>http://username.github.io/thank-goodness-i-save-all-my-bug-solutions-in-e-mails</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   &lt;a href=&quot;http://incident57.com/codekit/&quot;&gt;Codekit&lt;/a&gt; (software which web developers use for lots of cool things, but which I mainly use for compiling LESS) started acting up after a reboot of my computer recently, showing me an error starting with the following words:
 &lt;/p&gt;
 
@@ -3934,7 +3792,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   Moral to the story: document your bug fix methods (even if temporary), especially if the fixes are obscure.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -3943,9 +3800,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/notes-from-seattle-tech-hn-meetup-speaker-justin-kan/"/>
    <updated>2013-05-19T00:00:00-04:00</updated>
    <id>http://username.github.io/notes-from-seattle-tech-hn-meetup-speaker-justin-kan</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   &lt;strong&gt;Justin Kan&lt;/strong&gt;, of justin.tv fame, stopped by the &lt;a href=&quot;http://www.zillow.com/&quot;&gt;Zillow offices&lt;/a&gt; to give a short presentation about the many ideas he and his co-founders entertained before they landed on the &amp;#8220;right&amp;#8221; product &amp;#8212; that is, something that had market value and market traction.
 &lt;/p&gt;
 
@@ -3966,7 +3821,7 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2013/05/justinkan2.jpg&quot;&gt;&lt;img title=&quot;justinkan2&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2013/05/justinkan2.jpg&quot; alt=&quot;&quot; width=&quot;576&quot; height=&quot;432&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2013/05/justinkan2.jpg&quot;&gt;&lt;img title=&quot;justinkan2&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2013/05/justinkan2.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -3982,7 +3837,7 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2013/05/justinkan1.jpg&quot;&gt;&lt;img class=&quot;alignnone  wp-image-508&quot; title=&quot;justinkan1&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2013/05/justinkan1.jpg&quot; alt=&quot;&quot; width=&quot;576&quot; height=&quot;432&quot; /&gt;&lt;/a&gt;
+  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2013/05/justinkan1.jpg&quot;&gt;&lt;img class=&quot;alignnone  wp-image-508&quot; title=&quot;justinkan1&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2013/05/justinkan1.jpg&quot; alt=&quot;&quot; width=&quot;100%&quot; /&gt;&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -3992,7 +3847,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   &amp;nbsp;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4001,9 +3855,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/finding-text-in-a-particular-file-using-grep/"/>
    <updated>2013-04-25T00:00:00-04:00</updated>
    <id>http://username.github.io/finding-text-in-a-particular-file-using-grep</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   My understanding of grep is pretty elementary. I&amp;#8217;ve recently found it useful for searching for texts contained in particular strings, though. For example:
 &lt;/p&gt;
 
@@ -4014,7 +3866,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   More here:&lt;br /&gt; &lt;a href=&quot;http://www.cyberciti.biz/faq/howto-search-find-file-for-text-string/&quot; target=&quot;_blank&quot;&gt;http://www.cyberciti.biz/faq/howto-search-find-file-for-text-string/&lt;/a&gt;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4023,9 +3874,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/deploying-to-heroku/"/>
    <updated>2013-04-25T00:00:00-04:00</updated>
    <id>http://username.github.io/deploying-to-heroku</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Chapter 1.4  of &lt;a href=&quot;http://ruby.railstutorial.org/&quot; target=&quot;_blank&quot;&gt;railstutorial.org&lt;/a&gt; taught me how to deploy a Rails app onto Heroku.
 &lt;/p&gt;
 
@@ -4056,7 +3905,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   &lt;code&gt;heroku rename newname&lt;/code&gt;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4065,9 +3913,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/configuring-the-terminal-to-open-sublime-text-files/"/>
    <updated>2013-02-18T00:00:00-05:00</updated>
    <id>http://username.github.io/configuring-the-terminal-to-open-sublime-text-files</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   I&amp;#8217;d noticed a couple of people typing in &amp;#8220;subl file/path&amp;#8221; in their terminal to open up a file after they cd&amp;#8217;ed into the folder, but much to my surprise, the &amp;#8220;subl&amp;#8221; command did not work for me. Turns out I had yet to install it!
 &lt;/p&gt;
 
@@ -4094,7 +3940,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   &amp;nbsp;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4103,9 +3948,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/teaching-a-beginner-lessons-0-and-1-of-zed-shaws-learn-python-the-hard-way/"/>
    <updated>2013-02-16T00:00:00-05:00</updated>
    <id>http://username.github.io/teaching-a-beginner-lessons-0-and-1-of-zed-shaws-learn-python-the-hard-way</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Walking J. (a complete beginner) through lessons 0 and 1 of &lt;a href=&quot;http://learnpythonthehardway.org/book/&quot;&gt;Learn Python The Hard Way&lt;/a&gt; by Zed Shaw, it occurred to me that LPTHW is probably best learned as a beginner when there&amp;#8217;s someone experienced to help you through the setup, and to answer the larger-picture questions of why you are doing what you are doing.
 &lt;/p&gt;
 
@@ -4152,7 +3995,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   &amp;nbsp;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4161,16 +4003,13 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/someone-once-asked-me/"/>
    <updated>2013-02-11T00:00:00-05:00</updated>
    <id>http://username.github.io/someone-once-asked-me</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Someone once asked me whether I had a startup bug. I don&amp;#8217;t think so; it&amp;#8217;s more that I have an &amp;#8220;I have so many ideas for cool things that great design + web interactivity can do to help bring people together in a shared marketplace&amp;#8221; bug, but I end up just spending most of the time frowning at my laptop because of a) code or installation bugs; or b) because I don&amp;#8217;t have version control or ssh set up for my personal projects yet. Argh. But that is changing pretty soon!
 &lt;/p&gt;
 
 &lt;p&gt;
   Update: Version control (git) set up now. Yay.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4179,9 +4018,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/zed-shaw-is-amazing/"/>
    <updated>2013-01-19T00:00:00-05:00</updated>
    <id>http://username.github.io/zed-shaw-is-amazing</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   A year ago, Zed Shaw&amp;#8217;s &lt;a href=&quot;http://learnpythonthehardway.org/&quot; target=&quot;_blank&quot;&gt;&amp;#8220;Learn Python The Hard Way&amp;#8221;&lt;/a&gt; was &lt;em&gt;the&lt;/em&gt; online resource I was hearing about from everyone. I never ended up trying it out, but I flipped back to it just now and was&amp;#8230; gratified, I suppose, to skim through the first few chapters and realize that everything was familiar, and setting up the development environment and working with the terminal did not so seem so challenging after all.
 &lt;/p&gt;
 
@@ -4192,7 +4029,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   Gah, there really are too many online resources out there for learning web technology. All I can do is attempt to continue to chronicle my experiences.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4201,9 +4037,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/a-nice-cheatsheet-for-finding-social-media-graphic-dimensions/"/>
    <updated>2013-01-18T00:00:00-05:00</updated>
    <id>http://username.github.io/a-nice-cheatsheet-for-finding-social-media-graphic-dimensions</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   The infographic below is courtesy of &lt;a href=&quot; http://www.lunametrics.com/blog/2012/11/12/final-social-media-sizing-cheat-sheet/&quot; target=&quot;_blank&quot;&gt;LunaMetrics&lt;/a&gt;. I found it while googling for the dimensions of a typical Facebook wall photo.
 &lt;/p&gt;
 
@@ -4216,7 +4050,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;p&gt;
-  
 &lt;/p&gt;
 </content>
  </entry>
@@ -4226,9 +4059,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/the-coding-diaries-spring-2013-resolutions/"/>
    <updated>2013-01-01T00:00:00-05:00</updated>
    <id>http://username.github.io/the-coding-diaries-spring-2013-resolutions</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   1. Use Github (see: version control) a lot more.
 &lt;/p&gt;
 
@@ -4271,7 +4102,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   &amp;nbsp;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4280,9 +4110,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/chrome-developer-tools-where-you-have-you-been-in-my-life/"/>
    <updated>2012-11-01T00:00:00-04:00</updated>
    <id>http://username.github.io/chrome-developer-tools-where-you-have-you-been-in-my-life</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   I remember the first time someone told me that I should be using Chrome Developer tools, or Firebug, or some variation thereof in the browser to help with my front-end coding.
 &lt;/p&gt;
 
@@ -4297,7 +4125,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   Once upon a time, I remember feeling at a loss about the hex code of a background color of an element I was trying to replicate. Now, it&amp;#8217;s simple: open Chrome Developer Tools, perhaps click on the element with the inspector tool, and look at the CSS.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4306,9 +4133,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/why-im-falling-more-and-more-in-love-with-sublime-text/"/>
    <updated>2012-10-25T00:00:00-04:00</updated>
    <id>http://username.github.io/why-im-falling-more-and-more-in-love-with-sublime-text</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Over the past week I&amp;#8217;ve discovered that not only can I copy the file path of my document by right-clicking and selecting &amp;#8220;copy file path&amp;#8221; in &amp;lt;a href=&amp;#8221;http://www.sublimetext.com/&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;Sublime Text, the text editor also allows me to short-handedly insert a comment by typing command-/ on the mac.
 &lt;/p&gt;
 
@@ -4327,7 +4152,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   &amp;nbsp;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4336,9 +4160,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/book-review-the-css3-anthology-by-rachel-andrew/"/>
    <updated>2012-10-25T00:00:00-04:00</updated>
    <id>http://username.github.io/book-review-the-css3-anthology-by-rachel-andrew</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   I flipped through this book in the same way that I flipped through the &lt;a href=&quot;http://www.thecodingdiaries.com/html-and-css-book/&quot; target=&quot;_blank&quot;&gt;HTML &amp;amp; CSS book&lt;/a&gt; I noted earlier &amp;#8212; that is, from cover to cover.
 &lt;/p&gt;
 
@@ -4361,7 +4183,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   Yes, yes, everyone learns by googling &amp;#8212; but this book is a pretty good compilation of the common questions that anyone who hasn&amp;#8217;t had a formal course in CSS(3) would have, and would probably save the beginner a lot of time.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4370,9 +4191,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/first-impressions-of-codeschools-jquery-first-flight/"/>
    <updated>2012-10-20T00:00:00-04:00</updated>
    <id>http://username.github.io/first-impressions-of-codeschools-jquery-first-flight</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Codeschool is the author of &amp;lt;a href=&amp;#8221;http://tryruby.org&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;Try Ruby and &amp;lt;a href=&amp;#8221;http://try.github.com&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;Try Git. I just watched the first video in their &amp;lt;a href=&amp;#8221;http://www.codeschool.com/courses/jquery-air-first-flight&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;jQuery: First Flight series, and attempted some of the follow-up exercises.
 &lt;/p&gt;
 
@@ -4387,7 +4206,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   Bonus: I think they mighty&amp;#8217;ve gotten the pianist from &amp;lt;a href=&amp;#8221;http://www.mertonshow.com/about&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;The Merton Show or something to front all of their introductory videos. The intro songs are all hilarious.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4396,9 +4214,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/the-tipping-point-for-me/"/>
    <updated>2012-10-07T00:00:00-04:00</updated>
    <id>http://username.github.io/the-tipping-point-for-me</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   &amp;#8230; was when I finally realized that I could *preview* HTML/CSS/Javascript files in my browser by typing in some variation of&amp;#8230;
 &lt;/p&gt;
 
@@ -4444,9 +4260,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/sublime-the-text-editor-is-pretty/"/>
    <updated>2012-10-07T00:00:00-04:00</updated>
    <id>http://username.github.io/sublime-the-text-editor-is-pretty</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   So. Here&amp;#8217;s my history with text editors:
 &lt;/p&gt;
 
@@ -4473,7 +4287,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   Of course, two months later, I might very well be blogging about how much I love &lt;a href=&quot;http://netbeans.org/&quot; target=&quot;_blank&quot;&gt;NetBeans&lt;/a&gt;&amp;#8230;. *grin*
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4482,9 +4295,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/how-i-converted-to-mac-from-pc/"/>
    <updated>2012-10-07T00:00:00-04:00</updated>
    <id>http://username.github.io/how-i-converted-to-mac-from-pc</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   I was a windows user for&amp;#8230; well, ever since I started using a computer. Then I got side-saddled with a mac. Then I looked up some mac keyboard shortcuts. Then I got used to the idea of typing &amp;#8220;command&amp;#8221;-key rather than &amp;#8220;control&amp;#8221;-key and FINALLY figured out that it was easier to press the &amp;#8220;command&amp;#8221; button with the thumb rather than with the pinkie.
 &lt;/p&gt;
 
@@ -4541,7 +4352,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   &amp;#8230; Anyway, work on the computer has never been more fun now. The mac loads instantly in 2 seconds, whereas it took more than 30 seconds for my [admittedly kind-of-old PC] to load.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4550,16 +4360,13 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/hacker-news-readers-you-make-me-laugh/"/>
    <updated>2012-10-07T00:00:00-04:00</updated>
    <id>http://username.github.io/hacker-news-readers-you-make-me-laugh</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   Here&amp;#8217;s a brilliant spoof of a set of recent headlines upvoted to the front page of &lt;a href=&quot;http://news.ycombinator.com&quot; target=&quot;_blank&quot;&gt;news.ycombinator.com&lt;/a&gt;:
 &lt;/p&gt;
 
 &lt;p&gt;
   &lt;a href=&quot;http://us2.campaign-archive1.com/?u=193b767bbb3b0eb0d949d5924&amp;#038;id=0c3a567f95&amp;#038;e=5603c292b3&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2012/10/Screen-shot-2012-10-07-at-1.29.15-AM.png&quot; alt=&quot;Hacker News Spoof&quot; /&gt;&lt;/a&gt;&lt;br /&gt; Source: &lt;a href=&quot;http://us2.campaign-archive1.com/?u=193b767bbb3b0eb0d949d5924&amp;#038;id=0c3a567f95&amp;#038;e=5603c292b3&quot; target=&quot;_blank&quot;&gt;http://us2.campaign-archive1.com/?u=193b767bbb3b0eb0d949d5924&amp;amp;id=0c3a567f95&amp;amp;e=5603c292b3&lt;/a&gt;
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4568,9 +4375,7 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/erm-hi-ftp/"/>
    <updated>2012-10-01T00:00:00-04:00</updated>
    <id>http://username.github.io/erm-hi-ftp</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;
+   <content type="html">&lt;p&gt;
   I can&amp;#8217;t believe it took me this long to figure out how to connect to my Bluehost account in FileZilla.
 &lt;/p&gt;
 
@@ -4585,7 +4390,6 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
   Anyway, lesson learned: not everyone uses git or subversion to commit files to their sites.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </content>
  </entry>
  
@@ -4594,15 +4398,9 @@ print thing.tangerine&lt;/pre&gt;
    <link href="http://username.github.io/note-to-self-remember-to-close-tags/"/>
    <updated>2012-09-29T00:00:00-04:00</updated>
    <id>http://username.github.io/note-to-self-remember-to-close-tags</id>
-   <content type="html">&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;… and end jQuery line breaks with semicolons (;). And don’t forget the % before the } closing bracket in Mason. And don’t forget the question mark at the beginning of a bracket in PHP &lt;code&gt;(&amp;lt;?php)&lt;/code&gt;. &lt;/p&gt;
 
-&lt;p&gt;
-  &amp;#8230; and end jQuery line breaks with semicolons (;). And don&amp;#8217;t forget the % before the } closing bracket in Mason. And don&amp;#8217;t forget the question mark at the beginning of a bracket in PHP (&amp;lt;?php). And, and, and&amp;#8230;&lt;/p&gt;
-
-&lt;p&gt;
-    Always saves time to pay attention to the small details when you&amp;#8217;re setting foot in a new language. :-)
-  &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
+&lt;p&gt;Always saves time to pay attention to the small details when you’re setting foot in a new language. :-)&lt;/p&gt;
 </content>
  </entry>
  

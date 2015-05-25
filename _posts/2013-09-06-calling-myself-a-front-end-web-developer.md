@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2603550902
 ---
-<span data-rel="content">
 
 <p>
   This time last year, I was hesitant to call myself a front-end developer. What&#8217;s changed?
@@ -65,4 +64,4 @@ dsq_thread_id:
 
 <p>
   To be honest, I&#8217;m pretty curious about what this entry will look next year. As long as I continue to enjoy learning web development (and blogging about it), there&#8217;s hope yet, I think.
-</p></span>
+</p>

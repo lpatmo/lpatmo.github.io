@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2722090931
 ---
-<span data-rel="content">
 
 <p>
   W00t, I just deployed my first Django app on Heroku! Only took about a day of debugging, but the tutorial is pretty great.
@@ -121,4 +120,4 @@ dsq_thread_id:
 
 <p>
   NOTE: if there is a vagrant conflict, make sure to vagrant halt on the other instance of vagrant running.
-</p></span>
+</p>

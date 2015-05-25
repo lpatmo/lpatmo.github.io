@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1022215008
 ---
-<span data-rel="content">
 
 <p>
   So. Here&#8217;s my history with text editors:
@@ -36,4 +35,4 @@ dsq_thread_id:
 
 <p>
   Of course, two months later, I might very well be blogging about how much I love <a href="http://netbeans.org/" target="_blank">NetBeans</a>&#8230;. *grin*
-</p></span>
+</p>

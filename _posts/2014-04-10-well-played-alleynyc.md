@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2602164540
 ---
-<span data-rel="content">
 
 <p>
   Early last year, some of <a href="http://www.meetup.com/codecrewny/" target="_blank">my</a> <a href="http://www.meetup.com/hackerhours/" target="_blank">favorite</a> <a href="http://www.meetup.com/nycpython/" target="_blank">casual</a> NYC tech meetups were meeting in coffee shops and the New York Public Library on the weekends. Then, suddenly, I was getting e-mails from <em>all three meetups </em>about a free new venue on Sunday afternoons &#8212; at a co-working place called <a href="https://www.google.com/maps/place/AlleyNYC/@40.75313,-73.989527,17z/data=!3m1!4b1!4m2!3m1!1s0x89c2511bf60bc5a9:0xb3062668f38c06a6" target="_blank">AlleyNYC</a>, right under Times Square and to the west of Bryant Park.
@@ -40,4 +39,4 @@ dsq_thread_id:
 
 <p>
   Sharing economy, indeed.
-</p></span>
+</p>

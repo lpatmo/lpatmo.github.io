@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2629669799
 ---
-<span data-rel="content">
 
 <p>
   W3 Validator &#8212; <a href="http://validator.w3.org/" target="_blank">http://validator.w3.org/</a> &#8212; has been a lifesaver on a few separate occasions for me within the past year. It&#8217;s been particularly helpful when:
@@ -33,4 +32,4 @@ dsq_thread_id:
 
 <p>
   &nbsp;
-</p></span>
+</p>

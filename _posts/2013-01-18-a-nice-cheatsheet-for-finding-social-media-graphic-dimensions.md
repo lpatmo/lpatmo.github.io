@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1038407449
 ---
-<span data-rel="content">
 
 <p>
   The infographic below is courtesy of <a href=" http://www.lunametrics.com/blog/2012/11/12/final-social-media-sizing-cheat-sheet/" target="_blank">LunaMetrics</a>. I found it while googling for the dimensions of a typical Facebook wall photo.
@@ -23,4 +22,3 @@ dsq_thread_id:
 </div>
 
 <p>
-  </span>

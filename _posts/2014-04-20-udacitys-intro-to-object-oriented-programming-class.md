@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2663170508
 ---
-<span data-rel="content">
 
 <p>
   Udacity just launched an intro to object-oriented programming class using python (as always), and I am super excited! I&#8217;d already gone through some of its <a href="https://www.udacity.com/course/cs101" target="_blank">Intro to Computer Science</a> and <a href="https://www.udacity.com/course/cs253" target="_blank">Web Development</a> curriculum. What I really like about the videos is that they stop occasionally to quiz you. In addition, they give you exercises and homework assignments to submit, and forums to go to if you have a question.
@@ -23,4 +22,4 @@ dsq_thread_id:
 </p>
 
 <p>
-</p></span>
+</p>

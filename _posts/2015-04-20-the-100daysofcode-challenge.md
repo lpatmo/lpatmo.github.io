@@ -6,7 +6,6 @@ permalink: /the-100daysofcode-challenge/
 wiziapp_processed:
   - 1
 ---
-<span data-rel="content">
 
 <p>
   I am pretty sure I am a better developer than I was 100 days ago, but some days I look at my coworkers&#8217; commits, or think about all the frameworks I still don&#8217;t have great experience with, and wonder about the actual rate of my progress.
@@ -47,4 +46,4 @@ wiziapp_processed:
 
 <p>
   &nbsp;
-</p></span>
+</p>

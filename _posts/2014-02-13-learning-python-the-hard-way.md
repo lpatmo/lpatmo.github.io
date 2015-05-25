@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2261836151
 ---
-<span data-rel="content">
 
 <p>
   &#8230; and I say &#8220;the hard way&#8221; because I suddenly need to know it for <em>work</em> work.
@@ -20,4 +19,4 @@ dsq_thread_id:
 
 <p>
   Bring it on. :-)
-</p></span>
+</p>

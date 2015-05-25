@@ -8,7 +8,7 @@ wiziapp_processed:
 dsq_thread_id:
   - 921845767
 ---
-<span data-rel="content">
+
 
 <p>
   Codeschool is the author of <a href=&#8221;http://tryruby.org&#8221; target=&#8221;_blank&#8221;>Try Ruby</a> and <a href=&#8221;http://try.github.com&#8221; target=&#8221;_blank&#8221;>Try Git</a>. I just watched the first video in their <a href=&#8221;http://www.codeschool.com/courses/jquery-air-first-flight&#8221; target=&#8221;_blank&#8221;>jQuery: First Flight</a> series, and attempted some of the follow-up exercises.
@@ -24,4 +24,4 @@ dsq_thread_id:
 
 <p>
   Bonus: I think they mighty&#8217;ve gotten the pianist from <a href=&#8221;http://www.mertonshow.com/about&#8221; target=&#8221;_blank&#8221;>The Merton Show</a> or something to front all of their introductory videos. The intro songs are all hilarious.
-</p></span>
+</p>

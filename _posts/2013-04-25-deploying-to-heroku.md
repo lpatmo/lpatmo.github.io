@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1238450644
 ---
-<span data-rel="content">
 
 <p>
   Chapter 1.4  of <a href="http://ruby.railstutorial.org/" target="_blank">railstutorial.org</a> taught me how to deploy a Rails app onto Heroku.
@@ -40,4 +39,4 @@ dsq_thread_id:
 
 <p>
   <code>heroku rename newname</code>
-</p></span>
+</p>

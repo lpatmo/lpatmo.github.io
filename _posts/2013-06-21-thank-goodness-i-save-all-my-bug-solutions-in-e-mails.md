@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1553181016
 ---
-<span data-rel="content">
 
 <p>
   <a href="http://incident57.com/codekit/">Codekit</a> (software which web developers use for lots of cool things, but which I mainly use for compiling LESS) started acting up after a reboot of my computer recently, showing me an error starting with the following words:
@@ -30,4 +29,4 @@ dsq_thread_id:
 
 <p>
   Moral to the story: document your bug fix methods (even if temporary), especially if the fixes are obscure.
-</p></span>
+</p>

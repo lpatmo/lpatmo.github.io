@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1427313426
 ---
-<span data-rel="content">
 
 <p>
   What you need:
@@ -41,4 +40,4 @@ dsq_thread_id:
 
 <p>
   Just one of the many things we discussed at the <a href="http://sf.adacamp.org/" target="_blank">Adacamp</a> unconference.
-</p></span>
+</p>

@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2695931047
 ---
-<span data-rel="content">
 
 <p>
   Ok, I&#8217;m still due to write a proper full review of <a href="https://www.udacity.com/course/ud036" target="_blank">Udacity&#8217;s Intro to Object-Oriented Programming</a> course at some point (hopefully soon), but for now, I wanted to take a moment to say: I&#8217;m so glad I made myself go through all the videos there, because a lot of the confusing things from before, from when I was trying to familiarize myself with Django for the first time, aren&#8217;t so confusing anymore.
@@ -46,4 +45,4 @@ class Person(models.Model):
 
 <p>
   If all goes well, perhaps I&#8217;ll stick with it and see how it goes. More soon.
-</p></span>
+</p>

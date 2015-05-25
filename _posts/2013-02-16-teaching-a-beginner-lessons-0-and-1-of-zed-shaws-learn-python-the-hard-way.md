@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1122919137
 ---
-<span data-rel="content">
 
 <p>
   Walking J. (a complete beginner) through lessons 0 and 1 of <a href="http://learnpythonthehardway.org/book/">Learn Python The Hard Way</a> by Zed Shaw, it occurred to me that LPTHW is probably best learned as a beginner when there&#8217;s someone experienced to help you through the setup, and to answer the larger-picture questions of why you are doing what you are doing.
@@ -56,4 +55,4 @@ dsq_thread_id:
 
 <p>
   &nbsp;
-</p></span>
+</p>

@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1843000301
 ---
-<span data-rel="content">
 
 <p>
   I just caught the tail end of <a href="http://www.pbs.org/wgbh/nova/tech/ground-supertower.html">Ground Zero Supertower</a>, a NOVA documentary that aired on 9/11/2013, and am quite amazed by the level of money, effort, dangerous + heavy machinery, and risks that thousands poured into building the new skyscraper, memorial and museum. With the transport and mechanical costs (think: mixtures fried in 3000 fahrenheit temperatures to create heavy glass, then transported a few thousand miles away) needed to create the monuments, I&#8217;m reminded by how hardcore engineering seems so much more *difficult* than software engineering.
@@ -20,4 +19,4 @@ dsq_thread_id:
 
 <p>
   **Also why I love hackathons, but that&#8217;s another story.
-</p></span>
+</p>

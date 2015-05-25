@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2584649200
 ---
-<span data-rel="content">
 
 <p>
   I landed at Write-Speak-Code just a couple of weeks after AdaCamp, and boy, it did not disappoint. The group was slightly smaller than AdaCamp&#8217;s and more training-focused. I had to miss the second day (Speak day!) to go to my brother&#8217;s high school graduation, but to make up for it, I took a lot of notes on Days One and Three.
@@ -45,4 +44,4 @@ dsq_thread_id:
 
 <h2>
   <span style="font-size: 16px;"> </span>
-</h2></span>
+</h2>

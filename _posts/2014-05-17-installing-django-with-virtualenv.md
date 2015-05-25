@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2693068727
 ---
-<span data-rel="content">
 
 <p>
   I&#8217;ve been looking at a couple of other Django tutorials lately, and recently &#8212; thanks to David, another Django learner I talked to at a Python meetup &#8212; I started making do with two great resources:
@@ -98,4 +97,4 @@ $ python manage.py runserver</pre>
 <strong>Update:</strong> I found another good tutorial! The founder behind Coding for Entrepreneurs Youtube series demonstrates the creation of a Django project in virtualenv on his mac:</p> 
 
 <p>
-</p></span>
+</p>

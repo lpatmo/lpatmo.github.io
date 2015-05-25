@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1010056001
 ---
-<span data-rel="content">
 
 <p>
   1. Use Github (see: version control) a lot more.
@@ -52,4 +51,4 @@ dsq_thread_id:
 
 <p>
   &nbsp;
-</p></span>
+</p>

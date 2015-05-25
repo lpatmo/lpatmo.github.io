@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2785540520
 ---
-<span data-rel="content">
 
 <p>
   My original motivation for learning how to code wasn&#8217;t because developers were in high demand career-wise, or because there was a lot of support for women interested in tech.
@@ -130,4 +129,4 @@ dsq_thread_id:
 
 <p>
   &nbsp;
-</p></span>
+</p>

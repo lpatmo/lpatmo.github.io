@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1179718826
 ---
-<span data-rel="content">
 
 <p>
   Over the past week I&#8217;ve discovered that not only can I copy the file path of my document by right-clicking and selecting &#8220;copy file path&#8221; in <a href=&#8221;http://www.sublimetext.com/&#8221; target=&#8221;_blank&#8221;>Sublime Text</a>, the text editor also allows me to short-handedly insert a comment by typing command-/ on the mac.
@@ -28,4 +27,4 @@ dsq_thread_id:
 
 <p>
   &nbsp;
-</p></span>
+</p>

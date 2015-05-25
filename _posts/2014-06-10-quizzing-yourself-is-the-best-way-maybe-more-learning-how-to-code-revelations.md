@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2751526259
 ---
-<span data-rel="content">
 
 <p>
   If you&#8217;ve met me at all, you might realize that I love discussing web development and exchanging tutorials/resources and tips with other people. Naturally, when I heard a woman with a computer engineering background at a javascript meetup talk about picking up jQuery via a free Kindle e-book, my ears perked up.
@@ -68,4 +67,4 @@ dsq_thread_id:
 
 <p>
   To be continued!
-</p></span>
+</p>

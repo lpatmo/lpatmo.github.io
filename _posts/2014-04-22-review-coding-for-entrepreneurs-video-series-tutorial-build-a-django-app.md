@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2661116254
 ---
-<span data-rel="content">
 
 <p>
   This tutorial took a couple of hours on Saturday afternoon and a couple of hours at Hacker Hours today, + 2 hours this evening to finish. All 21 videos were free, and you can start watching it here:
@@ -39,4 +38,4 @@ dsq_thread_id:
 
 <p>
   Summary: This ended being a pretty-good-start-to-but-not-entirely-comprehensive Django tutorial. I&#8217;m going to hit a textbook next.
-</p></span>
+</p>

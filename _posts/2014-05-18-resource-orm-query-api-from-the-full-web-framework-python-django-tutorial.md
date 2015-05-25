@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2693724373
 ---
-<span data-rel="content">
 
 <p>
   In case you need to query your Django API but don&#8217;t want to write SQL, here&#8217;s a useful video showing a summary of all the commands you can use:<br />
@@ -36,4 +35,4 @@ dsq_thread_id:
 
 <p>
   Yes, I know this means I could try to read better, too. Just wanted to point out the usefulness of screencasts as a teaching method, I suppose &#8212; especially for computer-based learning.
-</p></span>
+</p>

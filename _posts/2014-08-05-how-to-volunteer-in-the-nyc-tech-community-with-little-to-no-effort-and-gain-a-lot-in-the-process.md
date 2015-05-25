@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2991016064
 ---
-<span data-rel="content">
 
 <p>
   Some people think that volunteering requires a lot of effort. You apply to a program; they accept you; you train for a few hours, and then you commit to volunteering a couple of hours every week.
@@ -65,4 +64,4 @@ dsq_thread_id:
 
 <p>
   If you&#8217;d like to add to my list by offering a recommendation, please leave a comment below!
-</p></span>
+</p>

@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1097463145
 ---
-<span data-rel="content">
 
 <p>
   I was a windows user for&#8230; well, ever since I started using a computer. Then I got side-saddled with a mac. Then I looked up some mac keyboard shortcuts. Then I got used to the idea of typing &#8220;command&#8221;-key rather than &#8220;control&#8221;-key and FINALLY figured out that it was easier to press the &#8220;command&#8221; button with the thumb rather than with the pinkie.
@@ -66,4 +65,4 @@ dsq_thread_id:
 
 <p>
   &#8230; Anyway, work on the computer has never been more fun now. The mac loads instantly in 2 seconds, whereas it took more than 30 seconds for my [admittedly kind-of-old PC] to load.
-</p></span>
+</p>

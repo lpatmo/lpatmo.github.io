@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1097458969
 ---
-<span data-rel="content">
 
 <p>
   &#8230; was when I finally realized that I could *preview* HTML/CSS/Javascript files in my browser by typing in some variation of&#8230;
@@ -46,4 +45,4 @@ dsq_thread_id:
 
 <p>
   &nbsp;
-</p></span>
+</p>

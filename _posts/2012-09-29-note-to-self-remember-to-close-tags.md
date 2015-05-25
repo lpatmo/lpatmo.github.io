@@ -8,11 +8,9 @@ wiziapp_processed:
 dsq_thread_id:
   - 1131829534
 ---
-<span data-rel="content">
 
-<p>
-  &#8230; and end jQuery line breaks with semicolons (;). And don&#8217;t forget the % before the } closing bracket in Mason. And don&#8217;t forget the question mark at the beginning of a bracket in PHP (<?php). And, and, and&#8230;</p> 
+
+
+... and end jQuery line breaks with semicolons (;). And don't forget the % before the } closing bracket in Mason. And don't forget the question mark at the beginning of a bracket in PHP `(<?php)`. 
   
-  <p>
-    Always saves time to pay attention to the small details when you&#8217;re setting foot in a new language. :-)
-  </p></span>
+Always saves time to pay attention to the small details when you're setting foot in a new language. :-)

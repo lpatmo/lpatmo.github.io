@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2717919940
 ---
-<span data-rel="content">
 
 <p>
   Find a study partner.
@@ -44,4 +43,4 @@ dsq_thread_id:
 
 <p>
   Make it a habit. Do this an hour a day.
-</p></span>
+</p>

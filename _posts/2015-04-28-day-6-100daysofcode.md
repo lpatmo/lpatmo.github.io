@@ -6,7 +6,6 @@ permalink: /day-6-100daysofcode/
 wiziapp_processed:
   - 1
 ---
-<span data-rel="content">
 
 <ul>
   <li>
@@ -89,4 +88,4 @@ move(ben);
 
 <p>
   This post is a part of the <a href="http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs">#100daysofcode</a> challenge.
-</p></span>
+</p>

@@ -6,7 +6,6 @@ permalink: /day-9-100daysofcode/
 wiziapp_processed:
   - 1
 ---
-<span data-rel="content">
 
 <ul>
   <li>
@@ -15,4 +14,4 @@ wiziapp_processed:
   <li>
     SASS Guidelines <a href="http://sass-guidelin.es/">http://sass-guidelin.es/</a> is a good resource.
   </li>
-</ul></span>
+</ul>

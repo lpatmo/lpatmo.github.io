@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 
 ---
-<span data-rel="content">
 
 <ul>
   <li>
@@ -80,4 +79,4 @@ admin.site.register(Invite, InviteAdmin)
       
       <p>
         This post is a part of the <a href="http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs">#100daysofcode</a> challenge.
-      </p></span>
+      </p>

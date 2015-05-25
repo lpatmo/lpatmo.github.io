@@ -8,8 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2656578533
 ---
-<span data-rel="content">
-
 <p>
   <strong>The question:</strong>
 </p>
@@ -50,4 +48,4 @@ dsq_thread_id:
 
 <p>
   &nbsp;
-</p></span>
+</p>

@@ -8,8 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2747966268
 ---
-<span data-rel="content">
-
 <p>
   There is just something about listening to people talk about a programming concept in person &#8212; or having to explain a programming concept to another person &#8212; that makes <em>mastering the material</em> a lot more fun, and the frustrations much easier to struggle through.
 </p>
@@ -110,4 +108,4 @@ dsq_thread_id:
 
 <p>
   &nbsp;
-</p></span>
+</p>

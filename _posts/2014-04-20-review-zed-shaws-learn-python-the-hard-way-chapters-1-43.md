@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2662851520
 ---
-<span data-rel="content">
 
 <p>
   Learning Python was a lot easier after being familiar with Javascript.
@@ -206,4 +205,4 @@ print thing.tangerine</pre>
 
 <p>
   Update: This already happened for some bullet points, hah!
-</p></span>
+</p>

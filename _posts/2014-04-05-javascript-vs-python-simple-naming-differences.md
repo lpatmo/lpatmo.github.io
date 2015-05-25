@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2737570359
 ---
-<span data-rel="content">
 
 <p>
   I stumbled upon this 7-minute video about objects in Javascript on YouTube:
@@ -39,4 +38,4 @@ dsq_thread_id:
 
 <p>
   If you&#8217;re switching from either language for the first time, don&#8217;t get tripped up!
-</p></span>
+</p>

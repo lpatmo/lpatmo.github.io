@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 2591863590
 ---
-<span data-rel="content">
 
 <p>
   A friend, who once took a computer science class in college (but did not particularly like it), asked me how a hackathon over the weekend went. However, he said it in a way that suggested that it must&#8217;ve been terribly boring, as if we just stared at our computer screens all weekend. <em>And you do this for fun?</em>
@@ -44,4 +43,4 @@ dsq_thread_id:
 
 <p>
   In my opinion, web development is also more fun because I get to showcase my work in a URL to curious inquirers any day. But that&#8217;s just me.
-</p></span>
+</p>

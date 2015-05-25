@@ -8,7 +8,6 @@ wiziapp_processed:
 dsq_thread_id:
   - 1450521041
 ---
-<span data-rel="content">
 
 <p>
   Was trying to figure out how to select every <li><span style="font-size: 16px;"> item in a row except the one with a class of &#8220;active.&#8221; As always, </span><a style="font-size: 16px;" href="http://stackoverflow.com/questions/520250/jquery-if-div-doesnt-have-class-x" target="_blank">Stackoverflow</a><span style="font-size: 16px;"> reminded me that jQuery came with &#8220;:not.&#8221;</span>
@@ -22,4 +21,4 @@ dsq_thread_id:
   <p>
     $(&#8220;li:not(.active)&#8221;).hover();
   </p>
-</blockquote></span>
+</blockquote>
