@@ -4,7 +4,6 @@ title: The Coding Diaries
 tagline: Front-end dev with a non-traditional background (no CS degree). My hope is for this blog to be helpful for others starting out too.
 ---
 {% include JB/setup %}
-  <link href='http://fonts.googleapis.com/css?family=Unkempt' rel='stylesheet' type='text/css'>
 
 <div class="container">
 	<div class="row">
