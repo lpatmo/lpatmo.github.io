@@ -7,26 +7,17 @@ wiziapp_processed:
   - 1
 ---
 
-<ul>
-  <li>
-    I did not know rewriting <code>{{form.as_p}}</code> so that I could have more control over each of the form elements was as easy as transforming it into:
-  </li>
-</ul>
 
-<p>
-  <code>{% for field in form %}&lt;br />
- ...&lt;br />
- {%endfor%}</code>
-</p>
+I did not know rewriting <code>{{form.as_p}} </code> so that I could have more control over each of the form elements was as easy as transforming it into:
 
-<p>
-  with <code>{{ field }}</code> and <code>{{ field.help_text }}</code> and <code>{{ field.label }}</code> as variables.
-</p>
 
-<p>
+<code>
+{% for field in form %}
+	...
+ {%endfor%}
+</code>
+
+  with <code>{{ field }}</code> and <code>{{ field.help_text }}</code> and code>{{ field.label }}</code> as variables.
   :D
-</p>
 
-<p>
-  This post is a part of the <a href="http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs">#100daysofcode</a> challenge.
-</p>
+This post is a part of the <a href="/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs">#100daysofcode</a> challenge.

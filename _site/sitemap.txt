@@ -8,6 +8,7 @@ http://username.github.io/rss.xml
 http://username.github.io/sitemap.txt
 http://username.github.io/tags.html
 
+http://username.github.io/how-to-create-multiple-forks-of-a-git-repo/
 http://username.github.io/day-12-swap-method-100daysofcode/
 http://username.github.io/day-11-100daysofcode/
 http://username.github.io/day-10-100daysofcode/

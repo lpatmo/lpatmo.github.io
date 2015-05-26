@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title><span data-rel="title">Why Your CSS and Javascript Might Not Be Working In Your WordPress Post</span></title>
+    <title>How to create multiple forks of a git repo</title>
     
     <meta name="author" content="Linda Peng">
 
@@ -129,30 +129,34 @@
       </div>
         
 <div class="page-header">
-  <h1><span data-rel="title">Why Your CSS and Javascript Might Not Be Working In Your WordPress Post</span> </h1>
+  <h1>How to create multiple forks of a git repo </h1>
 </div>
 
 <div class="row post-full">
   <div class="col-md-6">
 <!--     <div class="date">
-      <span>05 January 2012</span>
+      <span>26 May 2015</span>
     </div> -->
     
     <div class="content">
-      <p><span data-rel="content"></span></p>
+      <p>Thanks to <a href="https://adrianshort.org/create-multiple-forks-of-a-github-repo/">https://adrianshort.org/create-multiple-forks-of-a-github-repo/</a> for the instructions.</p>
 
-<p>
-  I was working on a CSS/Javascript design that involved a couple of thumbnails the other day. Clicking on each thumbnail would generate the corresponding video or graphic, and hide all the other pieces of content. I coded the design in notepad++, tested it in a couple of browsers, and made sure it worked. Then I pasted the code into the HTML editor of a WordPress post, hit &#8220;preview,&#8221; and encountered a mess.
-</p>
+<p>In summary (using Telescope as an example):</p>
 
-<p>
-  Thanks goodness for co-workers who code. Since I couldn&#8217;t figure out why my code was working in my text editor but not in WordPress, S. looked it over for me and figured out that WordPress was adding paragraph tags to all the blank lines in my script. Some of these tags ended up in the middle of the CSS and Javascript!
-</p>
-
-<p>
-  Needless to say, we deleted all the blank lines. S. also ended up simplifying my javascript. As for me, I&#8217;m back hitting the books.
-</p>
-<p>&lt;/span&gt;</p>
+<ol>
+  <li>
+    <p>git clone https://github.com/TelescopeJS/Telescope.git cb2</p>
+  </li>
+  <li>
+    <p>git remote rename origin upstream</p>
+  </li>
+  <li>
+    <p>git remote add origin https://github.com/lpatmo/cb2.git</p>
+  </li>
+  <li>
+    <p>git push -u origin master</p>
+  </li>
+</ol>
 
     </div>
 
@@ -163,11 +167,11 @@
 <!--     <hr>
     <ul class="pagination">
     
-      <li class="prev"><a href="/day-2-resizing-images-the-free-way/" title="<span data-rel="title">Day 2: Resizing Images For The Blog</span>">&laquo; Previous</a></li>
+      <li class="prev"><a href="/day-12-swap-method-100daysofcode/" title="Day 12: Swap Method #100daysofcode">&laquo; Previous</a></li>
     
       <li><a href="/archive.html">Archive</a></li>
     
-      <li class="next"><a href="/day-2-getting-started-with-css/" title="<span data-rel="title">How To Get Started With CSS</span>">Next &raquo;</a></li>
+      <li class="next disabled"><a>Next &rarr;</a>
     
     </ul>
     <hr> -->
