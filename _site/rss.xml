@@ -3,12 +3,21 @@
 <channel>
         <title>The Coding Diaries</title>
         <description>The Coding Diaries - Linda Peng</description>
-        <link>http://username.github.io</link>
-        <link>http://username.github.io</link>
-        <lastBuildDate>2015-05-26T00:31:40-04:00</lastBuildDate>
-        <pubDate>2015-05-26T00:31:40-04:00</pubDate>
+        <link>http://thecodingdiaries.com</link>
+        <link>http://thecodingdiaries.com</link>
+        <lastBuildDate>2015-10-05T21:40:17-07:00</lastBuildDate>
+        <pubDate>2015-10-05T21:40:17-07:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Notes from Strange Loop</title>
+                <description>&lt;p&gt;The conference was excellent. You can watch all the conference talks &lt;a href=&quot;https://www.youtube.com/playlist?list=PLcGKfGEEONaCIl5eU53uPBnRJ9rbIH32R&quot;&gt;here&lt;/a&gt;!&lt;/p&gt;
+</description>
+                <link>http://thecodingdiaries.com/notes-from-strange-loop/</link>
+                <guid>http://thecodingdiaries.com/notes-from-strange-loop</guid>
+                <pubDate>2015-09-27T00:00:00-07:00</pubDate>
+        </item>
 
         <item>
                 <title>How to create multiple forks of a git repo</title>
@@ -16,10 +25,10 @@
 
 &lt;p&gt;In summary (using Telescope as an example):&lt;/p&gt;
 
+&lt;p&gt;```
+1. git clone https://github.com/TelescopeJS/Telescope.git cb2&lt;/p&gt;
+
 &lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;git clone https://github.com/TelescopeJS/Telescope.git cb2&lt;/p&gt;
-  &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;git remote rename origin upstream&lt;/p&gt;
   &lt;/li&gt;
@@ -27,63 +36,14 @@
     &lt;p&gt;git remote add origin https://github.com/lpatmo/cb2.git&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;git push -u origin master&lt;/p&gt;
+    &lt;p&gt;git push -u origin master
+```&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 </description>
-                <link>http://username.github.io/how-to-create-multiple-forks-of-a-git-repo/</link>
-                <guid>http://username.github.io/how-to-create-multiple-forks-of-a-git-repo</guid>
-                <pubDate>2015-05-26T00:00:00-04:00</pubDate>
-        </item>
-
-        <item>
-                <title>Day 12: Swap Method #100daysofcode</title>
-                <description>&lt;pre class=&quot;prettyprint&quot;&gt;
-swap(x,y)
-
-temp = x //store the original value of x
-
-x = y //give x a new value
-
-y = temp //give y the original value of x
-
-&lt;/pre&gt;
-</description>
-                <link>http://username.github.io/day-12-swap-method-100daysofcode/</link>
-                <guid>http://username.github.io/day-12-swap-method-100daysofcode</guid>
-                <pubDate>2015-05-12T00:00:00-04:00</pubDate>
-        </item>
-
-        <item>
-                <title>&lt;span data-rel=&quot;title&quot;&gt;Day 11: #100daysofcode&lt;/span&gt;</title>
-                <description>&lt;ul&gt;
-  &lt;li&gt;
-    General tip: do not write tests (e.g. unit tests or integration tests) without a database!
-  &lt;/li&gt;
-  &lt;li&gt;
-    Use &lt;code&gt;ag &quot;search term&quot; -l -G js&lt;/code&gt; (note: you need to have the &lt;a href=&quot;https://github.com/ggreer/the_silver_searcher/blob/master/doc/ag.1.md&quot;&gt;silver searcher&lt;/a&gt; to search for files ending in .js that include the search term).
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-                <link>http://username.github.io/day-11-100daysofcode/</link>
-                <guid>http://username.github.io/day-11-100daysofcode</guid>
-                <pubDate>2015-05-05T00:00:00-04:00</pubDate>
-        </item>
-
-        <item>
-                <title>&lt;span data-rel=&quot;title&quot;&gt;Day 10: #100daysofcode&lt;/span&gt;</title>
-                <description>&lt;ul&gt;
-  &lt;li&gt;
-    Don&#39;t use .fetch() inside the mongo console. Foo.find.fetch() works inside the browser console, though.
-  &lt;/li&gt;
-  &lt;li&gt;
-    I didn&#39;t know &lt;code&gt;chmod +x manage.py&lt;/code&gt; was a shortcut that lets you type &lt;code&gt;./manage.py test&lt;/code&gt; instead of having to type out &lt;code&gt;python manage.py test&lt;/code&gt;!
-  &lt;/li&gt;
-&lt;/ul&gt;
-</description>
-                <link>http://username.github.io/day-10-100daysofcode/</link>
-                <guid>http://username.github.io/day-10-100daysofcode</guid>
-                <pubDate>2015-05-05T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/how-to-create-multiple-forks-of-a-git-repo/</link>
+                <guid>http://thecodingdiaries.com/how-to-create-multiple-forks-of-a-git-repo</guid>
+                <pubDate>2015-05-26T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -97,9 +57,9 @@ y = temp //give y the original value of x
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-                <link>http://username.github.io/day-9-100daysofcode/</link>
-                <guid>http://username.github.io/day-9-100daysofcode</guid>
-                <pubDate>2015-04-30T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/day-9-100daysofcode/</link>
+                <guid>http://thecodingdiaries.com/day-9-100daysofcode</guid>
+                <pubDate>2015-04-30T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -115,9 +75,9 @@ y = temp //give y the original value of x
 
 &lt;p&gt;This post is a part of the &lt;a href=&quot;/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs&quot;&gt;#100daysofcode&lt;/a&gt; challenge.&lt;/p&gt;
 </description>
-                <link>http://username.github.io/day-8-100daysofcode/</link>
-                <guid>http://username.github.io/day-8-100daysofcode</guid>
-                <pubDate>2015-04-29T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/day-8-100daysofcode/</link>
+                <guid>http://thecodingdiaries.com/day-8-100daysofcode</guid>
+                <pubDate>2015-04-29T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -203,9 +163,9 @@ pass
   This post is a part of the &lt;a href=&quot;http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs&quot;&gt;#100daysofcode&lt;/a&gt; challenge.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/day-7-100daysofcode/</link>
-                <guid>http://username.github.io/day-7-100daysofcode</guid>
-                <pubDate>2015-04-28T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/day-7-100daysofcode/</link>
+                <guid>http://thecodingdiaries.com/day-7-100daysofcode</guid>
+                <pubDate>2015-04-28T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -293,9 +253,9 @@ move(ben);
   This post is a part of the &lt;a href=&quot;http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs&quot;&gt;#100daysofcode&lt;/a&gt; challenge.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/day-6-100daysofcode/</link>
-                <guid>http://username.github.io/day-6-100daysofcode</guid>
-                <pubDate>2015-04-28T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/day-6-100daysofcode/</link>
+                <guid>http://thecodingdiaries.com/day-6-100daysofcode</guid>
+                <pubDate>2015-04-28T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -308,9 +268,9 @@ move(ben);
   This post is a part of the &lt;a href=&quot;http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs&quot;&gt;#100daysofcode&lt;/a&gt; challenge.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/day-5-100daysofcode/</link>
-                <guid>http://username.github.io/day-5-100daysofcode</guid>
-                <pubDate>2015-04-27T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/day-5-100daysofcode/</link>
+                <guid>http://thecodingdiaries.com/day-5-100daysofcode</guid>
+                <pubDate>2015-04-27T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -325,9 +285,9 @@ move(ben);
   This post is a part of the &lt;a href=&quot;http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs&quot;&gt;#100daysofcode&lt;/a&gt; challenge.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/day-4-random-100daysofocode/</link>
-                <guid>http://username.github.io/day-4-random-100daysofocode</guid>
-                <pubDate>2015-04-27T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/day-4-random-100daysofocode/</link>
+                <guid>http://thecodingdiaries.com/day-4-random-100daysofocode</guid>
+                <pubDate>2015-04-27T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -369,14 +329,16 @@ class Ox(models.Model):
   This post is a part of the &lt;a href=&quot;http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs&quot;&gt;#100daysofcode&lt;/a&gt; challenge.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/day-3-random-100daysofcode/</link>
-                <guid>http://username.github.io/day-3-random-100daysofcode</guid>
-                <pubDate>2015-04-23T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/day-3-random-100daysofcode/</link>
+                <guid>http://thecodingdiaries.com/day-3-random-100daysofcode</guid>
+                <pubDate>2015-04-23T00:00:00-07:00</pubDate>
         </item>
 
         <item>
-                <title>&lt;span data-rel=&quot;title&quot;&gt;Day 2 Random: #100daysofcode&lt;/span&gt;</title>
-                <description>&lt;ul&gt;
+                <title></title>
+                <description>&lt;h2 id=&quot;day-2&quot;&gt;Day 2!&lt;/h2&gt;
+
+&lt;ul&gt;
   &lt;li&gt;
     In a tuple such as: &lt;pre&gt;&lt;code&gt;  GENDER_CHOICES = (
     (&quot;M&quot;, &quot;Male&quot;),
@@ -447,52 +409,41 @@ admin.site.register(Invite, InviteAdmin)
       &lt;p&gt;
         This post is a part of the &lt;a href=&quot;http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs&quot;&gt;#100daysofcode&lt;/a&gt; challenge.
       &lt;/p&gt;
-&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
-</description>
-                <link>http://username.github.io/day-2-random-100daysofcode/</link>
-                <guid>http://username.github.io/day-2-random-100daysofcode</guid>
-                <pubDate>2015-04-22T00:00:00-04:00</pubDate>
-        </item>
 
-        <item>
-                <title>&lt;span data-rel=&quot;title&quot;&gt;Day 1 Random: #100daysofcode&lt;/span&gt;</title>
-                <description>&lt;ul&gt;
-  &lt;li&gt;
+
+
+
+
+
+##Day 1: Random
+
     Note to self: if a div inside a div isn&#39;t recognizing the parent div as a parent when it&#39;s set to &lt;code&gt;position: absolute&lt;/code&gt;, it&#39;s because the closest parent needs to be set to &lt;code&gt;position: relative.&lt;/code&gt; Otherwise, it&#39;ll default to &lt;code&gt;position: static&lt;/code&gt;. (CSS)
-  &lt;/li&gt;
-  &lt;li&gt;
+
     &lt;code&gt;Meteor.startup() { }&lt;/code&gt; is sort of like &lt;code&gt;$(function() {});&lt;/code&gt; except we use it with meteor. (MeteorJS)
-  &lt;/li&gt;
-  &lt;li&gt;
+
     Adjust the height of a textarea with its content: &lt;pre&gt;&lt;code&gt;$(&amp;#39;textarea&amp;#39;).css(&amp;#39;height&amp;#39;, &amp;#39;auto&amp;#39;); 
 $(&amp;#39;textarea&amp;#39;).height(this.scrollHeight);
 &lt;/code&gt;&lt;/pre&gt;
-  &lt;/li&gt;
   
-  &lt;li&gt;
     If you want the ability to write markdown inside your WordPress posts, see:&lt;br /&gt; &lt;a href=&quot;http://www.elegantthemes.com/blog/tips-tricks/using-markdown-in-wordpress&quot;&gt;http://www.elegantthemes.com/blog/tips-tricks/using-markdown-in-wordpress&lt;/a&gt;. (I decided on using the PrettyPress Editor.)
-  &lt;/li&gt;
+  
   &lt;li&gt;
     Note: to pull from a &lt;em&gt;branch&lt;/em&gt; inside an upstream repo&amp;#8230; &lt;code&gt;git fetch upstream branchname&lt;/code&gt; and &lt;code&gt;git merge upstream branchname&lt;/code&gt;
   &lt;/li&gt;
   &lt;li&gt;
     If I notice that there are elements inside &lt;code&gt;view:source&lt;/code&gt; but can&#39;t find it inside the browser &lt;code&gt;elements&lt;/code&gt; tab, chances are it&#39;s because there was a &lt;code&gt;.remove()&lt;/code&gt; put on the elements. (JS)
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;code&gt;localStorage&lt;/code&gt; is nice and lighter weight than cookies.
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;code&gt;Intl.DateTimeFormat().resolvedOptions().timeZone ? Intl.DateTimeFormat().resolvedOptions().timeZone&lt;/code&gt; returns the users&#39;s timezone! However, this is currently supported on only very limited modern browsers. (JS)
-  &lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;p&gt;
-  This post is a part of the &lt;a href=&quot;http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs&quot;&gt;#100daysofcode&lt;/a&gt; challenge.
-&lt;/p&gt;
+    &lt;code&gt;localStorage&lt;/code&gt; is nice and lighter weight than cookies.
+
+    &lt;code&gt;Intl.DateTimeFormat().resolvedOptions().timeZone ? Intl.DateTimeFormat().resolvedOptions().timeZone&lt;/code&gt; returns the users&#39;s timezone! However, this is currently supported on only very limited modern browsers. (JS)
+
+
+This post is a part of the [#100dayosfcode](http://www.thecodingdiaries.com/the-100daysofcode-challenge/) challenge.
+&lt;/li&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
 </description>
-                <link>http://username.github.io/day-1-random-100daysofcode/</link>
-                <guid>http://username.github.io/day-1-random-100daysofcode</guid>
-                <pubDate>2015-04-21T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/day-1-random-100daysofcode/</link>
+                <guid>http://thecodingdiaries.com/100daysofcode-challenge-diary-log</guid>
+                <pubDate>2015-04-21T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -538,9 +489,9 @@ $(&amp;#39;textarea&amp;#39;).height(this.scrollHeight);
   &amp;nbsp;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/the-100daysofcode-challenge/</link>
-                <guid>http://username.github.io/the-100daysofcode-challenge</guid>
-                <pubDate>2015-04-20T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/the-100daysofcode-challenge/</link>
+                <guid>http://thecodingdiaries.com/the-100daysofcode-challenge</guid>
+                <pubDate>2015-04-20T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -790,9 +741,9 @@ $bp-full: 1200px;`
   &amp;nbsp;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/sassconf-nyc-reportback-2014/</link>
-                <guid>http://username.github.io/sassconf-nyc-reportback-2014</guid>
-                <pubDate>2015-03-02T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/sassconf-nyc-reportback-2014/</link>
+                <guid>http://thecodingdiaries.com/sassconf-nyc-reportback-2014</guid>
+                <pubDate>2015-03-02T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -833,9 +784,9 @@ $bp-full: 1200px;`
   Interesting to reflect that in addition to being competent at &amp;#8220;googling&amp;#8221; for solutions on the internet, part of being a developer is becoming competent at searching for things in your own codebase.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/on-the-road-to-competency-two-helpful-searching-tips/</link>
-                <guid>http://username.github.io/on-the-road-to-competency-two-helpful-searching-tips</guid>
-                <pubDate>2015-03-02T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/on-the-road-to-competency-two-helpful-searching-tips/</link>
+                <guid>http://thecodingdiaries.com/on-the-road-to-competency-two-helpful-searching-tips</guid>
+                <pubDate>2015-03-02T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -860,9 +811,9 @@ $bp-full: 1200px;`
   I recently had a coffee chat with &lt;a href=&quot;http://twitter.com/saronyitbarek&quot; target=&quot;_blank&quot;&gt;@saronyitbarek&lt;/a&gt;, who swore by TDD, and a lot of what she told me made sense &amp;#8212; i.e. the idea of outlining your steps before you start to code. We&amp;#8217;d just installed &lt;a href=&quot;https://github.com/django-nose/django-nose&quot; target=&quot;_blank&quot;&gt;nose&lt;/a&gt; at work too, so I plan to try to get into the habit of it too.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/learning-tdd/</link>
-                <guid>http://username.github.io/learning-tdd</guid>
-                <pubDate>2015-03-02T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/learning-tdd/</link>
+                <guid>http://thecodingdiaries.com/learning-tdd</guid>
+                <pubDate>2015-03-02T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -1203,9 +1154,9 @@ $bp-full: 1200px;`
 
 &lt;p&gt;&lt;a href=&quot;http://bit.ly/1t1aXg7&quot; target=&quot;_blank&quot;&gt;Click here to read Part I of this interview series.&lt;/a&gt;&amp;lt;/p&amp;gt; &lt;/p&gt;
 </description>
-                <link>http://username.github.io/learning-to-code-but-feeling-lost-i-interviewed-some-experts-and-heres-what-i-found-part-ii/</link>
-                <guid>http://username.github.io/learning-to-code-but-feeling-lost-i-interviewed-some-experts-and-heres-what-i-found-part-ii</guid>
-                <pubDate>2014-09-25T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/learning-to-code-but-feeling-lost-i-interviewed-some-experts-and-heres-what-i-found-part-ii/</link>
+                <guid>http://thecodingdiaries.com/learning-to-code-but-feeling-lost-i-interviewed-some-experts-and-heres-what-i-found-part-ii</guid>
+                <pubDate>2014-09-25T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -1531,9 +1482,9 @@ $bp-full: 1200px;`
   &lt;a href=&quot;http://bit.ly/1wN20uK&quot;&gt;Read Part II of this interview series.&lt;/a&gt;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/learning-to-code-but-feeling-lost-i-interviewed-some-experts-and-heres-what-i-found/</link>
-                <guid>http://username.github.io/learning-to-code-but-feeling-lost-i-interviewed-some-experts-and-heres-what-i-found</guid>
-                <pubDate>2014-08-06T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/learning-to-code-but-feeling-lost-i-interviewed-some-experts-and-heres-what-i-found/</link>
+                <guid>http://thecodingdiaries.com/learning-to-code-but-feeling-lost-i-interviewed-some-experts-and-heres-what-i-found</guid>
+                <pubDate>2014-08-06T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -1595,9 +1546,9 @@ $bp-full: 1200px;`
   If you&amp;#8217;d like to add to my list by offering a recommendation, please leave a comment below!
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/how-to-volunteer-in-the-nyc-tech-community-with-little-to-no-effort-and-gain-a-lot-in-the-process/</link>
-                <guid>http://username.github.io/how-to-volunteer-in-the-nyc-tech-community-with-little-to-no-effort-and-gain-a-lot-in-the-process</guid>
-                <pubDate>2014-08-05T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/how-to-volunteer-in-the-nyc-tech-community-with-little-to-no-effort-and-gain-a-lot-in-the-process/</link>
+                <guid>http://thecodingdiaries.com/how-to-volunteer-in-the-nyc-tech-community-with-little-to-no-effort-and-gain-a-lot-in-the-process</guid>
+                <pubDate>2014-08-05T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -1712,9 +1663,9 @@ $ wp core download&lt;/pre&gt;
   &amp;nbsp;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/using-vvv-to-develop-wordpress-sites-locally-alternative-to-using-mamp-pro/</link>
-                <guid>http://username.github.io/using-vvv-to-develop-wordpress-sites-locally-alternative-to-using-mamp-pro</guid>
-                <pubDate>2014-08-02T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/using-vvv-to-develop-wordpress-sites-locally-alternative-to-using-mamp-pro/</link>
+                <guid>http://thecodingdiaries.com/using-vvv-to-develop-wordpress-sites-locally-alternative-to-using-mamp-pro</guid>
+                <pubDate>2014-08-02T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -1841,9 +1792,9 @@ $ wp core download&lt;/pre&gt;
   &amp;nbsp;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/my-original-motivation-for-learning-how-to-code/</link>
-                <guid>http://username.github.io/my-original-motivation-for-learning-how-to-code</guid>
-                <pubDate>2014-06-22T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/my-original-motivation-for-learning-how-to-code/</link>
+                <guid>http://thecodingdiaries.com/my-original-motivation-for-learning-how-to-code</guid>
+                <pubDate>2014-06-22T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -1911,9 +1862,9 @@ $ wp core download&lt;/pre&gt;
   &amp;nbsp;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/comedy-hack-day-reportback/</link>
-                <guid>http://username.github.io/comedy-hack-day-reportback</guid>
-                <pubDate>2014-06-18T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/comedy-hack-day-reportback/</link>
+                <guid>http://thecodingdiaries.com/comedy-hack-day-reportback</guid>
+                <pubDate>2014-06-18T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -1978,9 +1929,9 @@ $ wp core download&lt;/pre&gt;
   To be continued!
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/quizzing-yourself-is-the-best-way-maybe-more-learning-how-to-code-revelations/</link>
-                <guid>http://username.github.io/quizzing-yourself-is-the-best-way-maybe-more-learning-how-to-code-revelations</guid>
-                <pubDate>2014-06-10T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/quizzing-yourself-is-the-best-way-maybe-more-learning-how-to-code-revelations/</link>
+                <guid>http://thecodingdiaries.com/quizzing-yourself-is-the-best-way-maybe-more-learning-how-to-code-revelations</guid>
+                <pubDate>2014-06-10T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -2087,9 +2038,9 @@ $ wp core download&lt;/pre&gt;
   &amp;nbsp;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/tech-meetup-appreciation-post-with-photos/</link>
-                <guid>http://username.github.io/tech-meetup-appreciation-post-with-photos</guid>
-                <pubDate>2014-06-08T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/tech-meetup-appreciation-post-with-photos/</link>
+                <guid>http://thecodingdiaries.com/tech-meetup-appreciation-post-with-photos</guid>
+                <pubDate>2014-06-08T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -2160,9 +2111,9 @@ console.log(array.join(&amp;#34; &amp;#34;).split(&amp;#34; &amp;#34;));&lt;/pre
   The two methods are not exact opposites of each other, though, as we just demonstrated via the book exercise.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/re-reading-eloquent-javascript/</link>
-                <guid>http://username.github.io/re-reading-eloquent-javascript</guid>
-                <pubDate>2014-06-08T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/re-reading-eloquent-javascript/</link>
+                <guid>http://thecodingdiaries.com/re-reading-eloquent-javascript</guid>
+                <pubDate>2014-06-08T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -2280,9 +2231,9 @@ console.log(array.join(&amp;#34; &amp;#34;).split(&amp;#34; &amp;#34;));&lt;/pre
   NOTE: if there is a vagrant conflict, make sure to vagrant halt on the other instance of vagrant running.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/review-getting-started-with-django-video-series-on-vimeo-kickstarter-backed-part-i/</link>
-                <guid>http://username.github.io/review-getting-started-with-django-video-series-on-vimeo-kickstarter-backed-part-i</guid>
-                <pubDate>2014-05-29T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/review-getting-started-with-django-video-series-on-vimeo-kickstarter-backed-part-i/</link>
+                <guid>http://thecodingdiaries.com/review-getting-started-with-django-video-series-on-vimeo-kickstarter-backed-part-i</guid>
+                <pubDate>2014-05-29T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -2323,9 +2274,9 @@ console.log(array.join(&amp;#34; &amp;#34;).split(&amp;#34; &amp;#34;));&lt;/pre
   Make it a habit. Do this an hour a day.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/learning-to-code-tip-find-a-study-partner/</link>
-                <guid>http://username.github.io/learning-to-code-tip-find-a-study-partner</guid>
-                <pubDate>2014-05-28T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/learning-to-code-tip-find-a-study-partner/</link>
+                <guid>http://thecodingdiaries.com/learning-to-code-tip-find-a-study-partner</guid>
+                <pubDate>2014-05-28T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -2356,9 +2307,9 @@ console.log(array.join(&amp;#34; &amp;#34;).split(&amp;#34; &amp;#34;));&lt;/pre
   Anyway, tldr: don&amp;#8217;t give up. Revisit. Read carefully. Re-read.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/its-not-that-youre-not-smart-its-just-that-repetition-is-often-what-it-takes/</link>
-                <guid>http://username.github.io/its-not-that-youre-not-smart-its-just-that-repetition-is-often-what-it-takes</guid>
-                <pubDate>2014-05-22T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/its-not-that-youre-not-smart-its-just-that-repetition-is-often-what-it-takes/</link>
+                <guid>http://thecodingdiaries.com/its-not-that-youre-not-smart-its-just-that-repetition-is-often-what-it-takes</guid>
+                <pubDate>2014-05-22T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -2401,9 +2352,9 @@ class Person(models.Model):
   If all goes well, perhaps I&amp;#8217;ll stick with it and see how it goes. More soon.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/more-pythondjango-revelations/</link>
-                <guid>http://username.github.io/more-pythondjango-revelations</guid>
-                <pubDate>2014-05-19T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/more-pythondjango-revelations/</link>
+                <guid>http://thecodingdiaries.com/more-pythondjango-revelations</guid>
+                <pubDate>2014-05-19T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -2439,9 +2390,9 @@ class Person(models.Model):
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-                <link>http://username.github.io/may-2014-to-do-list/</link>
-                <guid>http://username.github.io/may-2014-to-do-list</guid>
-                <pubDate>2014-05-19T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/may-2014-to-do-list/</link>
+                <guid>http://thecodingdiaries.com/may-2014-to-do-list</guid>
+                <pubDate>2014-05-19T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -2474,9 +2425,9 @@ class Person(models.Model):
   Yes, I know this means I could try to read better, too. Just wanted to point out the usefulness of screencasts as a teaching method, I suppose &amp;#8212; especially for computer-based learning.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/resource-orm-query-api-from-the-full-web-framework-python-django-tutorial/</link>
-                <guid>http://username.github.io/resource-orm-query-api-from-the-full-web-framework-python-django-tutorial</guid>
-                <pubDate>2014-05-18T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/resource-orm-query-api-from-the-full-web-framework-python-django-tutorial/</link>
+                <guid>http://thecodingdiaries.com/resource-orm-query-api-from-the-full-web-framework-python-django-tutorial</guid>
+                <pubDate>2014-05-18T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -2571,9 +2522,9 @@ $ python manage.py runserver&lt;/pre&gt;
 &lt;p&gt;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/installing-django-with-virtualenv/</link>
-                <guid>http://username.github.io/installing-django-with-virtualenv</guid>
-                <pubDate>2014-05-17T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/installing-django-with-virtualenv/</link>
+                <guid>http://thecodingdiaries.com/installing-django-with-virtualenv</guid>
+                <pubDate>2014-05-17T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -2676,9 +2627,9 @@ $ python manage.py runserver&lt;/pre&gt;
   &amp;nbsp;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/what-i-learned-from-participating-in-techcrunch-disrupts-2014-hackathon/</link>
-                <guid>http://username.github.io/what-i-learned-from-participating-in-techcrunch-disrupts-2014-hackathon</guid>
-                <pubDate>2014-05-05T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/what-i-learned-from-participating-in-techcrunch-disrupts-2014-hackathon/</link>
+                <guid>http://thecodingdiaries.com/what-i-learned-from-participating-in-techcrunch-disrupts-2014-hackathon</guid>
+                <pubDate>2014-05-05T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -2809,9 +2760,9 @@ $ python manage.py runserver&lt;/pre&gt;
   &amp;nbsp;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/why-you-should-go-to-a-hackathon/</link>
-                <guid>http://username.github.io/why-you-should-go-to-a-hackathon</guid>
-                <pubDate>2014-05-02T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/why-you-should-go-to-a-hackathon/</link>
+                <guid>http://thecodingdiaries.com/why-you-should-go-to-a-hackathon</guid>
+                <pubDate>2014-05-02T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -2847,9 +2798,9 @@ $ python manage.py runserver&lt;/pre&gt;
   Summary: This ended being a pretty-good-start-to-but-not-entirely-comprehensive Django tutorial. I&amp;#8217;m going to hit a textbook next.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/review-coding-for-entrepreneurs-video-series-tutorial-build-a-django-app/</link>
-                <guid>http://username.github.io/review-coding-for-entrepreneurs-video-series-tutorial-build-a-django-app</guid>
-                <pubDate>2014-04-22T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/review-coding-for-entrepreneurs-video-series-tutorial-build-a-django-app/</link>
+                <guid>http://thecodingdiaries.com/review-coding-for-entrepreneurs-video-series-tutorial-build-a-django-app</guid>
+                <pubDate>2014-04-22T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -2869,9 +2820,9 @@ $ python manage.py runserver&lt;/pre&gt;
 &lt;p&gt;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/udacitys-intro-to-object-oriented-programming-class/</link>
-                <guid>http://username.github.io/udacitys-intro-to-object-oriented-programming-class</guid>
-                <pubDate>2014-04-20T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/udacitys-intro-to-object-oriented-programming-class/</link>
+                <guid>http://thecodingdiaries.com/udacitys-intro-to-object-oriented-programming-class</guid>
+                <pubDate>2014-04-20T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3074,9 +3025,9 @@ print thing.tangerine&lt;/pre&gt;
   Update: This already happened for some bullet points, hah!
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/review-zed-shaws-learn-python-the-hard-way-chapters-1-43/</link>
-                <guid>http://username.github.io/review-zed-shaws-learn-python-the-hard-way-chapters-1-43</guid>
-                <pubDate>2014-04-20T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/review-zed-shaws-learn-python-the-hard-way-chapters-1-43/</link>
+                <guid>http://thecodingdiaries.com/review-zed-shaws-learn-python-the-hard-way-chapters-1-43</guid>
+                <pubDate>2014-04-20T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3127,9 +3078,9 @@ print thing.tangerine&lt;/pre&gt;
   *Yes, I am embarrassed to admit this did happen when I messed up some PHP on my first ever self-hosted WordPress site. &lt;em&gt;This was before I even knew CSS, okay? Okay.&lt;/em&gt;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/the-growth-stages-of-reacting-to-error-messages-web-developer-style/</link>
-                <guid>http://username.github.io/the-growth-stages-of-reacting-to-error-messages-web-developer-style</guid>
-                <pubDate>2014-04-18T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/the-growth-stages-of-reacting-to-error-messages-web-developer-style/</link>
+                <guid>http://thecodingdiaries.com/the-growth-stages-of-reacting-to-error-messages-web-developer-style</guid>
+                <pubDate>2014-04-18T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3176,9 +3127,9 @@ print thing.tangerine&lt;/pre&gt;
   &amp;nbsp;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/yay-i-got-this-two-gold-star-difficulty-question-on-udacity-right/</link>
-                <guid>http://username.github.io/yay-i-got-this-two-gold-star-difficulty-question-on-udacity-right</guid>
-                <pubDate>2014-04-10T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/yay-i-got-this-two-gold-star-difficulty-question-on-udacity-right/</link>
+                <guid>http://thecodingdiaries.com/yay-i-got-this-two-gold-star-difficulty-question-on-udacity-right</guid>
+                <pubDate>2014-04-10T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3215,9 +3166,9 @@ print thing.tangerine&lt;/pre&gt;
   Sharing economy, indeed.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/well-played-alleynyc/</link>
-                <guid>http://username.github.io/well-played-alleynyc</guid>
-                <pubDate>2014-04-10T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/well-played-alleynyc/</link>
+                <guid>http://thecodingdiaries.com/well-played-alleynyc</guid>
+                <pubDate>2014-04-10T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3266,9 +3217,9 @@ print thing.tangerine&lt;/pre&gt;
   &amp;nbsp;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/feeling-like-an-idiot/</link>
-                <guid>http://username.github.io/feeling-like-an-idiot</guid>
-                <pubDate>2014-04-08T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/feeling-like-an-idiot/</link>
+                <guid>http://thecodingdiaries.com/feeling-like-an-idiot</guid>
+                <pubDate>2014-04-08T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3305,9 +3256,9 @@ print thing.tangerine&lt;/pre&gt;
   It&amp;#8217;ll take work, but hey &amp;#8212; that film/arts/English/tech concentration you&amp;#8217;re so passionate about? Probably worth more than a 2.7 average GPA in a subject you&amp;#8217;re terrible at, as long as you&amp;#8217;ve created something to show for it at the end.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/be-a-creator-not-a-consumer-also-some-advice-about-college-majors/</link>
-                <guid>http://username.github.io/be-a-creator-not-a-consumer-also-some-advice-about-college-majors</guid>
-                <pubDate>2014-04-07T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/be-a-creator-not-a-consumer-also-some-advice-about-college-majors/</link>
+                <guid>http://thecodingdiaries.com/be-a-creator-not-a-consumer-also-some-advice-about-college-majors</guid>
+                <pubDate>2014-04-07T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3343,9 +3294,9 @@ print thing.tangerine&lt;/pre&gt;
   If you&amp;#8217;re switching from either language for the first time, don&amp;#8217;t get tripped up!
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/javascript-vs-python-simple-naming-differences/</link>
-                <guid>http://username.github.io/javascript-vs-python-simple-naming-differences</guid>
-                <pubDate>2014-04-05T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/javascript-vs-python-simple-naming-differences/</link>
+                <guid>http://thecodingdiaries.com/javascript-vs-python-simple-naming-differences</guid>
+                <pubDate>2014-04-05T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3362,9 +3313,9 @@ print thing.tangerine&lt;/pre&gt;
   Bring it on. :-)
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/learning-python-the-hard-way/</link>
-                <guid>http://username.github.io/learning-python-the-hard-way</guid>
-                <pubDate>2014-02-13T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/learning-python-the-hard-way/</link>
+                <guid>http://thecodingdiaries.com/learning-python-the-hard-way</guid>
+                <pubDate>2014-02-13T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -3380,9 +3331,9 @@ print thing.tangerine&lt;/pre&gt;
   I first heard about Firebase this weekend when I saw a javascript developer get up a NodeJS real-time chat web app within a couple of hours. Glad I heard about it then; else I wouldn&amp;#8217;t have clicked on the link in my twitter feed to this video.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/angularjs-firebase/</link>
-                <guid>http://username.github.io/angularjs-firebase</guid>
-                <pubDate>2014-02-12T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/angularjs-firebase/</link>
+                <guid>http://thecodingdiaries.com/angularjs-firebase</guid>
+                <pubDate>2014-02-12T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -3423,9 +3374,9 @@ print thing.tangerine&lt;/pre&gt;
   In my opinion, web development is also more fun because I get to showcase my work in a URL to curious inquirers any day. But that&amp;#8217;s just me.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/yes-coding-can-be-fun/</link>
-                <guid>http://username.github.io/yes-coding-can-be-fun</guid>
-                <pubDate>2014-02-10T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/yes-coding-can-be-fun/</link>
+                <guid>http://thecodingdiaries.com/yes-coding-can-be-fun</guid>
+                <pubDate>2014-02-10T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -3456,9 +3407,9 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 &lt;/button&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </description>
-                <link>http://username.github.io/w3-validator-is-a-lifesaver/</link>
-                <guid>http://username.github.io/w3-validator-is-a-lifesaver</guid>
-                <pubDate>2014-02-02T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/w3-validator-is-a-lifesaver/</link>
+                <guid>http://thecodingdiaries.com/w3-validator-is-a-lifesaver</guid>
+                <pubDate>2014-02-02T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -3475,9 +3426,9 @@ print thing.tangerine&lt;/pre&gt;
   When I started learning, I didn&amp;#8217;t realize how a lot of &amp;#8220;coding&amp;#8221; was actually a lot of debugging. It&amp;#8217;s a constant up-and-down struggle of solving problems. But most problems are solvable, and it just takes patience and a lot of persistence to keep going.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/the-biggest-mistake-you-can-make-while-learning-how-to-code/</link>
-                <guid>http://username.github.io/the-biggest-mistake-you-can-make-while-learning-how-to-code</guid>
-                <pubDate>2014-01-01T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/the-biggest-mistake-you-can-make-while-learning-how-to-code/</link>
+                <guid>http://thecodingdiaries.com/the-biggest-mistake-you-can-make-while-learning-how-to-code</guid>
+                <pubDate>2014-01-01T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -3494,9 +3445,9 @@ print thing.tangerine&lt;/pre&gt;
   **Also why I love hackathons, but that&amp;#8217;s another story.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/some-thoughts-on-human-invention/</link>
-                <guid>http://username.github.io/some-thoughts-on-human-invention</guid>
-                <pubDate>2013-09-12T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/some-thoughts-on-human-invention/</link>
+                <guid>http://thecodingdiaries.com/some-thoughts-on-human-invention</guid>
+                <pubDate>2013-09-12T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3558,9 +3509,9 @@ print thing.tangerine&lt;/pre&gt;
   To be honest, I&amp;#8217;m pretty curious about what this entry will look next year. As long as I continue to enjoy learning web development (and blogging about it), there&amp;#8217;s hope yet, I think.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/calling-myself-a-front-end-web-developer/</link>
-                <guid>http://username.github.io/calling-myself-a-front-end-web-developer</guid>
-                <pubDate>2013-09-06T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/calling-myself-a-front-end-web-developer/</link>
+                <guid>http://thecodingdiaries.com/calling-myself-a-front-end-web-developer</guid>
+                <pubDate>2013-09-06T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3653,9 +3604,9 @@ print thing.tangerine&lt;/pre&gt;
   But anyway&amp;#8230; Version control FTW. I am glad I won&amp;#8217;t be going back to drag-and-drop FTP anytime soon.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/never-going-back-after-git/</link>
-                <guid>http://username.github.io/never-going-back-after-git</guid>
-                <pubDate>2013-06-27T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/never-going-back-after-git/</link>
+                <guid>http://thecodingdiaries.com/never-going-back-after-git</guid>
+                <pubDate>2013-06-27T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3697,9 +3648,9 @@ print thing.tangerine&lt;/pre&gt;
   &lt;span style=&quot;font-size: 16px;&quot;&gt; &lt;/span&gt;
 &lt;/h2&gt;
 </description>
-                <link>http://username.github.io/reflections-on-write-speak-code-nyc-june-20th-22nd-2013/</link>
-                <guid>http://username.github.io/reflections-on-write-speak-code-nyc-june-20th-22nd-2013</guid>
-                <pubDate>2013-06-24T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/reflections-on-write-speak-code-nyc-june-20th-22nd-2013/</link>
+                <guid>http://thecodingdiaries.com/reflections-on-write-speak-code-nyc-june-20th-22nd-2013</guid>
+                <pubDate>2013-06-24T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3719,9 +3670,9 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/using-the-not-selector-in-jquery/</link>
-                <guid>http://username.github.io/using-the-not-selector-in-jquery</guid>
-                <pubDate>2013-06-23T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/using-the-not-selector-in-jquery/</link>
+                <guid>http://thecodingdiaries.com/using-the-not-selector-in-jquery</guid>
+                <pubDate>2013-06-23T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3759,9 +3710,9 @@ print thing.tangerine&lt;/pre&gt;
   Just one of the many things we discussed at the &lt;a href=&quot;http://sf.adacamp.org/&quot; target=&quot;_blank&quot;&gt;Adacamp&lt;/a&gt; unconference.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/how-to-write-a-good-bug-report/</link>
-                <guid>http://username.github.io/how-to-write-a-good-bug-report</guid>
-                <pubDate>2013-06-23T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/how-to-write-a-good-bug-report/</link>
+                <guid>http://thecodingdiaries.com/how-to-write-a-good-bug-report</guid>
+                <pubDate>2013-06-23T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3774,9 +3725,9 @@ print thing.tangerine&lt;/pre&gt;
   My understanding of front-end development (which I love) is that it&amp;#8217;s useful to have a good understanding of the back-end technologies. I haven&amp;#8217;t done enough back-end work to discuss whether I like it or not&amp;#8230; but I&amp;#8217;ve talked to a couple of people by now who&amp;#8217;ve said that they&amp;#8217;re die-hard back-end developers who hate doing front-end work.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/front-end-vs-back-end/</link>
-                <guid>http://username.github.io/front-end-vs-back-end</guid>
-                <pubDate>2013-06-23T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/front-end-vs-back-end/</link>
+                <guid>http://thecodingdiaries.com/front-end-vs-back-end</guid>
+                <pubDate>2013-06-23T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3803,9 +3754,9 @@ print thing.tangerine&lt;/pre&gt;
   Moral to the story: document your bug fix methods (even if temporary), especially if the fixes are obscure.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/thank-goodness-i-save-all-my-bug-solutions-in-e-mails/</link>
-                <guid>http://username.github.io/thank-goodness-i-save-all-my-bug-solutions-in-e-mails</guid>
-                <pubDate>2013-06-21T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/thank-goodness-i-save-all-my-bug-solutions-in-e-mails/</link>
+                <guid>http://thecodingdiaries.com/thank-goodness-i-save-all-my-bug-solutions-in-e-mails</guid>
+                <pubDate>2013-06-21T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3858,9 +3809,9 @@ print thing.tangerine&lt;/pre&gt;
   &amp;nbsp;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/notes-from-seattle-tech-hn-meetup-speaker-justin-kan/</link>
-                <guid>http://username.github.io/notes-from-seattle-tech-hn-meetup-speaker-justin-kan</guid>
-                <pubDate>2013-05-19T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/notes-from-seattle-tech-hn-meetup-speaker-justin-kan/</link>
+                <guid>http://thecodingdiaries.com/notes-from-seattle-tech-hn-meetup-speaker-justin-kan</guid>
+                <pubDate>2013-05-19T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3877,9 +3828,9 @@ print thing.tangerine&lt;/pre&gt;
   More here:&lt;br /&gt; &lt;a href=&quot;http://www.cyberciti.biz/faq/howto-search-find-file-for-text-string/&quot; target=&quot;_blank&quot;&gt;http://www.cyberciti.biz/faq/howto-search-find-file-for-text-string/&lt;/a&gt;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/finding-text-in-a-particular-file-using-grep/</link>
-                <guid>http://username.github.io/finding-text-in-a-particular-file-using-grep</guid>
-                <pubDate>2013-04-25T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/finding-text-in-a-particular-file-using-grep/</link>
+                <guid>http://thecodingdiaries.com/finding-text-in-a-particular-file-using-grep</guid>
+                <pubDate>2013-04-25T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3916,9 +3867,9 @@ print thing.tangerine&lt;/pre&gt;
   &lt;code&gt;heroku rename newname&lt;/code&gt;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/deploying-to-heroku/</link>
-                <guid>http://username.github.io/deploying-to-heroku</guid>
-                <pubDate>2013-04-25T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/deploying-to-heroku/</link>
+                <guid>http://thecodingdiaries.com/deploying-to-heroku</guid>
+                <pubDate>2013-04-25T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -3951,9 +3902,9 @@ print thing.tangerine&lt;/pre&gt;
   &amp;nbsp;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/configuring-the-terminal-to-open-sublime-text-files/</link>
-                <guid>http://username.github.io/configuring-the-terminal-to-open-sublime-text-files</guid>
-                <pubDate>2013-02-18T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/configuring-the-terminal-to-open-sublime-text-files/</link>
+                <guid>http://thecodingdiaries.com/configuring-the-terminal-to-open-sublime-text-files</guid>
+                <pubDate>2013-02-18T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -4006,9 +3957,9 @@ print thing.tangerine&lt;/pre&gt;
   &amp;nbsp;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/teaching-a-beginner-lessons-0-and-1-of-zed-shaws-learn-python-the-hard-way/</link>
-                <guid>http://username.github.io/teaching-a-beginner-lessons-0-and-1-of-zed-shaws-learn-python-the-hard-way</guid>
-                <pubDate>2013-02-16T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/teaching-a-beginner-lessons-0-and-1-of-zed-shaws-learn-python-the-hard-way/</link>
+                <guid>http://thecodingdiaries.com/teaching-a-beginner-lessons-0-and-1-of-zed-shaws-learn-python-the-hard-way</guid>
+                <pubDate>2013-02-16T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -4021,9 +3972,9 @@ print thing.tangerine&lt;/pre&gt;
   Update: Version control (git) set up now. Yay.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/someone-once-asked-me/</link>
-                <guid>http://username.github.io/someone-once-asked-me</guid>
-                <pubDate>2013-02-11T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/someone-once-asked-me/</link>
+                <guid>http://thecodingdiaries.com/someone-once-asked-me</guid>
+                <pubDate>2013-02-11T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -4040,9 +3991,9 @@ print thing.tangerine&lt;/pre&gt;
   Gah, there really are too many online resources out there for learning web technology. All I can do is attempt to continue to chronicle my experiences.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/zed-shaw-is-amazing/</link>
-                <guid>http://username.github.io/zed-shaw-is-amazing</guid>
-                <pubDate>2013-01-19T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/zed-shaw-is-amazing/</link>
+                <guid>http://thecodingdiaries.com/zed-shaw-is-amazing</guid>
+                <pubDate>2013-01-19T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -4062,9 +4013,9 @@ print thing.tangerine&lt;/pre&gt;
 &lt;p&gt;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/a-nice-cheatsheet-for-finding-social-media-graphic-dimensions/</link>
-                <guid>http://username.github.io/a-nice-cheatsheet-for-finding-social-media-graphic-dimensions</guid>
-                <pubDate>2013-01-18T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/a-nice-cheatsheet-for-finding-social-media-graphic-dimensions/</link>
+                <guid>http://thecodingdiaries.com/a-nice-cheatsheet-for-finding-social-media-graphic-dimensions</guid>
+                <pubDate>2013-01-18T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -4113,9 +4064,9 @@ print thing.tangerine&lt;/pre&gt;
   &amp;nbsp;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/the-coding-diaries-spring-2013-resolutions/</link>
-                <guid>http://username.github.io/the-coding-diaries-spring-2013-resolutions</guid>
-                <pubDate>2013-01-01T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/the-coding-diaries-spring-2013-resolutions/</link>
+                <guid>http://thecodingdiaries.com/the-coding-diaries-spring-2013-resolutions</guid>
+                <pubDate>2013-01-01T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -4136,9 +4087,9 @@ print thing.tangerine&lt;/pre&gt;
   Once upon a time, I remember feeling at a loss about the hex code of a background color of an element I was trying to replicate. Now, it&amp;#8217;s simple: open Chrome Developer Tools, perhaps click on the element with the inspector tool, and look at the CSS.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/chrome-developer-tools-where-you-have-you-been-in-my-life/</link>
-                <guid>http://username.github.io/chrome-developer-tools-where-you-have-you-been-in-my-life</guid>
-                <pubDate>2012-11-01T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/chrome-developer-tools-where-you-have-you-been-in-my-life/</link>
+                <guid>http://thecodingdiaries.com/chrome-developer-tools-where-you-have-you-been-in-my-life</guid>
+                <pubDate>2012-11-01T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4163,9 +4114,9 @@ print thing.tangerine&lt;/pre&gt;
   &amp;nbsp;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/why-im-falling-more-and-more-in-love-with-sublime-text/</link>
-                <guid>http://username.github.io/why-im-falling-more-and-more-in-love-with-sublime-text</guid>
-                <pubDate>2012-10-25T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/why-im-falling-more-and-more-in-love-with-sublime-text/</link>
+                <guid>http://thecodingdiaries.com/why-im-falling-more-and-more-in-love-with-sublime-text</guid>
+                <pubDate>2012-10-25T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4194,9 +4145,9 @@ print thing.tangerine&lt;/pre&gt;
   Yes, yes, everyone learns by googling &amp;#8212; but this book is a pretty good compilation of the common questions that anyone who hasn&amp;#8217;t had a formal course in CSS(3) would have, and would probably save the beginner a lot of time.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/book-review-the-css3-anthology-by-rachel-andrew/</link>
-                <guid>http://username.github.io/book-review-the-css3-anthology-by-rachel-andrew</guid>
-                <pubDate>2012-10-25T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/book-review-the-css3-anthology-by-rachel-andrew/</link>
+                <guid>http://thecodingdiaries.com/book-review-the-css3-anthology-by-rachel-andrew</guid>
+                <pubDate>2012-10-25T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4217,9 +4168,9 @@ print thing.tangerine&lt;/pre&gt;
   Bonus: I think they mighty&amp;#8217;ve gotten the pianist from &amp;lt;a href=&amp;#8221;http://www.mertonshow.com/about&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;The Merton Show or something to front all of their introductory videos. The intro songs are all hilarious.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/first-impressions-of-codeschools-jquery-first-flight/</link>
-                <guid>http://username.github.io/first-impressions-of-codeschools-jquery-first-flight</guid>
-                <pubDate>2012-10-20T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/first-impressions-of-codeschools-jquery-first-flight/</link>
+                <guid>http://thecodingdiaries.com/first-impressions-of-codeschools-jquery-first-flight</guid>
+                <pubDate>2012-10-20T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4263,9 +4214,9 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 &lt;/div&gt;&lt;/body&gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/the-tipping-point-for-me/</link>
-                <guid>http://username.github.io/the-tipping-point-for-me</guid>
-                <pubDate>2012-10-07T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/the-tipping-point-for-me/</link>
+                <guid>http://thecodingdiaries.com/the-tipping-point-for-me</guid>
+                <pubDate>2012-10-07T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4298,9 +4249,9 @@ print thing.tangerine&lt;/pre&gt;
   Of course, two months later, I might very well be blogging about how much I love &lt;a href=&quot;http://netbeans.org/&quot; target=&quot;_blank&quot;&gt;NetBeans&lt;/a&gt;&amp;#8230;. *grin*
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/sublime-the-text-editor-is-pretty/</link>
-                <guid>http://username.github.io/sublime-the-text-editor-is-pretty</guid>
-                <pubDate>2012-10-07T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/sublime-the-text-editor-is-pretty/</link>
+                <guid>http://thecodingdiaries.com/sublime-the-text-editor-is-pretty</guid>
+                <pubDate>2012-10-07T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4363,9 +4314,9 @@ print thing.tangerine&lt;/pre&gt;
   &amp;#8230; Anyway, work on the computer has never been more fun now. The mac loads instantly in 2 seconds, whereas it took more than 30 seconds for my [admittedly kind-of-old PC] to load.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/how-i-converted-to-mac-from-pc/</link>
-                <guid>http://username.github.io/how-i-converted-to-mac-from-pc</guid>
-                <pubDate>2012-10-07T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/how-i-converted-to-mac-from-pc/</link>
+                <guid>http://thecodingdiaries.com/how-i-converted-to-mac-from-pc</guid>
+                <pubDate>2012-10-07T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4378,9 +4329,9 @@ print thing.tangerine&lt;/pre&gt;
   &lt;a href=&quot;http://us2.campaign-archive1.com/?u=193b767bbb3b0eb0d949d5924&amp;#038;id=0c3a567f95&amp;#038;e=5603c292b3&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2012/10/Screen-shot-2012-10-07-at-1.29.15-AM.png&quot; alt=&quot;Hacker News Spoof&quot; /&gt;&lt;/a&gt;&lt;br /&gt; Source: &lt;a href=&quot;http://us2.campaign-archive1.com/?u=193b767bbb3b0eb0d949d5924&amp;#038;id=0c3a567f95&amp;#038;e=5603c292b3&quot; target=&quot;_blank&quot;&gt;http://us2.campaign-archive1.com/?u=193b767bbb3b0eb0d949d5924&amp;amp;id=0c3a567f95&amp;amp;e=5603c292b3&lt;/a&gt;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/hacker-news-readers-you-make-me-laugh/</link>
-                <guid>http://username.github.io/hacker-news-readers-you-make-me-laugh</guid>
-                <pubDate>2012-10-07T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/hacker-news-readers-you-make-me-laugh/</link>
+                <guid>http://thecodingdiaries.com/hacker-news-readers-you-make-me-laugh</guid>
+                <pubDate>2012-10-07T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4401,9 +4352,9 @@ print thing.tangerine&lt;/pre&gt;
   Anyway, lesson learned: not everyone uses git or subversion to commit files to their sites.
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/erm-hi-ftp/</link>
-                <guid>http://username.github.io/erm-hi-ftp</guid>
-                <pubDate>2012-10-01T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/erm-hi-ftp/</link>
+                <guid>http://thecodingdiaries.com/erm-hi-ftp</guid>
+                <pubDate>2012-10-01T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4412,9 +4363,9 @@ print thing.tangerine&lt;/pre&gt;
 
 &lt;p&gt;Always saves time to pay attention to the small details when you’re setting foot in a new language. :-)&lt;/p&gt;
 </description>
-                <link>http://username.github.io/note-to-self-remember-to-close-tags/</link>
-                <guid>http://username.github.io/note-to-self-remember-to-close-tags</guid>
-                <pubDate>2012-09-29T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/note-to-self-remember-to-close-tags/</link>
+                <guid>http://thecodingdiaries.com/note-to-self-remember-to-close-tags</guid>
+                <pubDate>2012-09-29T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4451,9 +4402,9 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/html-and-css-book/</link>
-                <guid>http://username.github.io/html-and-css-book</guid>
-                <pubDate>2012-09-29T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/html-and-css-book/</link>
+                <guid>http://thecodingdiaries.com/html-and-css-book</guid>
+                <pubDate>2012-09-29T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4481,9 +4432,9 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/ul&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/did-you-know-you-can-preview-your-randomly-saved-html-and-php-files-on-your-web-browser/</link>
-                <guid>http://username.github.io/did-you-know-you-can-preview-your-randomly-saved-html-and-php-files-on-your-web-browser</guid>
-                <pubDate>2012-09-29T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/did-you-know-you-can-preview-your-randomly-saved-html-and-php-files-on-your-web-browser/</link>
+                <guid>http://thecodingdiaries.com/did-you-know-you-can-preview-your-randomly-saved-html-and-php-files-on-your-web-browser</guid>
+                <pubDate>2012-09-29T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4503,9 +4454,9 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/some-day-im-going-to-make-a-scrolling-infographic-page-like-this-too/</link>
-                <guid>http://username.github.io/some-day-im-going-to-make-a-scrolling-infographic-page-like-this-too</guid>
-                <pubDate>2012-09-07T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/some-day-im-going-to-make-a-scrolling-infographic-page-like-this-too/</link>
+                <guid>http://thecodingdiaries.com/some-day-im-going-to-make-a-scrolling-infographic-page-like-this-too</guid>
+                <pubDate>2012-09-07T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4526,9 +4477,9 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/ul&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/things-i-should-have-figured-out-earlier-but-didnt-until-people-talked-to-me/</link>
-                <guid>http://username.github.io/things-i-should-have-figured-out-earlier-but-didnt-until-people-talked-to-me</guid>
-                <pubDate>2012-09-05T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/things-i-should-have-figured-out-earlier-but-didnt-until-people-talked-to-me/</link>
+                <guid>http://thecodingdiaries.com/things-i-should-have-figured-out-earlier-but-didnt-until-people-talked-to-me</guid>
+                <pubDate>2012-09-05T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4548,9 +4499,9 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/my-set-up-space-for-learning-front-end-web-development/</link>
-                <guid>http://username.github.io/my-set-up-space-for-learning-front-end-web-development</guid>
-                <pubDate>2012-08-12T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/my-set-up-space-for-learning-front-end-web-development/</link>
+                <guid>http://thecodingdiaries.com/my-set-up-space-for-learning-front-end-web-development</guid>
+                <pubDate>2012-08-12T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4574,9 +4525,9 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/no-thanks-you-dont-deserve-it/</link>
-                <guid>http://username.github.io/no-thanks-you-dont-deserve-it</guid>
-                <pubDate>2012-05-24T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/no-thanks-you-dont-deserve-it/</link>
+                <guid>http://thecodingdiaries.com/no-thanks-you-dont-deserve-it</guid>
+                <pubDate>2012-05-24T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4624,9 +4575,9 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/div&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/day-2-of-tutsplus-coms-free-jquery-in-30-days-course/</link>
-                <guid>http://username.github.io/day-2-of-tutsplus-coms-free-jquery-in-30-days-course</guid>
-                <pubDate>2012-05-17T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/day-2-of-tutsplus-coms-free-jquery-in-30-days-course/</link>
+                <guid>http://thecodingdiaries.com/day-2-of-tutsplus-coms-free-jquery-in-30-days-course</guid>
+                <pubDate>2012-05-17T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4689,9 +4640,9 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/div&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/how-to-zoomify-a-graphic-in-5-steps-the-beginner-jquery-way/</link>
-                <guid>http://username.github.io/how-to-zoomify-a-graphic-in-5-steps-the-beginner-jquery-way</guid>
-                <pubDate>2012-05-03T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/how-to-zoomify-a-graphic-in-5-steps-the-beginner-jquery-way/</link>
+                <guid>http://thecodingdiaries.com/how-to-zoomify-a-graphic-in-5-steps-the-beginner-jquery-way</guid>
+                <pubDate>2012-05-03T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4707,9 +4658,9 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/magic/</link>
-                <guid>http://username.github.io/magic</guid>
-                <pubDate>2012-03-28T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/magic/</link>
+                <guid>http://thecodingdiaries.com/magic</guid>
+                <pubDate>2012-03-28T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4729,9 +4680,9 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/small-lesson/</link>
-                <guid>http://username.github.io/small-lesson</guid>
-                <pubDate>2012-03-15T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/small-lesson/</link>
+                <guid>http://thecodingdiaries.com/small-lesson</guid>
+                <pubDate>2012-03-15T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4758,9 +4709,9 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/data-design-meaning/</link>
-                <guid>http://username.github.io/data-design-meaning</guid>
-                <pubDate>2012-03-12T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/data-design-meaning/</link>
+                <guid>http://thecodingdiaries.com/data-design-meaning</guid>
+                <pubDate>2012-03-12T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -4808,9 +4759,9 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/day-1-jquery-fail/</link>
-                <guid>http://username.github.io/day-1-jquery-fail</guid>
-                <pubDate>2012-02-08T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/day-1-jquery-fail/</link>
+                <guid>http://thecodingdiaries.com/day-1-jquery-fail</guid>
+                <pubDate>2012-02-08T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -4862,9 +4813,9 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/photoshop-finally/</link>
-                <guid>http://username.github.io/photoshop-finally</guid>
-                <pubDate>2012-01-12T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/photoshop-finally/</link>
+                <guid>http://thecodingdiaries.com/photoshop-finally</guid>
+                <pubDate>2012-01-12T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -5013,9 +4964,9 @@ box-shadow: 5px 5px 7px rgba(63,33,33,.7);
 &lt;/div&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/day-2-getting-started-with-css/</link>
-                <guid>http://username.github.io/day-2-getting-started-with-css</guid>
-                <pubDate>2012-01-07T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/day-2-getting-started-with-css/</link>
+                <guid>http://thecodingdiaries.com/day-2-getting-started-with-css</guid>
+                <pubDate>2012-01-07T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -5035,9 +4986,9 @@ box-shadow: 5px 5px 7px rgba(63,33,33,.7);
 &lt;/p&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/why-your-css-and-javascript-might-not-be-working-in-your-wordpress-post/</link>
-                <guid>http://username.github.io/why-your-css-and-javascript-might-not-be-working-in-your-wordpress-post</guid>
-                <pubDate>2012-01-05T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/why-your-css-and-javascript-might-not-be-working-in-your-wordpress-post/</link>
+                <guid>http://thecodingdiaries.com/why-your-css-and-javascript-might-not-be-working-in-your-wordpress-post</guid>
+                <pubDate>2012-01-05T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -5072,9 +5023,9 @@ box-shadow: 5px 5px 7px rgba(63,33,33,.7);
       &lt;/p&gt;
 &lt;/p&gt;&lt;/div&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/day-2-resizing-images-the-free-way/</link>
-                <guid>http://username.github.io/day-2-resizing-images-the-free-way</guid>
-                <pubDate>2012-01-04T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/day-2-resizing-images-the-free-way/</link>
+                <guid>http://thecodingdiaries.com/day-2-resizing-images-the-free-way</guid>
+                <pubDate>2012-01-04T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -5090,9 +5041,9 @@ box-shadow: 5px 5px 7px rgba(63,33,33,.7);
 &lt;/p&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/resource-john-d-cooks-intro-to-r-for-programmers/</link>
-                <guid>http://username.github.io/resource-john-d-cooks-intro-to-r-for-programmers</guid>
-                <pubDate>2012-01-03T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/resource-john-d-cooks-intro-to-r-for-programmers/</link>
+                <guid>http://thecodingdiaries.com/resource-john-d-cooks-intro-to-r-for-programmers</guid>
+                <pubDate>2012-01-03T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -5116,9 +5067,9 @@ box-shadow: 5px 5px 7px rgba(63,33,33,.7);
 &lt;/p&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/day-1-the-difference-between-wordpress-org-and-wordpress-com/</link>
-                <guid>http://username.github.io/day-1-the-difference-between-wordpress-org-and-wordpress-com</guid>
-                <pubDate>2012-01-02T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/day-1-the-difference-between-wordpress-org-and-wordpress-com/</link>
+                <guid>http://thecodingdiaries.com/day-1-the-difference-between-wordpress-org-and-wordpress-com</guid>
+                <pubDate>2012-01-02T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -5151,9 +5102,9 @@ box-shadow: 5px 5px 7px rgba(63,33,33,.7);
 &lt;/p&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/what-is-version-control-well-i-discovered-its-importance-the-hard-way/</link>
-                <guid>http://username.github.io/what-is-version-control-well-i-discovered-its-importance-the-hard-way</guid>
-                <pubDate>2012-01-01T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/what-is-version-control-well-i-discovered-its-importance-the-hard-way/</link>
+                <guid>http://thecodingdiaries.com/what-is-version-control-well-i-discovered-its-importance-the-hard-way</guid>
+                <pubDate>2012-01-01T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -5206,9 +5157,9 @@ box-shadow: 5px 5px 7px rgba(63,33,33,.7);
   &lt;/div&gt;
 &lt;/p&gt;
 </description>
-                <link>http://username.github.io/learning-how-to-code-for-the-web-heres-why-its-satisfying/</link>
-                <guid>http://username.github.io/learning-how-to-code-for-the-web-heres-why-its-satisfying</guid>
-                <pubDate>2012-01-01T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/learning-how-to-code-for-the-web-heres-why-its-satisfying/</link>
+                <guid>http://thecodingdiaries.com/learning-how-to-code-for-the-web-heres-why-its-satisfying</guid>
+                <pubDate>2012-01-01T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -5629,9 +5580,9 @@ As noted, our main programming constraint is the fact that our API is limited to
 &lt;p&gt;Please take a look at []()
 or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you’d like.&lt;/p&gt;
 </description>
-                <link>http://username.github.io/lessons/2011/12/29/jekyll-introduction</link>
-                <guid>http://username.github.io/lessons/2011/12/29/jekyll-introduction</guid>
-                <pubDate>2011-12-29T00:00:00-05:00</pubDate>
+                <link>http://thecodingdiaries.com/lessons/2011/12/29/jekyll-introduction</link>
+                <guid>http://thecodingdiaries.com/lessons/2011/12/29/jekyll-introduction</guid>
+                <pubDate>2011-12-29T00:00:00-08:00</pubDate>
         </item>
 
         <item>
@@ -5658,9 +5609,9 @@ or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you’d like.&l
 &lt;/div&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/getting-started-with-r/</link>
-                <guid>http://username.github.io/getting-started-with-r</guid>
-                <pubDate>2011-10-13T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/getting-started-with-r/</link>
+                <guid>http://thecodingdiaries.com/getting-started-with-r</guid>
+                <pubDate>2011-10-13T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -5860,9 +5811,9 @@ Paragraph Text Paragraph Text Paragraph Text Paragraph Text Paragraph Text Parag
     
 &lt;/p&gt;&lt;/ul&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&lt;/ol&gt;&lt;/div&gt;
 </description>
-                <link>http://username.github.io/why-am-i-learning-html-and-css/</link>
-                <guid>http://username.github.io/why-am-i-learning-html-and-css</guid>
-                <pubDate>2011-08-15T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/why-am-i-learning-html-and-css/</link>
+                <guid>http://thecodingdiaries.com/why-am-i-learning-html-and-css</guid>
+                <pubDate>2011-08-15T00:00:00-07:00</pubDate>
         </item>
 
         <item>
@@ -5980,9 +5931,9 @@ Paragraph Text Paragraph Text Paragraph Text Paragraph Text Paragraph Text Parag
 &lt;/p&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
-                <link>http://username.github.io/10-lessons-i-learned-from-designing-an-online-community-using-wordpress-and-buddypress/</link>
-                <guid>http://username.github.io/10-lessons-i-learned-from-designing-an-online-community-using-wordpress-and-buddypress</guid>
-                <pubDate>2011-08-05T00:00:00-04:00</pubDate>
+                <link>http://thecodingdiaries.com/10-lessons-i-learned-from-designing-an-online-community-using-wordpress-and-buddypress/</link>
+                <guid>http://thecodingdiaries.com/10-lessons-i-learned-from-designing-an-online-community-using-wordpress-and-buddypress</guid>
+                <pubDate>2011-08-05T00:00:00-07:00</pubDate>
         </item>
 
 

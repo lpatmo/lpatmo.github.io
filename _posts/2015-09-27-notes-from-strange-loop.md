@@ -5,4 +5,4 @@ layout: post
 permalink: /notes-from-strange-loop/
 ---
 
-Watch all the conference talks [here](https://www.youtube.com/playlist?list=PLcGKfGEEONaCIl5eU53uPBnRJ9rbIH32R).
+The conference was excellent. You can watch all the conference talks [here](https://www.youtube.com/playlist?list=PLcGKfGEEONaCIl5eU53uPBnRJ9rbIH32R)!

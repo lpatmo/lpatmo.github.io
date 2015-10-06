@@ -42,6 +42,7 @@
     <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
     <link href='//fonts.googleapis.com/css?family=Unkempt' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
 
   </head>
 
@@ -137,16 +138,24 @@
 	<div class="row">
 	 <div class="col-md-6">
   
+ <h2> <a href="/notes-from-strange-loop/">Notes from Strange Loop</a></h2>
+    	<p>
+    		<p>The conference was excellent. You can watch all the conference talks <a href="https://www.youtube.com/playlist?list=PLcGKfGEEONaCIl5eU53uPBnRJ9rbIH32R">here</a>!</p>
+
+
+    	</p>
+
+  
  <h2> <a href="/how-to-create-multiple-forks-of-a-git-repo/">How to create multiple forks of a git repo</a></h2>
     	<p>
     		<p>Thanks to <a href="https://adrianshort.org/create-multiple-forks-of-a-github-repo/">https://adrianshort.org/create-multiple-forks-of-a-github-repo/</a> for the instructions.</p>
 
 <p>In summary (using Telescope as an example):</p>
 
+<p>```
+1. git clone https://github.com/TelescopeJS/Telescope.git cb2</p>
+
 <ol>
-  <li>
-    <p>git clone https://github.com/TelescopeJS/Telescope.git cb2</p>
-  </li>
   <li>
     <p>git remote rename origin upstream</p>
   </li>
@@ -154,56 +163,10 @@
     <p>git remote add origin https://github.com/lpatmo/cb2.git</p>
   </li>
   <li>
-    <p>git push -u origin master</p>
+    <p>git push -u origin master
+```</p>
   </li>
 </ol>
-
-
-    	</p>
-
-  
- <h2> <a href="/day-12-swap-method-100daysofcode/">Day 12: Swap Method #100daysofcode</a></h2>
-    	<p>
-    		<pre class="prettyprint">
-swap(x,y)
-
-temp = x //store the original value of x
-
-x = y //give x a new value
-
-y = temp //give y the original value of x
-
-</pre>
-
-
-    	</p>
-
-  
- <h2> <a href="/day-11-100daysofcode/"><span data-rel="title">Day 11: #100daysofcode</span></a></h2>
-    	<p>
-    		<ul>
-  <li>
-    General tip: do not write tests (e.g. unit tests or integration tests) without a database!
-  </li>
-  <li>
-    Use <code>ag "search term" -l -G js</code> (note: you need to have the <a href="https://github.com/ggreer/the_silver_searcher/blob/master/doc/ag.1.md">silver searcher</a> to search for files ending in .js that include the search term).
-  </li>
-</ul>
-
-
-    	</p>
-
-  
- <h2> <a href="/day-10-100daysofcode/"><span data-rel="title">Day 10: #100daysofcode</span></a></h2>
-    	<p>
-    		<ul>
-  <li>
-    Don't use .fetch() inside the mongo console. Foo.find.fetch() works inside the browser console, though.
-  </li>
-  <li>
-    I didn't know <code>chmod +x manage.py</code> was a shortcut that lets you type <code>./manage.py test</code> instead of having to type out <code>python manage.py test</code>!
-  </li>
-</ul>
 
 
     	</p>
@@ -490,9 +453,11 @@ class Ox(models.Model):
     	</p>
 
   
- <h2> <a href="/day-2-random-100daysofcode/"><span data-rel="title">Day 2 Random: #100daysofcode</span></a></h2>
+ <h2> <a href="/day-1-random-100daysofcode/"></a></h2>
     	<p>
-    		<ul>
+    		<h2 id="day-2">Day 2!</h2>
+
+<ul>
   <li>
     In a tuple such as: <pre><code>  GENDER_CHOICES = (
     ("M", "Male"),
@@ -563,47 +528,37 @@ admin.site.register(Invite, InviteAdmin)
       <p>
         This post is a part of the <a href="http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs">#100daysofcode</a> challenge.
       </p>
-</p></li></ul>
 
 
-    	</p>
 
-  
- <h2> <a href="/day-1-random-100daysofcode/"><span data-rel="title">Day 1 Random: #100daysofcode</span></a></h2>
-    	<p>
-    		<ul>
-  <li>
+
+
+
+##Day 1: Random
+
     Note to self: if a div inside a div isn't recognizing the parent div as a parent when it's set to <code>position: absolute</code>, it's because the closest parent needs to be set to <code>position: relative.</code> Otherwise, it'll default to <code>position: static</code>. (CSS)
-  </li>
-  <li>
+
     <code>Meteor.startup() { }</code> is sort of like <code>$(function() {});</code> except we use it with meteor. (MeteorJS)
-  </li>
-  <li>
+
     Adjust the height of a textarea with its content: <pre><code>$(&#39;textarea&#39;).css(&#39;height&#39;, &#39;auto&#39;); 
 $(&#39;textarea&#39;).height(this.scrollHeight);
 </code></pre>
-  </li>
   
-  <li>
     If you want the ability to write markdown inside your WordPress posts, see:<br /> <a href="http://www.elegantthemes.com/blog/tips-tricks/using-markdown-in-wordpress">http://www.elegantthemes.com/blog/tips-tricks/using-markdown-in-wordpress</a>. (I decided on using the PrettyPress Editor.)
-  </li>
+  
   <li>
     Note: to pull from a <em>branch</em> inside an upstream repo&#8230; <code>git fetch upstream branchname</code> and <code>git merge upstream branchname</code>
   </li>
   <li>
     If I notice that there are elements inside <code>view:source</code> but can't find it inside the browser <code>elements</code> tab, chances are it's because there was a <code>.remove()</code> put on the elements. (JS)
-  </li>
-  <li>
-    <code>localStorage</code> is nice and lighter weight than cookies.
-  </li>
-  <li>
-    <code>Intl.DateTimeFormat().resolvedOptions().timeZone ? Intl.DateTimeFormat().resolvedOptions().timeZone</code> returns the users's timezone! However, this is currently supported on only very limited modern browsers. (JS)
-  </li>
-</ul>
 
-<p>
-  This post is a part of the <a href="http://www.thecodingdiaries.com/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs">#100daysofcode</a> challenge.
-</p>
+    <code>localStorage</code> is nice and lighter weight than cookies.
+
+    <code>Intl.DateTimeFormat().resolvedOptions().timeZone ? Intl.DateTimeFormat().resolvedOptions().timeZone</code> returns the users's timezone! However, this is currently supported on only very limited modern browsers. (JS)
+
+
+This post is a part of the [#100dayosfcode](http://www.thecodingdiaries.com/the-100daysofcode-challenge/) challenge.
+</li></p></li></ul>
 
 
     	</p>
@@ -6050,13 +6005,9 @@ Paragraph Text Paragraph Text Paragraph Text Paragraph Text Paragraph Text Parag
 
     <ul class="sidebar">
       
+        <li><a href="/notes-from-strange-loop/">Notes from Strange Loop</a></li>
+      
         <li><a href="/how-to-create-multiple-forks-of-a-git-repo/">How to create multiple forks of a git repo</a></li>
-      
-        <li><a href="/day-12-swap-method-100daysofcode/">Day 12: Swap Method #100daysofcode</a></li>
-      
-        <li><a href="/day-11-100daysofcode/"><span data-rel="title">Day 11: #100daysofcode</span></a></li>
-      
-        <li><a href="/day-10-100daysofcode/"><span data-rel="title">Day 10: #100daysofcode</span></a></li>
       
         <li><a href="/day-9-100daysofcode/"><span data-rel="title">Day 9: #100daysofcode</span></a></li>
       
@@ -6072,9 +6023,7 @@ Paragraph Text Paragraph Text Paragraph Text Paragraph Text Paragraph Text Parag
       
         <li><a href="/day-3-random-100daysofcode/"><span data-rel="title">Day 3: Random #100daysofcode</span></a></li>
       
-        <li><a href="/day-2-random-100daysofcode/"><span data-rel="title">Day 2 Random: #100daysofcode</span></a></li>
-      
-        <li><a href="/day-1-random-100daysofcode/"><span data-rel="title">Day 1 Random: #100daysofcode</span></a></li>
+        <li><a href="/day-1-random-100daysofcode/"></a></li>
       
         <li><a href="/the-100daysofcode-challenge/"><span data-rel="title">The #100daysofcode Share-One-Thing-You-Learn Challenge</span></a></li>
       
@@ -6281,7 +6230,7 @@ Paragraph Text Paragraph Text Paragraph Text Paragraph Text Paragraph Text Parag
 
   <script type="text/javascript">
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-123-12']);
+  _gaq.push(['_setAccount', 'UA-49611573-1']);
   _gaq.push(['_trackPageview']);
 
   (function() {
