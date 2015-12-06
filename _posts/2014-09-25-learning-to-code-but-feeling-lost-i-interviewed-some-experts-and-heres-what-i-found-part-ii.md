@@ -38,11 +38,11 @@ dsq_thread_id:
   
   <div class="clear">
   </div>
-  
+  <br />
   <pre><span style="color: #993300;"><strong>ABOUT THE INTERVIEWER</strong></span></pre>
   
   <div style="display: block; clear: both;">
-    <a href="http://www.thecodingdiaries.com/wp-content/uploads/2014/08/linda.jpeg"><img class="alignnone size-full wp-image-950" style="margin-right: 10px; float: left;" alt="Linda" src="../_images/interview_linda.jpg" width="115" height="115" /></a><strong>Linda Peng</strong> (<a href="http://bit.ly/Y7wOKm" target="_blank">@lpnotes</a>) is a front-end web developer at <a href="http://bit.ly/1sskVNa" target="_blank">ActionKit</a>. She recently became convinced that studying full-stack web development with strangers via self-organized Google Hangouts at <a href="http://bit.ly/1mtKaMq" target="_blank">CodeBuddies.org</a> (pair programming partners!) is incredibly fun. She enjoys Harry Potter, <a href="http://bit.ly/1CkZOxF" target="_blank">playing violin</a>, and collaborating with people on meaningful projects.
+    <a href="../assets/images/interview_linda.jpg"><img class="alignnone size-full wp-image-950" style="margin-right: 10px; float: left;" alt="Linda" src="../assets/images/interview_linda.jpg" width="115" height="115" /></a><strong>Linda Peng</strong> (<a href="http://bit.ly/Y7wOKm" target="_blank">@lpnotes</a>) is a front-end web developer at <a href="http://bit.ly/1sskVNa" target="_blank">ActionKit</a>. She recently became convinced that studying full-stack web development with strangers via self-organized Google Hangouts at <a href="http://bit.ly/1mtKaMq" target="_blank">CodeBuddies.org</a> (pair programming partners!) is incredibly fun. She enjoys Harry Potter, <a href="http://bit.ly/1CkZOxF" target="_blank">playing violin</a>, and collaborating with people on meaningful projects.
   </div>
   
   <div class="clear">

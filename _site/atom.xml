@@ -4,7 +4,7 @@
  <title>The Coding Diaries</title>
  <link href="http://thecodingdiaries.com/" rel="self"/>
  <link href="http://thecodingdiaries.com"/>
- <updated>2015-12-06T14:03:48-08:00</updated>
+ <updated>2015-12-06T14:21:03-08:00</updated>
  <id>http://thecodingdiaries.com</id>
  <author>
    <name>Linda Peng</name>
@@ -843,11 +843,11 @@ $bp-full: 1200px;`
   
   &lt;div class=&quot;clear&quot;&gt;
   &lt;/div&gt;
-  
+  &lt;br /&gt;
   &lt;pre&gt;&lt;span style=&quot;color: #993300;&quot;&gt;&lt;strong&gt;ABOUT THE INTERVIEWER&lt;/strong&gt;&lt;/span&gt;&lt;/pre&gt;
   
   &lt;div style=&quot;display: block; clear: both;&quot;&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/linda.jpeg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-950&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Linda&quot; src=&quot;../_images/interview_linda.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Linda Peng&lt;/strong&gt; (&lt;a href=&quot;http://bit.ly/Y7wOKm&quot; target=&quot;_blank&quot;&gt;@lpnotes&lt;/a&gt;) is a front-end web developer at &lt;a href=&quot;http://bit.ly/1sskVNa&quot; target=&quot;_blank&quot;&gt;ActionKit&lt;/a&gt;. She recently became convinced that studying full-stack web development with strangers via self-organized Google Hangouts at &lt;a href=&quot;http://bit.ly/1mtKaMq&quot; target=&quot;_blank&quot;&gt;CodeBuddies.org&lt;/a&gt; (pair programming partners!) is incredibly fun. She enjoys Harry Potter, &lt;a href=&quot;http://bit.ly/1CkZOxF&quot; target=&quot;_blank&quot;&gt;playing violin&lt;/a&gt;, and collaborating with people on meaningful projects.
+    &lt;a href=&quot;../assets/images/interview_linda.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-950&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Linda&quot; src=&quot;../assets/images/interview_linda.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Linda Peng&lt;/strong&gt; (&lt;a href=&quot;http://bit.ly/Y7wOKm&quot; target=&quot;_blank&quot;&gt;@lpnotes&lt;/a&gt;) is a front-end web developer at &lt;a href=&quot;http://bit.ly/1sskVNa&quot; target=&quot;_blank&quot;&gt;ActionKit&lt;/a&gt;. She recently became convinced that studying full-stack web development with strangers via self-organized Google Hangouts at &lt;a href=&quot;http://bit.ly/1mtKaMq&quot; target=&quot;_blank&quot;&gt;CodeBuddies.org&lt;/a&gt; (pair programming partners!) is incredibly fun. She enjoys Harry Potter, &lt;a href=&quot;http://bit.ly/1CkZOxF&quot; target=&quot;_blank&quot;&gt;playing violin&lt;/a&gt;, and collaborating with people on meaningful projects.
   &lt;/div&gt;
   
   &lt;div class=&quot;clear&quot;&gt;
