@@ -5,8 +5,8 @@
         <description>The Coding Diaries - Linda Peng</description>
         <link>http://thecodingdiaries.com</link>
         <link>http://thecodingdiaries.com</link>
-        <lastBuildDate>2015-10-05T21:40:17-07:00</lastBuildDate>
-        <pubDate>2015-10-05T21:40:17-07:00</pubDate>
+        <lastBuildDate>2015-12-06T14:03:48-08:00</lastBuildDate>
+        <pubDate>2015-12-06T14:03:48-08:00</pubDate>
         <ttl>1800</ttl>
 
 
@@ -23,23 +23,18 @@
                 <title>How to create multiple forks of a git repo</title>
                 <description>&lt;p&gt;Thanks to &lt;a href=&quot;https://adrianshort.org/create-multiple-forks-of-a-github-repo/&quot;&gt;https://adrianshort.org/create-multiple-forks-of-a-github-repo/&lt;/a&gt; for the instructions.&lt;/p&gt;
 
-&lt;p&gt;In summary (using Telescope as an example):&lt;/p&gt;
+&lt;p&gt;In summary (using Telescope, an open-sourced project on Github, as an example):&lt;/p&gt;
 
-&lt;p&gt;```
-1. git clone https://github.com/TelescopeJS/Telescope.git cb2&lt;/p&gt;
+&lt;pre&gt;
+1. git clone https://github.com/TelescopeJS/Telescope.git cb2
 
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;git remote rename origin upstream&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;git remote add origin https://github.com/lpatmo/cb2.git&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;git push -u origin master
-```&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
+2. git remote rename origin upstream
+
+3. git remote add origin https://github.com/lpatmo/cb2.git
+
+4. git push -u origin master
+
+&lt;/pre&gt;
 </description>
                 <link>http://thecodingdiaries.com/how-to-create-multiple-forks-of-a-git-repo/</link>
                 <guid>http://thecodingdiaries.com/how-to-create-multiple-forks-of-a-git-repo</guid>
@@ -63,17 +58,13 @@
         </item>
 
         <item>
-                <title>&lt;span data-rel=&quot;title&quot;&gt;Day 8: #100daysofcode&lt;/span&gt;</title>
-                <description>&lt;p&gt;I did not know rewriting &lt;code&gt; &lt;/code&gt; so that I could have more control over each of the form elements was as easy as transforming it into:&lt;/p&gt;
+                <title>Day 8: #100daysofcode</title>
+                <description>&lt;p&gt;I did not know rewriting &amp;lt;pre&amp;gt;&amp;lt;/pre&amp;gt; so that I could have more control over each of the form elements was as easy as transforming it into:&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&amp;lt;/code&amp;gt;&lt;/p&gt;
-
-&lt;p&gt;with &lt;code&gt;&lt;/code&gt; and &lt;code&gt;&lt;/code&gt; and code&amp;gt;&amp;lt;/code&amp;gt; as variables.
+&lt;p&gt;with &amp;lt;pre&amp;gt;&amp;lt;/pre&amp;gt; and &amp;lt;pre&amp;gt;&amp;lt;/pre&amp;gt; and &amp;lt;pre&amp;gt;&amp;lt;/pre&amp;gt; as variables.
   :D&lt;/p&gt;
 
-&lt;p&gt;This post is a part of the &lt;a href=&quot;/the-100daysofcode-challenge/#sthash.eAFLTbDO.dpbs&quot;&gt;#100daysofcode&lt;/a&gt; challenge.&lt;/p&gt;
+&lt;p&gt;This post is a part of the #100daysofcode challenge.&lt;/p&gt;
 </description>
                 <link>http://thecodingdiaries.com/day-8-100daysofcode/</link>
                 <guid>http://thecodingdiaries.com/day-8-100daysofcode</guid>
@@ -825,24 +816,24 @@ $bp-full: 1200px;`
 &lt;pre&gt;&lt;strong&gt;INTERVIEWEE PROFILES&lt;/strong&gt;&lt;/pre&gt;
 
 &lt;div style=&quot;display: block; clear: both;&quot;&gt;
-  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.14-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-993&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.14-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Stephanie Chang&lt;/strong&gt; (&lt;a href=&quot;http://bit.ly/1DxZ9KI&quot; target=&quot;_blank&quot;&gt;@stchangg&lt;/a&gt;) taught herself web development and &lt;a href=&quot;http://bit.ly/1DxZayg&quot; target=&quot;_blank&quot;&gt;hacked her way to a full-stack software engineering job at Khan Academy&lt;/a&gt;. She studies behavior change, occasionally pens &lt;a href=&quot;http://bit.ly/1vjhs0s&quot; target=&quot;_blank&quot;&gt;nerdy raps&lt;/a&gt;, and blogs at &lt;a href=&quot;http://bit.ly/1DxZehy&quot; target=&quot;_blank&quot;&gt;stchangg.com&lt;/a&gt;.
+  &lt;a href=&quot;../assets/images/interview_stephanie.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-993&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;&quot; src=&quot;../assets/images/interview_stephanie.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Stephanie Chang&lt;/strong&gt; (&lt;a href=&quot;http://bit.ly/1DxZ9KI&quot; target=&quot;_blank&quot;&gt;@stchangg&lt;/a&gt;) taught herself web development and &lt;a href=&quot;http://bit.ly/1DxZayg&quot; target=&quot;_blank&quot;&gt;hacked her way to a full-stack software engineering job at Khan Academy&lt;/a&gt;. She studies behavior change, occasionally pens &lt;a href=&quot;http://bit.ly/1vjhs0s&quot; target=&quot;_blank&quot;&gt;nerdy raps&lt;/a&gt;, and blogs at &lt;a href=&quot;http://bit.ly/1DxZehy&quot; target=&quot;_blank&quot;&gt;stchangg.com&lt;/a&gt;.
 &lt;/div&gt;
 
 &lt;div style=&quot;display: block; clear: both;&quot;&gt;
-  &lt;strong&gt;&lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.27-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-994&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.27 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.27-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;Marcus Willock&lt;/strong&gt; (&lt;a href=&quot;http://bit.ly/1rlgyQn&quot; target=&quot;_blank&quot;&gt;@crazcalm&lt;/a&gt;) is a self-taught technologist who recently landed a QA engineering job at &lt;a href=&quot;http://bit.ly/Y7z5Ff&quot; target=&quot;_blank&quot;&gt;Adcade&lt;/a&gt;. When it comes to development, he is a hackathon enthusiast who tries to always have a side project in the works.
+  &lt;strong&gt;&lt;a href=&quot;../assets/images/interview_marcus.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-994&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.27 AM&quot; src=&quot;../assets/images/interview_marcus.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;Marcus Willock&lt;/strong&gt; (&lt;a href=&quot;http://bit.ly/1rlgyQn&quot; target=&quot;_blank&quot;&gt;@crazcalm&lt;/a&gt;) is a self-taught technologist who recently landed a QA engineering job at &lt;a href=&quot;http://bit.ly/Y7z5Ff&quot; target=&quot;_blank&quot;&gt;Adcade&lt;/a&gt;. When it comes to development, he is a hackathon enthusiast who tries to always have a side project in the works.
 &lt;/div&gt;
 
 &lt;div style=&quot;display: block; clear: both;&quot;&gt;
   &lt;p&gt;
-    &lt;strong&gt;&lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.39-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-996&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.39 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.39-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;Cheney Tsai&lt;/strong&gt; (&lt;a href=&quot;http://bit.ly/Ze3Dqg&quot; target=&quot;_blank&quot;&gt;@cheneytsai&lt;/a&gt;) is currently a mobile solutions consultant at Google. When it comes to development, he’s a full-stack engineer with a deep interest in UX design.
+    &lt;strong&gt;&lt;a href=&quot;../assets/images/interview_cheney.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-996&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.39 AM&quot; src=&quot;../assets/images/interview_cheney.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;Cheney Tsai&lt;/strong&gt; (&lt;a href=&quot;http://bit.ly/Ze3Dqg&quot; target=&quot;_blank&quot;&gt;@cheneytsai&lt;/a&gt;) is currently a mobile solutions consultant at Google. When it comes to development, he’s a full-stack engineer with a deep interest in UX design.
   &lt;/p&gt;
   
   &lt;div style=&quot;display: block; clear: both;&quot;&gt;
-    &lt;strong&gt;&lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.54-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-998&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.54 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.54-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;strong&gt;Wayne Warner&lt;/strong&gt; (&lt;a href=&quot;http://bit.ly/1uqKXjZ&quot; target=&quot;_blank&quot;&gt;@wawjr3d&lt;/a&gt;) is a senior front-end developer at Bloomberg LP who’s been programming for 15 years. He blogs at &lt;a href=&quot;http://bit.ly/1oitRxw&quot; target=&quot;_blank&quot;&gt;wawjr3d.tumblr.com&lt;/a&gt;.
+    &lt;strong&gt;&lt;a href=&quot;../assets/images/interview_wayne.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-998&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.54 AM&quot; src=&quot;../assets/images/interview_wayne.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;strong&gt;Wayne Warner&lt;/strong&gt; (&lt;a href=&quot;http://bit.ly/1uqKXjZ&quot; target=&quot;_blank&quot;&gt;@wawjr3d&lt;/a&gt;) is a senior front-end developer at Bloomberg LP who’s been programming for 15 years. He blogs at &lt;a href=&quot;http://bit.ly/1oitRxw&quot; target=&quot;_blank&quot;&gt;wawjr3d.tumblr.com&lt;/a&gt;.
   &lt;/div&gt;
   
   &lt;div style=&quot;display: block; clear: both;&quot;&gt;
-    &lt;strong style=&quot;line-height: 24px; font-size: 16px;&quot;&gt;&lt;a style=&quot;color: #ff4b33;&quot; href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.39.08-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-999&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.39.08 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.39.08-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;strong&gt;Nicole Bieber&lt;/strong&gt; (&lt;a href=&quot;http://bit.ly/1vfry3g&quot; target=&quot;_blank&quot;&gt;@nicolethenerd&lt;/a&gt;) is a senior software engineer at &lt;a href=&quot;http://bit.ly/1ptdbCN&quot; target=&quot;_blank&quot;&gt;Amplify&lt;/a&gt; and an instructor at the &lt;a href=&quot;http://bit.ly/1rnwToT&quot; target=&quot;_blank&quot;&gt;New York Code + Design Academy&lt;/a&gt;. She earned an SB and MEng in Computer Science from MIT.
+    &lt;strong style=&quot;line-height: 24px; font-size: 16px;&quot;&gt;&lt;a style=&quot;color: #ff4b33;&quot; href=&quot;../assets/images/interview_nicole.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-999&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.39.08 AM&quot; src=&quot;../assets/images/interview_nicole.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;/strong&gt;&lt;strong&gt;Nicole Bieber&lt;/strong&gt; (&lt;a href=&quot;http://bit.ly/1vfry3g&quot; target=&quot;_blank&quot;&gt;@nicolethenerd&lt;/a&gt;) is a senior software engineer at &lt;a href=&quot;http://bit.ly/1ptdbCN&quot; target=&quot;_blank&quot;&gt;Amplify&lt;/a&gt; and an instructor at the &lt;a href=&quot;http://bit.ly/1rnwToT&quot; target=&quot;_blank&quot;&gt;New York Code + Design Academy&lt;/a&gt;. She earned an SB and MEng in Computer Science from MIT.
   &lt;/div&gt;
   
   &lt;div class=&quot;clear&quot;&gt;
@@ -851,7 +842,7 @@ $bp-full: 1200px;`
   &lt;pre&gt;&lt;span style=&quot;color: #993300;&quot;&gt;&lt;strong&gt;ABOUT THE INTERVIEWER&lt;/strong&gt;&lt;/span&gt;&lt;/pre&gt;
   
   &lt;div style=&quot;display: block; clear: both;&quot;&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/linda.jpeg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-950&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Linda&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/linda.jpeg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Linda Peng&lt;/strong&gt; (&lt;a href=&quot;http://bit.ly/Y7wOKm&quot; target=&quot;_blank&quot;&gt;@lpnotes&lt;/a&gt;) is a front-end web developer at &lt;a href=&quot;http://bit.ly/1sskVNa&quot; target=&quot;_blank&quot;&gt;ActionKit&lt;/a&gt;. She recently became convinced that studying full-stack web development with strangers via self-organized Google Hangouts at &lt;a href=&quot;http://bit.ly/1mtKaMq&quot; target=&quot;_blank&quot;&gt;CodeBuddies.org&lt;/a&gt; (pair programming partners!) is incredibly fun. She enjoys Harry Potter, &lt;a href=&quot;http://bit.ly/1CkZOxF&quot; target=&quot;_blank&quot;&gt;playing violin&lt;/a&gt;, and collaborating with people on meaningful projects.
+    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/linda.jpeg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-950&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Linda&quot; src=&quot;../_images/interview_linda.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Linda Peng&lt;/strong&gt; (&lt;a href=&quot;http://bit.ly/Y7wOKm&quot; target=&quot;_blank&quot;&gt;@lpnotes&lt;/a&gt;) is a front-end web developer at &lt;a href=&quot;http://bit.ly/1sskVNa&quot; target=&quot;_blank&quot;&gt;ActionKit&lt;/a&gt;. She recently became convinced that studying full-stack web development with strangers via self-organized Google Hangouts at &lt;a href=&quot;http://bit.ly/1mtKaMq&quot; target=&quot;_blank&quot;&gt;CodeBuddies.org&lt;/a&gt; (pair programming partners!) is incredibly fun. She enjoys Harry Potter, &lt;a href=&quot;http://bit.ly/1CkZOxF&quot; target=&quot;_blank&quot;&gt;playing violin&lt;/a&gt;, and collaborating with people on meaningful projects.
   &lt;/div&gt;
   
   &lt;div class=&quot;clear&quot;&gt;
@@ -864,7 +855,7 @@ $bp-full: 1200px;`
   &lt;/h2&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.14-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-993&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.14-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;STEPHANIE:&lt;/strong&gt; I’m Stephanie H. Chang. Because my name is so dang generic, I go by @stchangg on the internet.
+    &lt;a href=&quot;../assets/images/interview_stephanie.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-993&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;&quot; src=&quot;../assets/images/interview_stephanie.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;STEPHANIE:&lt;/strong&gt; I’m Stephanie H. Chang. Because my name is so dang generic, I go by @stchangg on the internet.
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -876,11 +867,11 @@ $bp-full: 1200px;`
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.27-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-994&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.27 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.27-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;MARCUS:&lt;/strong&gt; My name is Marcus. I first learned to code in school. I was a math major and Java 101 was a mandatory course. At the time, I hated it. Till this day, I still do not code in Java. However, towards the end of my math degree, I started to gain interest in coding, but I never had time to pursue it. A few years later, when I was in my master’s program for teaching Chinese, I suddenly had the free time to learn something new. I chose Python. I had heard good things about the language and there were no curly braces to deal with.
+    &lt;a href=&quot;../assets/images/interview_marcus.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-994&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.27 AM&quot; src=&quot;../assets/images/interview_marcus.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;MARCUS:&lt;/strong&gt; My name is Marcus. I first learned to code in school. I was a math major and Java 101 was a mandatory course. At the time, I hated it. Till this day, I still do not code in Java. However, towards the end of my math degree, I started to gain interest in coding, but I never had time to pursue it. A few years later, when I was in my master’s program for teaching Chinese, I suddenly had the free time to learn something new. I chose Python. I had heard good things about the language and there were no curly braces to deal with.
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.39-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-996&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.39 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.39-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;CHENEY:&lt;/strong&gt; Hey! I’m Cheney and I’m currently a Mobile Solutions Consultant at Google. My first exposure to code was actually rather early when my dad made a digital card for my 4th birthday. He used BASIC in a MS-DOS environment to draw a cake and output MIDI for the birthday tune. From that moment on, I was hooked on the power that comes from teaching a computer to do things.
+    &lt;a href=&quot;../assets/images/interview_cheney.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-996&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.39 AM&quot; src=&quot;../assets/images/interview_cheney.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;CHENEY:&lt;/strong&gt; Hey! I’m Cheney and I’m currently a Mobile Solutions Consultant at Google. My first exposure to code was actually rather early when my dad made a digital card for my 4th birthday. He used BASIC in a MS-DOS environment to draw a cake and output MIDI for the birthday tune. From that moment on, I was hooked on the power that comes from teaching a computer to do things.
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -892,7 +883,7 @@ $bp-full: 1200px;`
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.54-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-998&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.54 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.54-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;WAYNE:&lt;/strong&gt; My name is Wayne Warner. I learned to code when I was about 15. I&amp;#8217;m most familiar with javascript, CSS, and HTML. But I&amp;#8217;ve used pretty much everything that exists: at some point PHP, C++, Ruby, VB.net, ASP.net, etc. Whatever you can think about! I work as a front-end developer now, but I&amp;#8217;m transitioning into management.
+    &lt;a href=&quot;../assets/images/interview_wayne.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-998&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.54 AM&quot; src=&quot;../assets/images/interview_wayne.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;WAYNE:&lt;/strong&gt; My name is Wayne Warner. I learned to code when I was about 15. I&amp;#8217;m most familiar with javascript, CSS, and HTML. But I&amp;#8217;ve used pretty much everything that exists: at some point PHP, C++, Ruby, VB.net, ASP.net, etc. Whatever you can think about! I work as a front-end developer now, but I&amp;#8217;m transitioning into management.
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -900,7 +891,7 @@ $bp-full: 1200px;`
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a style=&quot;color: #ff4b33;&quot; href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.39.08-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-999&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.39.08 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.39.08-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;NICOLE:&lt;/strong&gt; Hi, I’m Nicole! I was lucky enough to be introduced to programming at the young age of 8, when a volunteer at my elementary school taught us to program in Logo. I wish I could say I caught the coding bug then, but I don’t think I quite understood at that point that I could recombine individual commands to draw whatever I wanted &amp;#8211; I was mostly copying whole programs off a worksheet and changing a few variables to move them around or change the colors. I lucked out again when a different volunteer introduced me to programming on a TI-81 the next year, and I haven’t stopped programming since.
+    &lt;a style=&quot;color: #ff4b33;&quot; href=&quot;../assets/images/interview_nicole.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-999&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.39.08 AM&quot; src=&quot;../assets/images/interview_nicole.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;NICOLE:&lt;/strong&gt; Hi, I’m Nicole! I was lucky enough to be introduced to programming at the young age of 8, when a volunteer at my elementary school taught us to program in Logo. I wish I could say I caught the coding bug then, but I don’t think I quite understood at that point that I could recombine individual commands to draw whatever I wanted &amp;#8211; I was mostly copying whole programs off a worksheet and changing a few variables to move them around or change the colors. I lucked out again when a different volunteer introduced me to programming on a TI-81 the next year, and I haven’t stopped programming since.
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -912,7 +903,7 @@ $bp-full: 1200px;`
   &lt;/h2&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.14-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-993&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.14-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;STEPHANIE:&lt;/strong&gt; One big &amp;#8220;aha&amp;#8221; moment happened when I was working on a little project to scratch an itch I had. I like making visual art and wanted 1) to learn JavaScript, 2) to learn how to work with an API, and 3) to showcase my art on my personal website. I was disappointed with many popular Flickr plugins, which to me felt too slow and over-stylized. I wanted to make a plugin that would load batches of images from Flickr in the background as the user browsed my photos.
+    &lt;a href=&quot;../assets/images/interview_stephanie.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-993&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;&quot; src=&quot;../assets/images/interview_stephanie.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;STEPHANIE:&lt;/strong&gt; One big &amp;#8220;aha&amp;#8221; moment happened when I was working on a little project to scratch an itch I had. I like making visual art and wanted 1) to learn JavaScript, 2) to learn how to work with an API, and 3) to showcase my art on my personal website. I was disappointed with many popular Flickr plugins, which to me felt too slow and over-stylized. I wanted to make a plugin that would load batches of images from Flickr in the background as the user browsed my photos.
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -924,7 +915,7 @@ $bp-full: 1200px;`
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.27-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-994&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.27 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.27-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;MARCUS:&lt;/strong&gt; The turning point in my learning of programming was when I decided to try to make a career out of it. At the time of this decision, I was not good at programming, but having a career minded mindset helped me focus on learning how to code properly. I started caring about code quality, code design, clean code, and coding practices. Completing a project was no longer good enough. I now had to complete the project and have code that I could be proud of.
+    &lt;a href=&quot;../assets/images/interview_marcus.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-994&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.27 AM&quot; src=&quot;../assets/images/interview_marcus.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;MARCUS:&lt;/strong&gt; The turning point in my learning of programming was when I decided to try to make a career out of it. At the time of this decision, I was not good at programming, but having a career minded mindset helped me focus on learning how to code properly. I started caring about code quality, code design, clean code, and coding practices. Completing a project was no longer good enough. I now had to complete the project and have code that I could be proud of.
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -940,15 +931,15 @@ $bp-full: 1200px;`
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.39-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-996&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.39 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.39-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;CHENEY:&lt;/strong&gt; I’ve had ups and downs with learning as my interests changed over the years, but what always seems to bring me back is the satisfaction when an idea is actualized. This ranges from seeing a fellow classmate’s design project, watching one of my students successfully program their Lego robot, and even the releases of new technologies and the possibilities they bring.
+    &lt;a href=&quot;../assets/images/interview_cheney.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-996&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.39 AM&quot; src=&quot;../assets/images/interview_cheney.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;CHENEY:&lt;/strong&gt; I’ve had ups and downs with learning as my interests changed over the years, but what always seems to bring me back is the satisfaction when an idea is actualized. This ranges from seeing a fellow classmate’s design project, watching one of my students successfully program their Lego robot, and even the releases of new technologies and the possibilities they bring.
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.54-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-998&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.54 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.54-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;WAYNE:&lt;/strong&gt; There&amp;#8217;s been a ton of lightbulb moments. A couple of memories stand out:&lt;br /&gt; &amp;#8211; Back in the day, when I figured out who to use javascript to do something I wanted to do that seemed really hard at the time. This was before position:fixed was possible in CSS.&lt;br /&gt; &amp;#8211; Another moment was when I made a project to learn how to code. When I was 15, I had an internship at a help desk. One of my co-workers asked: &amp;#8220;Does anyone know how to make websites?&amp;#8221; And I raised my hand. This was in 2001.
+    &lt;a href=&quot;../assets/images/interview_wayne.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-998&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.54 AM&quot; src=&quot;../assets/images/interview_wayne.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;WAYNE:&lt;/strong&gt; There&amp;#8217;s been a ton of lightbulb moments. A couple of memories stand out:&lt;br /&gt; &amp;#8211; Back in the day, when I figured out who to use javascript to do something I wanted to do that seemed really hard at the time. This was before position:fixed was possible in CSS.&lt;br /&gt; &amp;#8211; Another moment was when I made a project to learn how to code. When I was 15, I had an internship at a help desk. One of my co-workers asked: &amp;#8220;Does anyone know how to make websites?&amp;#8221; And I raised my hand. This was in 2001.
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a style=&quot;color: #ff4b33;&quot; href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.39.08-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-999&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.39.08 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.39.08-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;NICOLE:&lt;/strong&gt; I really got into programming around the time when I was in fifth grade, at roughly the same time that I started spending a lot of time playing video games (that interest has since waned &amp;#8211; fortunately, my interest in programming is still going strong!) It was at that point that I decided that I wanted to be a programmer when I grew up &amp;#8211; particularly, a game programmer at Nintendo. So when the monthly Scholastic catalog came out featuring a Learn to Program Basic computer game, I had to have it &amp;#8211; because I was going to be a programmer! Fortunately, my parents were kind enough to oblige.
+    &lt;a style=&quot;color: #ff4b33;&quot; href=&quot;../assets/images/interview_nicole.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-999&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.39.08 AM&quot; src=&quot;../assets/images/interview_nicole.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;NICOLE:&lt;/strong&gt; I really got into programming around the time when I was in fifth grade, at roughly the same time that I started spending a lot of time playing video games (that interest has since waned &amp;#8211; fortunately, my interest in programming is still going strong!) It was at that point that I decided that I wanted to be a programmer when I grew up &amp;#8211; particularly, a game programmer at Nintendo. So when the monthly Scholastic catalog came out featuring a Learn to Program Basic computer game, I had to have it &amp;#8211; because I was going to be a programmer! Fortunately, my parents were kind enough to oblige.
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -960,7 +951,7 @@ $bp-full: 1200px;`
   &lt;/h2&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.14-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-993&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.14-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;STEPHANIE:&lt;/strong&gt; I worked through Michael Hartl&amp;#8217;s Rails Tutorial (http://www.railstutorial.org/) and watched Ryan Bates&amp;#8217;s RailsCasts (http://railscasts.com/) to learn how to build a website from the ground up, but as someone with zero knowledge of how the web worked (e.g., HTTP requests, servers, AJAX), I got overwhelmed pretty quickly.
+    &lt;a href=&quot;../assets/images/interview_stephanie.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-993&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;&quot; src=&quot;../assets/images/interview_stephanie.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;STEPHANIE:&lt;/strong&gt; I worked through Michael Hartl&amp;#8217;s Rails Tutorial (http://www.railstutorial.org/) and watched Ryan Bates&amp;#8217;s RailsCasts (http://railscasts.com/) to learn how to build a website from the ground up, but as someone with zero knowledge of how the web worked (e.g., HTTP requests, servers, AJAX), I got overwhelmed pretty quickly.
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -972,11 +963,11 @@ $bp-full: 1200px;`
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.27-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-994&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.27 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.27-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;MARCUS:&lt;/strong&gt; I am a big book person. If I want to learn something, I&amp;#8217;ll buy the book, read it, and write out the examples. I love second hand knowledge, reading tech books speeds up my growth process by introducing me to tested solutions for problem X, Y, or Z.
+    &lt;a href=&quot;../assets/images/interview_marcus.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-994&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.27 AM&quot; src=&quot;../assets/images/interview_marcus.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;MARCUS:&lt;/strong&gt; I am a big book person. If I want to learn something, I&amp;#8217;ll buy the book, read it, and write out the examples. I love second hand knowledge, reading tech books speeds up my growth process by introducing me to tested solutions for problem X, Y, or Z.
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.39-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-996&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.39 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.39-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;CHENEY:&lt;/strong&gt; Oddly enough, I don’t have a go-to place for tutorials, but I approach it in more of an ad-hoc way. Google search is always my home base, and I try to follow relevant field leaders on social media for tips I wouldn’t know to search for. I’ve spent time on various blogs for focused tutorials (rather than full-fledged courses that I find overwhelming like Lynda’s offerings) as well as sites like bento.io.
+    &lt;a href=&quot;../assets/images/interview_cheney.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-996&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.39 AM&quot; src=&quot;../assets/images/interview_cheney.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;CHENEY:&lt;/strong&gt; Oddly enough, I don’t have a go-to place for tutorials, but I approach it in more of an ad-hoc way. Google search is always my home base, and I try to follow relevant field leaders on social media for tips I wouldn’t know to search for. I’ve spent time on various blogs for focused tutorials (rather than full-fledged courses that I find overwhelming like Lynda’s offerings) as well as sites like bento.io.
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -984,7 +975,7 @@ $bp-full: 1200px;`
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.54-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-998&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.54 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.54-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;WAYNE:&lt;/strong&gt; I can&amp;#8217;t even remember the first web resources I used!
+    &lt;a href=&quot;../assets/images/interview_wayne.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-998&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.54 AM&quot; src=&quot;../assets/images/interview_wayne.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;WAYNE:&lt;/strong&gt; I can&amp;#8217;t even remember the first web resources I used!
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -1004,7 +995,7 @@ $bp-full: 1200px;`
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a style=&quot;color: #ff4b33;&quot; href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.39.08-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-999&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.39.08 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.39.08-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;NICOLE:&lt;/strong&gt; Ooh, that’s a tough question &amp;#8211; there are so many great tutorials out there. I’m a big fan of the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript&quot; target=&quot;_blank&quot;&gt;Mozilla JavaScript Guide&lt;/a&gt;, and &lt;a href=&quot;http://tympanus.net/codrops/&quot; target=&quot;_blank&quot;&gt;Codrops&lt;/a&gt; has a lot of really beautiful front-end tutorials and examples. For another comprehensive JavaScript overview, &lt;a href=&quot;http://eloquentjavascript.net/&quot; target=&quot;_blank&quot;&gt;Eloquent JavaScript&lt;/a&gt; is pretty good, and for learning Rails, the &lt;a href=&quot;https://www.railstutorial.org/book&quot; target=&quot;_blank&quot;&gt;Learn Rails By Example&lt;/a&gt; tutorial really impressed me with how well it balanced teaching advanced material with keeping things beginner accessible.
+    &lt;a style=&quot;color: #ff4b33;&quot; href=&quot;../assets/images/interview_nicole.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-999&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.39.08 AM&quot; src=&quot;../assets/images/interview_nicole.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;NICOLE:&lt;/strong&gt; Ooh, that’s a tough question &amp;#8211; there are so many great tutorials out there. I’m a big fan of the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript&quot; target=&quot;_blank&quot;&gt;Mozilla JavaScript Guide&lt;/a&gt;, and &lt;a href=&quot;http://tympanus.net/codrops/&quot; target=&quot;_blank&quot;&gt;Codrops&lt;/a&gt; has a lot of really beautiful front-end tutorials and examples. For another comprehensive JavaScript overview, &lt;a href=&quot;http://eloquentjavascript.net/&quot; target=&quot;_blank&quot;&gt;Eloquent JavaScript&lt;/a&gt; is pretty good, and for learning Rails, the &lt;a href=&quot;https://www.railstutorial.org/book&quot; target=&quot;_blank&quot;&gt;Learn Rails By Example&lt;/a&gt; tutorial really impressed me with how well it balanced teaching advanced material with keeping things beginner accessible.
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -1016,11 +1007,11 @@ $bp-full: 1200px;`
   &lt;/h2&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.14-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-993&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.14-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;STEPHANIE:&lt;/strong&gt; As a developer, I&amp;#8217;d say that there&amp;#8217;s always a healthy tension between writing good code and shipping. You don&amp;#8217;t want to over-engineer a solution, but you also don&amp;#8217;t want to write horrible code that, while functional, will make it harder to iterate and improve on the feature. It&amp;#8217;s frustrating at times because without more experience, it&amp;#8217;s really hard to know the answer. But at the same time, it&amp;#8217;s one of the cool non-deterministic challenges that can make programming a really creative pursuit.
+    &lt;a href=&quot;../assets/images/interview_stephanie.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-993&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;&quot; src=&quot;../assets/images/interview_stephanie.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;STEPHANIE:&lt;/strong&gt; As a developer, I&amp;#8217;d say that there&amp;#8217;s always a healthy tension between writing good code and shipping. You don&amp;#8217;t want to over-engineer a solution, but you also don&amp;#8217;t want to write horrible code that, while functional, will make it harder to iterate and improve on the feature. It&amp;#8217;s frustrating at times because without more experience, it&amp;#8217;s really hard to know the answer. But at the same time, it&amp;#8217;s one of the cool non-deterministic challenges that can make programming a really creative pursuit.
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.27-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-994&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.27 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.27-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;MARCUS:&lt;/strong&gt; The most frustrating thing about learning to code is learning all the associated knowledge that no one warns you about.
+    &lt;a href=&quot;../assets/images/interview_marcus.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-994&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.27 AM&quot; src=&quot;../assets/images/interview_marcus.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;MARCUS:&lt;/strong&gt; The most frustrating thing about learning to code is learning all the associated knowledge that no one warns you about.
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -1036,7 +1027,7 @@ $bp-full: 1200px;`
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.39-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-996&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.39 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.39-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;CHENEY:&lt;/strong&gt; Imposter Syndrome. Some of the most seemingly confident people I know are developers, and these same people can also be the most insecure. In recent years, this concept is now well-written about, but it remains a common issue that it’s so easy to think that we’re just faking it.
+    &lt;a href=&quot;../assets/images/interview_cheney.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-996&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.39 AM&quot; src=&quot;../assets/images/interview_cheney.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;CHENEY:&lt;/strong&gt; Imposter Syndrome. Some of the most seemingly confident people I know are developers, and these same people can also be the most insecure. In recent years, this concept is now well-written about, but it remains a common issue that it’s so easy to think that we’re just faking it.
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -1048,7 +1039,7 @@ $bp-full: 1200px;`
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.54-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-998&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.54 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.54-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;WAYNE:&lt;/strong&gt; When you&amp;#8217;re in a workforce, you may be blocked by non-technical issues that have nothing to do with the technology that you want to solve.
+    &lt;a href=&quot;../assets/images/interview_wayne.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-998&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.54 AM&quot; src=&quot;../assets/images/interview_wayne.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;WAYNE:&lt;/strong&gt; When you&amp;#8217;re in a workforce, you may be blocked by non-technical issues that have nothing to do with the technology that you want to solve.
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -1060,7 +1051,7 @@ $bp-full: 1200px;`
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a style=&quot;color: #ff4b33;&quot; href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.39.08-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-999&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.39.08 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.39.08-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;NICOLE:&lt;/strong&gt; One of the things that you often don’t get a great feel for while you’re still learning is dealing with other people’s code. In the real world, the APIs aren’t always going to be clean and readable, and sometimes you’ll have to support legacy code that’s messy or so old that nobody even remembers who wrote it. And of course, there’s always that other team that you’ll have critical dependencies on who can just never quite get it together. I say this a bit tongue-in-cheek, but just like being able to work with someone else’s code is a critical skill, so is being able to work with other people. Being a developer isn’t just about coding &amp;#8211; interpersonal skills are important too &amp;#8211; and it’s good to be able to roll with the punches, and to be able to offer constructive critique and ask for what you or your team needs without blaming or finger-pointing.
+    &lt;a style=&quot;color: #ff4b33;&quot; href=&quot;../assets/images/interview_nicole.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-999&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.39.08 AM&quot; src=&quot;../assets/images/interview_nicole.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;NICOLE:&lt;/strong&gt; One of the things that you often don’t get a great feel for while you’re still learning is dealing with other people’s code. In the real world, the APIs aren’t always going to be clean and readable, and sometimes you’ll have to support legacy code that’s messy or so old that nobody even remembers who wrote it. And of course, there’s always that other team that you’ll have critical dependencies on who can just never quite get it together. I say this a bit tongue-in-cheek, but just like being able to work with someone else’s code is a critical skill, so is being able to work with other people. Being a developer isn’t just about coding &amp;#8211; interpersonal skills are important too &amp;#8211; and it’s good to be able to roll with the punches, and to be able to offer constructive critique and ask for what you or your team needs without blaming or finger-pointing.
   &lt;/p&gt;
   
   &lt;h2&gt;
@@ -1068,7 +1059,7 @@ $bp-full: 1200px;`
   &lt;/h2&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.14-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-993&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.14-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;STEPHANIE:&lt;/strong&gt; Internalize &lt;a href=&quot;http://www.amazon.com/Mindset-The-New-Psychology-Success/dp/0345472322&quot; target=&quot;_blank&quot;&gt;growth mindset&lt;/a&gt;. &lt;a href=&quot;http://www.stchangg.com/blog/why-stories-are-so-important/&quot; target=&quot;_blank&quot;&gt;Talk to yourself everyday to internalize it&lt;/a&gt;, if that&amp;#8217;s what it takes. Do it wherever &amp;#8211; on your lunch break, on your commute to work. (Nothing to be ashamed of! I did it and still do it.)
+    &lt;a href=&quot;../assets/images/interview_stephanie.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-993&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;&quot; src=&quot;../assets/images/interview_stephanie.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;STEPHANIE:&lt;/strong&gt; Internalize &lt;a href=&quot;http://www.amazon.com/Mindset-The-New-Psychology-Success/dp/0345472322&quot; target=&quot;_blank&quot;&gt;growth mindset&lt;/a&gt;. &lt;a href=&quot;http://www.stchangg.com/blog/why-stories-are-so-important/&quot; target=&quot;_blank&quot;&gt;Talk to yourself everyday to internalize it&lt;/a&gt;, if that&amp;#8217;s what it takes. Do it wherever &amp;#8211; on your lunch break, on your commute to work. (Nothing to be ashamed of! I did it and still do it.)
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -1080,11 +1071,11 @@ $bp-full: 1200px;`
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.27-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-994&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.27 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.27-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;MARCUS:&lt;/strong&gt; Join a tech group, find a group of people who like to code and make them your friends, go to hackathons, listen to podcasts, watch conference videos, and read tech books. All the information and help needed to learn how to program is out there. You just need to find it.
+    &lt;a href=&quot;../assets/images/interview_marcus.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-994&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.27 AM&quot; src=&quot;../assets/images/interview_marcus.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;MARCUS:&lt;/strong&gt; Join a tech group, find a group of people who like to code and make them your friends, go to hackathons, listen to podcasts, watch conference videos, and read tech books. All the information and help needed to learn how to program is out there. You just need to find it.
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.39-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-996&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.39 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.39-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;CHENEY:&lt;/strong&gt; Writing code is a bit different from some other disciplines. You’ll find that progress tends to be like a step function. If you find yourself in a flat part of a project, keep at it! Don’t be afraid to ask for help or look up resources.
+    &lt;a href=&quot;../assets/images/interview_cheney.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-996&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.39 AM&quot; src=&quot;../assets/images/interview_cheney.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;CHENEY:&lt;/strong&gt; Writing code is a bit different from some other disciplines. You’ll find that progress tends to be like a step function. If you find yourself in a flat part of a project, keep at it! Don’t be afraid to ask for help or look up resources.
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -1092,7 +1083,7 @@ $bp-full: 1200px;`
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.54-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-998&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.54 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.54-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;WAYNE:&lt;/strong&gt; I think everyone gets to coding and perceive it as a much harder thing as it actually is, saying &amp;#8220;my brain doesn&amp;#8217;t work that way.&amp;#8221;
+    &lt;a href=&quot;../assets/images/interview_wayne.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-998&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.54 AM&quot; src=&quot;../assets/images/interview_wayne.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;WAYNE:&lt;/strong&gt; I think everyone gets to coding and perceive it as a much harder thing as it actually is, saying &amp;#8220;my brain doesn&amp;#8217;t work that way.&amp;#8221;
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -1100,7 +1091,7 @@ $bp-full: 1200px;`
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a style=&quot;color: #ff4b33;&quot; href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.39.08-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-999&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.39.08 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.39.08-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;NICOLE:&lt;/strong&gt; Find a mentor or coding buddy, or a bunch of them! You can learn a lot nowadays from the internet, but it’s always nice to get a fresh perspective on things and get another set of eyes on your code. If you live in a city, you can probably find plenty of local meetups for new coders, and if not, there are sites like &lt;a href=&quot;http://bit.ly/ZOMlA2&quot; target=&quot;_blank&quot;&gt;Codermatch.me&lt;/a&gt; (&lt;em&gt;interviewer: or online learning communities like &lt;a href=&quot;http://bit.ly/1qwP46w&quot; target=&quot;_blank&quot;&gt;Code Buddies&lt;/a&gt;&lt;/em&gt;) to help you find a buddy.
+    &lt;a style=&quot;color: #ff4b33;&quot; href=&quot;../assets/images/interview_nicole.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-999&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.39.08 AM&quot; src=&quot;../assets/images/interview_nicole.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;NICOLE:&lt;/strong&gt; Find a mentor or coding buddy, or a bunch of them! You can learn a lot nowadays from the internet, but it’s always nice to get a fresh perspective on things and get another set of eyes on your code. If you live in a city, you can probably find plenty of local meetups for new coders, and if not, there are sites like &lt;a href=&quot;http://bit.ly/ZOMlA2&quot; target=&quot;_blank&quot;&gt;Codermatch.me&lt;/a&gt; (&lt;em&gt;interviewer: or online learning communities like &lt;a href=&quot;http://bit.ly/1qwP46w&quot; target=&quot;_blank&quot;&gt;Code Buddies&lt;/a&gt;&lt;/em&gt;) to help you find a buddy.
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -1112,22 +1103,22 @@ $bp-full: 1200px;`
   &lt;/h2&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.14-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-993&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.14-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;STEPHANIE:&lt;/strong&gt; Creating products through programming is an awesome way to reach a lot of people super quickly. It&amp;#8217;s incredibly motivating to build a feature and have thousands or millions of users start using it and, better yet,&lt;a href=&quot;https://www.khanacademy.org/stories&quot; target=&quot;_blank&quot;&gt; telling you how it&amp;#8217;s helping them achieve their goals&lt;/a&gt;.
+    &lt;a href=&quot;../assets/images/interview_stephanie.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-993&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;&quot; src=&quot;../assets/images/interview_stephanie.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;STEPHANIE:&lt;/strong&gt; Creating products through programming is an awesome way to reach a lot of people super quickly. It&amp;#8217;s incredibly motivating to build a feature and have thousands or millions of users start using it and, better yet,&lt;a href=&quot;https://www.khanacademy.org/stories&quot; target=&quot;_blank&quot;&gt; telling you how it&amp;#8217;s helping them achieve their goals&lt;/a&gt;.
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.27-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-994&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.27 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.27-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;MARCUS:&lt;/strong&gt; I love learning, and I love solving problems! Also, I love the fact that I can reuse code! One of the promises that academia makes to a math major is that once you prove something, you never have to prove it again. In the world of mathematicians that might be true, but in the world of college students, that is a lie! Programming, on the other hand, has kept that promise. The ability to reuse code is something that I cherish!
+    &lt;a href=&quot;../assets/images/interview_marcus.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-994&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.27 AM&quot; src=&quot;../assets/images/interview_marcus.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;MARCUS:&lt;/strong&gt; I love learning, and I love solving problems! Also, I love the fact that I can reuse code! One of the promises that academia makes to a math major is that once you prove something, you never have to prove it again. In the world of mathematicians that might be true, but in the world of college students, that is a lie! Programming, on the other hand, has kept that promise. The ability to reuse code is something that I cherish!
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.39-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-996&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.39 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.39-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;CHENEY:&lt;/strong&gt; I love to learn and I love to make things happen. The tools don’t actually matter to me, but engineering + design has been amazing at helping me communicate the ideas I have in my head.
+    &lt;a href=&quot;../assets/images/interview_cheney.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-996&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.39 AM&quot; src=&quot;../assets/images/interview_cheney.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;CHENEY:&lt;/strong&gt; I love to learn and I love to make things happen. The tools don’t actually matter to me, but engineering + design has been amazing at helping me communicate the ideas I have in my head.
   &lt;/p&gt;
   
   &lt;div class=&quot;clear&quot;&gt;
   &lt;/div&gt;
-  
+  &lt;br /&gt;
   &lt;p&gt;
-    &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.54-AM.png&quot;&gt;&lt;img class=&quot;clear&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.54 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.38.54-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;WAYNE:&lt;/strong&gt; I keep it doing it for the same reason I started: to be honest, it pays a lot.
+    &lt;a href=&quot;../assets/images/interview_wayne.jpg&quot;&gt;&lt;img class=&quot;clear&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.38.54 AM&quot; src=&quot;../assets/images/interview_wayne.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;WAYNE:&lt;/strong&gt; I keep it doing it for the same reason I started: to be honest, it pays a lot.
   &lt;/p&gt;
   
   &lt;p&gt;
@@ -1143,7 +1134,7 @@ $bp-full: 1200px;`
   &lt;/p&gt;
   
   &lt;p&gt;
-    &lt;a style=&quot;color: #ff4b33;&quot; href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.39.08-AM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-999&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.39.08 AM&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/09/Screen-Shot-2014-09-22-at-12.39.08-AM.png&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;NICOLE:&lt;/strong&gt; Because I love it! I love making things and then being able to actually use and play with what I’ve made. And as a creator of educational software, knowing that kids all over the country are learning from software I worked on is incredibly fulfilling.
+    &lt;a style=&quot;color: #ff4b33;&quot; href=&quot;../assets/images/interview_nicole.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-999&quot; style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Screen Shot 2014-09-22 at 12.39.08 AM&quot; src=&quot;../assets/images/interview_nicole.jpg&quot; width=&quot;115&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;NICOLE:&lt;/strong&gt; Because I love it! I love making things and then being able to actually use and play with what I’ve made. And as a creator of educational software, knowing that kids all over the country are learning from software I worked on is incredibly fulfilling.
   &lt;/p&gt;
 &lt;/div&gt;
 
@@ -1152,7 +1143,7 @@ $bp-full: 1200px;`
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://bit.ly/1t1aXg7&quot; target=&quot;_blank&quot;&gt;Click here to read Part I of this interview series.&lt;/a&gt;&amp;lt;/p&amp;gt; &lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://bit.ly/1t1aXg7&quot; target=&quot;_blank&quot;&gt;Click here to read Part I of this interview series.&lt;/a&gt;&lt;/p&gt;
 </description>
                 <link>http://thecodingdiaries.com/learning-to-code-but-feeling-lost-i-interviewed-some-experts-and-heres-what-i-found-part-ii/</link>
                 <guid>http://thecodingdiaries.com/learning-to-code-but-feeling-lost-i-interviewed-some-experts-and-heres-what-i-found-part-ii</guid>
@@ -1190,7 +1181,7 @@ $bp-full: 1200px;`
 &lt;/p&gt;
 
 &lt;p style=&quot;clear: both;&quot;&gt;
-  &lt;strong&gt;&lt;em&gt;&lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/linda.jpeg&quot;&gt;&lt;img style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Linda&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/linda.jpeg&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;/strong&gt;&lt;strong&gt;Linda Peng &lt;/strong&gt; (&lt;a href=&quot;http://twitter.com/lpnotes&quot; target=&quot;_blank&quot;&gt;@lpnotes&lt;/a&gt;) works at actionkit.com, blogs at this blog, plays violin when she&amp;#8217;s not geeking out about web development, and has started spending her weekends experimenting with &lt;a href=&quot;http://bit.ly/1qTUcUc&quot; target=&quot;_blank&quot;&gt;codebuddies.org&lt;/a&gt; to help people learning from code tutorials get un-stuck faster via virtual study groups.
+  &lt;strong&gt;&lt;em&gt;&lt;a href=&quot;../assets/images/interview_linda.jpg&quot;&gt;&lt;img style=&quot;margin-right: 10px; float: left;&quot; alt=&quot;Linda&quot; src=&quot;../assets/images/interview_linda.jpg&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;strong&gt;&lt;/strong&gt;&lt;strong&gt;Linda Peng &lt;/strong&gt; (&lt;a href=&quot;http://twitter.com/lpnotes&quot; target=&quot;_blank&quot;&gt;@lpnotes&lt;/a&gt;) works at actionkit.com, blogs at this blog, plays violin when she&amp;#8217;s not geeking out about web development, and has started spending her weekends experimenting with &lt;a href=&quot;http://bit.ly/1qTUcUc&quot; target=&quot;_blank&quot;&gt;codebuddies.org&lt;/a&gt; to help people learning from code tutorials get un-stuck faster via virtual study groups.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -1198,35 +1189,15 @@ $bp-full: 1200px;`
 &lt;/p&gt;
 
 &lt;p style=&quot;clear: both;&quot;&gt;
-  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.22-PM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-938&quot; style=&quot;float: left; margin-right: 10px;&quot; alt=&quot;Lenny&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.22-PM.png&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Lenny Bogdonoff&lt;/strong&gt; is a developer at &lt;em&gt;The New Yorker&lt;/em&gt; and currently working on the New Public Arts Foundation. You can follow him &lt;a href=&quot;http://twitter.com/rememberlenny&quot; target=&quot;_blank&quot;&gt;@rememberlenny&lt;/a&gt;.
-&lt;/p&gt;
-
-&lt;p&gt;
-  &amp;nbsp;
-&lt;/p&gt;
-&lt;p&gt;
-  &amp;nbsp;
-&lt;/p&gt;
-&lt;p&gt;
-  &amp;nbsp;
+  &lt;a href=&quot;../assets/images/interview_lenny.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-938&quot; style=&quot;float: left; margin-right: 10px;&quot; alt=&quot;Lenny&quot; src=&quot;../assets/images/interview_lenny.jpg&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Lenny Bogdonoff&lt;/strong&gt; is a developer at &lt;em&gt;The New Yorker&lt;/em&gt; and currently working on the New Public Arts Foundation. You can follow him &lt;a href=&quot;http://twitter.com/rememberlenny&quot; target=&quot;_blank&quot;&gt;@rememberlenny&lt;/a&gt;.
 &lt;/p&gt;
 
 &lt;p style=&quot;clear: both;&quot;&gt;
-  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.37-PM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-939&quot; style=&quot;float: left; margin-right: 10px;&quot; alt=&quot;Henry&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.37-PM.png&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Henry Qin&lt;/strong&gt; is a PHD candidate in Computer Science at Stanford University working on RAMCloud, a distributed, low-latency key-value store.
-&lt;/p&gt;
-
-&lt;p&gt;
-  &amp;nbsp;
-&lt;/p&gt;
-&lt;p&gt;
-  &amp;nbsp;
-&lt;/p&gt;
-&lt;p&gt;
-  &amp;nbsp;
+  &lt;a href=&quot;../assets/images/interview_henry.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-939&quot; style=&quot;float: left; margin-right: 10px;&quot; alt=&quot;Henry&quot; src=&quot;../assets/images/interview_henry.jpg&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Henry Qin&lt;/strong&gt; is a PHD candidate in Computer Science at Stanford University working on RAMCloud, a distributed, low-latency key-value store.
 &lt;/p&gt;
 
 &lt;p style=&quot;clear: both;&quot;&gt;
-  &lt;strong&gt;&lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.52-PM.png&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-940&quot; style=&quot;float: left; margin-right: 10px;&quot; alt=&quot;Betsy&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.52-PM.png&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;Betsy Cannon&lt;/strong&gt; is a product engineer at Tumblr, Hacker School alumna, and collector of forks. She posts about math and forks at &lt;a href=&quot;http://forklady42.tumblr.com&quot; target=&quot;_blank&quot;&gt;forklady42.tumblr.com&lt;/a&gt;.
+  &lt;strong&gt;&lt;a href=&quot;../assets/images/interview_betsy.jpg&quot;&gt;&lt;img class=&quot;alignnone size-full wp-image-940&quot; style=&quot;float: left; margin-right: 10px;&quot; alt=&quot;Betsy&quot; src=&quot;../assets/images/interview_betsy.jpg&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;Betsy Cannon&lt;/strong&gt; is a product engineer at Tumblr, Hacker School alumna, and collector of forks. She posts about math and forks at &lt;a href=&quot;http://forklady42.tumblr.com&quot; target=&quot;_blank&quot;&gt;forklady42.tumblr.com&lt;/a&gt;.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -1234,7 +1205,7 @@ $bp-full: 1200px;`
 &lt;/p&gt;
 
 &lt;p style=&quot;clear: both;&quot;&gt;
-  &lt;a href=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.36.03-PM.png&quot;&gt;&lt;img style=&quot;float: left; margin-right: 10px;&quot; alt=&quot;Felicia&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.36.03-PM.png&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Felicia O’Garro&lt;/strong&gt; is a developer evangelist at NineFold and co-founder of Code Crew, a meetup in NYC for people learning to code. You can follow her &lt;a href=&quot;http://twitter.com/feliciaogarro&quot; target=&quot;_blank&quot;&gt;@feliciaogarro&lt;/a&gt;.
+  &lt;a href=&quot;../assets/images/interview_felicia.jpg&quot;&gt;&lt;img style=&quot;float: left; margin-right: 10px;&quot; alt=&quot;Felicia&quot; src=&quot;../assets/images/interview_felicia.jpg&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;/a&gt;&lt;strong&gt;Felicia O’Garro&lt;/strong&gt; is a developer evangelist at NineFold and co-founder of Code Crew, a meetup in NYC for people learning to code. You can follow her &lt;a href=&quot;http://twitter.com/feliciaogarro&quot; target=&quot;_blank&quot;&gt;@feliciaogarro&lt;/a&gt;.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -1242,7 +1213,7 @@ $bp-full: 1200px;`
 &lt;/p&gt;
 
 &lt;p style=&quot;clear: both;&quot;&gt;
-  &lt;img class=&quot;alignnone size-full wp-image-942&quot; style=&quot;font-size: 12px; line-height: 18px; float: left; margin-right: 10px;&quot; alt=&quot;Darrell&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.36.15-PM.png&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;strong&gt;Darrell Simmons&lt;/strong&gt; is a freelance front-end developer currently working on &lt;a href=&quot;http://bit.ly/1kFMiQK&quot; target=&quot;_blank&quot;&gt;30Websites.com&lt;/a&gt; &amp;#8211; a project that helps people learn to code. He writes at &lt;a href=&quot;http://hellodrell.tumblr.com&quot; target=&quot;_blank&quot;&gt;hellodrell.tumblr.com&lt;/a&gt; and tweets &lt;a href=&quot;http://twitter.com/drell424&quot; target=&quot;_blank&quot;&gt;@drell424&lt;/a&gt;
+  &lt;img class=&quot;alignnone size-full wp-image-942&quot; style=&quot;font-size: 12px; line-height: 18px; float: left; margin-right: 10px;&quot; alt=&quot;Darrell&quot; src=&quot;../assets/images/interview_darrell.jpg&quot; width=&quot;118&quot; height=&quot;115&quot; /&gt;&lt;strong&gt;Darrell Simmons&lt;/strong&gt; is a freelance front-end developer currently working on &lt;a href=&quot;http://bit.ly/1kFMiQK&quot; target=&quot;_blank&quot;&gt;30Websites.com&lt;/a&gt; &amp;#8211; a project that helps people learn to code. He writes at &lt;a href=&quot;http://hellodrell.tumblr.com&quot; target=&quot;_blank&quot;&gt;hellodrell.tumblr.com&lt;/a&gt; and tweets &lt;a href=&quot;http://twitter.com/drell424&quot; target=&quot;_blank&quot;&gt;@drell424&lt;/a&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -5929,7 +5900,6 @@ Paragraph Text Paragraph Text Paragraph Text Paragraph Text Paragraph Text Parag
 &lt;p&gt;
   In other words: Focus first on gaining traction (Does the product add value? Will the targeted really use it?), and &lt;em&gt;then&lt;/em&gt; worry about adding all the cool features, target market expansion, and awesome partnerships.
 &lt;/p&gt;
-&lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
 </description>
                 <link>http://thecodingdiaries.com/10-lessons-i-learned-from-designing-an-online-community-using-wordpress-and-buddypress/</link>
                 <guid>http://thecodingdiaries.com/10-lessons-i-learned-from-designing-an-online-community-using-wordpress-and-buddypress</guid>

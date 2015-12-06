@@ -120,4 +120,4 @@ dsq_thread_id:
 
 <p>
   In other words: Focus first on gaining traction (Does the product add value? Will the targeted really use it?), and <em>then</em> worry about adding all the cool features, target market expansion, and awesome partnerships.
-</p></span>
+</p>

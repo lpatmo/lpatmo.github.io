@@ -27,9 +27,9 @@ h2 a {color: #000;}
   background-color: #ccc;
 }
 .page-header h1 a { font-size: 2.5em; color: #000; margin-bottom: 15px;}
-h1 { padding: 0 15px;}
+/*h1 { padding: 0 15px;}*/
 h1 small { display: block; margin-top: 15px;}
-code { display: block;}
+code { font-size: 14px;}
 
 /*sidebar*/
 ul.sidebar li { display: list-item;}
@@ -39,7 +39,7 @@ ul.sidebar li:before {
   content: "✔ ";
 }
 
-p, ul, li { font-size: 1.2em;}
+p, ul, li { font-size: 18px;}
 
 /* posts index */
 .post > h3.title {
@@ -165,7 +165,6 @@ background:#ccf;
 ul.notes1, li.notes a{
 text-decoration: none;
 color: #369;
-padding: 10px 20px;
 }
 
 li.notes {

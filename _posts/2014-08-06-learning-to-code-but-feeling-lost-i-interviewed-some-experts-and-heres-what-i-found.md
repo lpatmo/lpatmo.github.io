@@ -38,7 +38,7 @@ dsq_thread_id:
 </p>
 
 <p style="clear: both;">
-  <strong><em><a href="http://www.thecodingdiaries.com/wp-content/uploads/2014/08/linda.jpeg"><img style="margin-right: 10px; float: left;" alt="Linda" src="http://www.thecodingdiaries.com/wp-content/uploads/2014/08/linda.jpeg" width="118" height="115" /></a></em></strong><strong></strong><strong>Linda Peng </strong> (<a href="http://twitter.com/lpnotes" target="_blank">@lpnotes</a>) works at actionkit.com, blogs at this blog, plays violin when she&#8217;s not geeking out about web development, and has started spending her weekends experimenting with <a href="http://bit.ly/1qTUcUc" target="_blank">codebuddies.org</a> to help people learning from code tutorials get un-stuck faster via virtual study groups.
+  <strong><em><a href="../assets/images/interview_linda.jpg"><img style="margin-right: 10px; float: left;" alt="Linda" src="../assets/images/interview_linda.jpg" width="118" height="115" /></a></em></strong><strong></strong><strong>Linda Peng </strong> (<a href="http://twitter.com/lpnotes" target="_blank">@lpnotes</a>) works at actionkit.com, blogs at this blog, plays violin when she&#8217;s not geeking out about web development, and has started spending her weekends experimenting with <a href="http://bit.ly/1qTUcUc" target="_blank">codebuddies.org</a> to help people learning from code tutorials get un-stuck faster via virtual study groups.
 </p>
 
 <p>
@@ -46,35 +46,17 @@ dsq_thread_id:
 </p>
 
 <p style="clear: both;">
-  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.22-PM.png"><img class="alignnone size-full wp-image-938" style="float: left; margin-right: 10px;" alt="Lenny" src="http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.22-PM.png" width="118" height="115" /></a><strong>Lenny Bogdonoff</strong> is a developer at <em>The New Yorker</em> and currently working on the New Public Arts Foundation. You can follow him <a href="http://twitter.com/rememberlenny" target="_blank">@rememberlenny</a>.
+  <a href="../assets/images/interview_lenny.jpg"><img class="alignnone size-full wp-image-938" style="float: left; margin-right: 10px;" alt="Lenny" src="../assets/images/interview_lenny.jpg" width="118" height="115" /></a><strong>Lenny Bogdonoff</strong> is a developer at <em>The New Yorker</em> and currently working on the New Public Arts Foundation. You can follow him <a href="http://twitter.com/rememberlenny" target="_blank">@rememberlenny</a>.
 </p>
 
-<p>
-  &nbsp;
-</p>
-<p>
-  &nbsp;
-</p>
-<p>
-  &nbsp;
-</p>
 
 <p style="clear: both;">
-  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.37-PM.png"><img class="alignnone size-full wp-image-939" style="float: left; margin-right: 10px;" alt="Henry" src="http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.37-PM.png" width="118" height="115" /></a><strong>Henry Qin</strong> is a PHD candidate in Computer Science at Stanford University working on RAMCloud, a distributed, low-latency key-value store.
+  <a href="../assets/images/interview_henry.jpg"><img class="alignnone size-full wp-image-939" style="float: left; margin-right: 10px;" alt="Henry" src="../assets/images/interview_henry.jpg" width="118" height="115" /></a><strong>Henry Qin</strong> is a PHD candidate in Computer Science at Stanford University working on RAMCloud, a distributed, low-latency key-value store.
 </p>
 
-<p>
-  &nbsp;
-</p>
-<p>
-  &nbsp;
-</p>
-<p>
-  &nbsp;
-</p>
 
 <p style="clear: both;">
-  <strong><a href="http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.52-PM.png"><img class="alignnone size-full wp-image-940" style="float: left; margin-right: 10px;" alt="Betsy" src="http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.35.52-PM.png" width="118" height="115" /></a>Betsy Cannon</strong> is a product engineer at Tumblr, Hacker School alumna, and collector of forks. She posts about math and forks at <a href="http://forklady42.tumblr.com" target="_blank">forklady42.tumblr.com</a>.
+  <strong><a href="../assets/images/interview_betsy.jpg"><img class="alignnone size-full wp-image-940" style="float: left; margin-right: 10px;" alt="Betsy" src="../assets/images/interview_betsy.jpg" width="118" height="115" /></a>Betsy Cannon</strong> is a product engineer at Tumblr, Hacker School alumna, and collector of forks. She posts about math and forks at <a href="http://forklady42.tumblr.com" target="_blank">forklady42.tumblr.com</a>.
 </p>
 
 <p>
@@ -82,7 +64,7 @@ dsq_thread_id:
 </p>
 
 <p style="clear: both;">
-  <a href="http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.36.03-PM.png"><img style="float: left; margin-right: 10px;" alt="Felicia" src="http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.36.03-PM.png" width="118" height="115" /></a><strong>Felicia O’Garro</strong> is a developer evangelist at NineFold and co-founder of Code Crew, a meetup in NYC for people learning to code. You can follow her <a href="http://twitter.com/feliciaogarro" target="_blank">@feliciaogarro</a>.
+  <a href="../assets/images/interview_felicia.jpg"><img style="float: left; margin-right: 10px;" alt="Felicia" src="../assets/images/interview_felicia.jpg" width="118" height="115" /></a><strong>Felicia O’Garro</strong> is a developer evangelist at NineFold and co-founder of Code Crew, a meetup in NYC for people learning to code. You can follow her <a href="http://twitter.com/feliciaogarro" target="_blank">@feliciaogarro</a>.
 </p>
 
 <p>
@@ -90,7 +72,7 @@ dsq_thread_id:
 </p>
 
 <p style="clear: both;">
-  <img class="alignnone size-full wp-image-942" style="font-size: 12px; line-height: 18px; float: left; margin-right: 10px;" alt="Darrell" src="http://www.thecodingdiaries.com/wp-content/uploads/2014/08/Screen-Shot-2014-08-05-at-9.36.15-PM.png" width="118" height="115" /><strong>Darrell Simmons</strong> is a freelance front-end developer currently working on <a href="http://bit.ly/1kFMiQK" target="_blank">30Websites.com</a> &#8211; a project that helps people learn to code. He writes at <a href="http://hellodrell.tumblr.com" target="_blank">hellodrell.tumblr.com</a> and tweets <a href="http://twitter.com/drell424" target="_blank">@drell424</a>
+  <img class="alignnone size-full wp-image-942" style="font-size: 12px; line-height: 18px; float: left; margin-right: 10px;" alt="Darrell" src="../assets/images/interview_darrell.jpg" width="118" height="115" /><strong>Darrell Simmons</strong> is a freelance front-end developer currently working on <a href="http://bit.ly/1kFMiQK" target="_blank">30Websites.com</a> &#8211; a project that helps people learn to code. He writes at <a href="http://hellodrell.tumblr.com" target="_blank">hellodrell.tumblr.com</a> and tweets <a href="http://twitter.com/drell424" target="_blank">@drell424</a>
 </p>
 
 <p>
