@@ -1,13 +1,14 @@
 
-http://thecodingdiaries.com/archive.html
+http://thecodingdiaries.com/archive
 http://thecodingdiaries.com/atom.xml
-http://thecodingdiaries.com/categories.html
-http://thecodingdiaries.com/index.html
-http://thecodingdiaries.com/pages.html
+http://thecodingdiaries.com/categories
+http://thecodingdiaries.com/
+http://thecodingdiaries.com/pages
 http://thecodingdiaries.com/rss.xml
 http://thecodingdiaries.com/sitemap.txt
-http://thecodingdiaries.com/tags.html
+http://thecodingdiaries.com/tags
 
+http://thecodingdiaries.com/what-i-have-been-working-on/
 http://thecodingdiaries.com/notes-from-strange-loop/
 http://thecodingdiaries.com/how-to-create-multiple-forks-of-a-git-repo/
 http://thecodingdiaries.com/day-9-100daysofcode/

@@ -5,10 +5,30 @@
         <description>The Coding Diaries - Linda Peng</description>
         <link>http://thecodingdiaries.com</link>
         <link>http://thecodingdiaries.com</link>
-        <lastBuildDate>2015-12-06T14:21:03-08:00</lastBuildDate>
-        <pubDate>2015-12-06T14:21:03-08:00</pubDate>
+        <lastBuildDate>2018-08-17T17:36:57-07:00</lastBuildDate>
+        <pubDate>2018-08-17T17:36:57-07:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>What I've been working on (update after three years!)</title>
+                <description>&lt;p&gt;Welp, this blog (The Coding Diaries) hasn’t been updated in &lt;em&gt;three&lt;/em&gt; years! I’ve started chronicling some code notes on &lt;a href=&quot;http://codenotes.tumblr.com&quot;&gt;codenotes.tumblr.com&lt;/a&gt;, which
+you can follow if you are so inclined.&lt;/p&gt;
+
+&lt;p&gt;Yep, I am still a developer at &lt;a href=&quot;http://actionkit.com&quot;&gt;ActionKit&lt;/a&gt;, 
+campaigning software for large progressive non-profits like MoveOn.org, Indivisible, ONE, the ACLU, and 350.org. Know a bit
+more than front-end (Python, Django, SQL) now.&lt;/p&gt;
+
+&lt;p&gt;And in my spare time, I’ve been growing an open-sourced online community of independent code learners who enjoy sharing knowledge
+and helping each other become better software developers, called &lt;a href=&quot;http://codebuddies.org&quot;&gt;CodeBuddies&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It’s a great community and non-profit passion project and you can learn more about it &lt;a href=&quot;http://codebuddies.org/about&quot;&gt;here&lt;/a&gt;.
+ Join us on the Slack or on the &lt;a href=&quot;http://forum.codebuddies.org&quot;&gt;forum&lt;/a&gt;, too; I’m &lt;code&gt;@linda&lt;/code&gt; there.&lt;/p&gt;
+</description>
+                <link>http://thecodingdiaries.com/what-i-have-been-working-on/</link>
+                <guid>http://thecodingdiaries.com/what-i-have-been-working-on</guid>
+                <pubDate>2018-08-17T00:00:00-07:00</pubDate>
+        </item>
 
         <item>
                 <title>Notes from Strange Loop</title>
@@ -163,7 +183,7 @@ pass
                 <title>&lt;span data-rel=&quot;title&quot;&gt;Day 6: #100daysofcode&lt;/span&gt;</title>
                 <description>&lt;ul&gt;
   &lt;li&gt;
-    It&#39;s common to use adjectives as the names for decorator functions.
+    It's common to use adjectives as the names for decorator functions.
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -252,7 +272,7 @@ move(ben);
         <item>
                 <title>&lt;span data-rel=&quot;title&quot;&gt;Day 5: #100daysofcode&lt;/span&gt;</title>
                 <description>&lt;p&gt;
-  Today I Learned: If you need to do a lot of relational queries with your data, try not to use mongoDB. &lt;a href=&quot;http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/&quot;&gt;(More Info)&lt;/a&gt; + overheard from engineers&#39; experience at a tech meetup
+  Today I Learned: If you need to do a lot of relational queries with your data, try not to use mongoDB. &lt;a href=&quot;http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/&quot;&gt;(More Info)&lt;/a&gt; + overheard from engineers' experience at a tech meetup
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -326,8 +346,8 @@ class Ox(models.Model):
         </item>
 
         <item>
-                <title></title>
-                <description>&lt;h2 id=&quot;day-2&quot;&gt;Day 2!&lt;/h2&gt;
+                <title>100daysofcode Challenge Diary Log</title>
+                <description>&lt;p&gt;##Day 2!&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -339,7 +359,7 @@ class Ox(models.Model):
 &lt;/code&gt;&lt;/pre&gt;
     
     &lt;p&gt;
-      &amp;#8230; within &lt;code&gt;models.py&lt;/code&gt;, the first value is written into the database. The second value is the value that is displayed for the user. 
+      &amp;#8230; within &lt;code&gt;models.py&lt;/code&gt;, the first value is written into the database. The second value is the value that is displayed for the user.&amp;lt;/li&amp;gt; 
       
       &lt;li&gt;
         After writing up models.py, you need to run these two migrations to sync the database: &lt;pre&gt;&lt;code&gt;python manage.py makemigrations academy
@@ -357,7 +377,7 @@ python manage.py migrate academy
       &lt;/li&gt;
       &lt;li&gt;
         open(): &lt;a href=&quot;https://docs.python.org/2/library/functions.html#open&quot;&gt;https://docs.python.org/2/library/functions.html#open&lt;/a&gt;
-      &lt;/li&gt; 
+      &lt;/li&gt;&amp;lt;/ul&amp;gt; 
       
       &lt;p&gt;
         *&lt;code&gt;csv.DictReader(open(csv_file))&lt;/code&gt; will return a list with each row in the file as a dictionary.
@@ -408,7 +428,7 @@ admin.site.register(Invite, InviteAdmin)
 
 ##Day 1: Random
 
-    Note to self: if a div inside a div isn&#39;t recognizing the parent div as a parent when it&#39;s set to &lt;code&gt;position: absolute&lt;/code&gt;, it&#39;s because the closest parent needs to be set to &lt;code&gt;position: relative.&lt;/code&gt; Otherwise, it&#39;ll default to &lt;code&gt;position: static&lt;/code&gt;. (CSS)
+    Note to self: if a div inside a div isn't recognizing the parent div as a parent when it's set to &lt;code&gt;position: absolute&lt;/code&gt;, it's because the closest parent needs to be set to &lt;code&gt;position: relative.&lt;/code&gt; Otherwise, it'll default to &lt;code&gt;position: static&lt;/code&gt;. (CSS)
 
     &lt;code&gt;Meteor.startup() { }&lt;/code&gt; is sort of like &lt;code&gt;$(function() {});&lt;/code&gt; except we use it with meteor. (MeteorJS)
 
@@ -417,16 +437,16 @@ $(&amp;#39;textarea&amp;#39;).height(this.scrollHeight);
 &lt;/code&gt;&lt;/pre&gt;
   
     If you want the ability to write markdown inside your WordPress posts, see:&lt;br /&gt; &lt;a href=&quot;http://www.elegantthemes.com/blog/tips-tricks/using-markdown-in-wordpress&quot;&gt;http://www.elegantthemes.com/blog/tips-tricks/using-markdown-in-wordpress&lt;/a&gt;. (I decided on using the PrettyPress Editor.)
-  
+  &amp;lt;/li&amp;gt;
   &lt;li&gt;
     Note: to pull from a &lt;em&gt;branch&lt;/em&gt; inside an upstream repo&amp;#8230; &lt;code&gt;git fetch upstream branchname&lt;/code&gt; and &lt;code&gt;git merge upstream branchname&lt;/code&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    If I notice that there are elements inside &lt;code&gt;view:source&lt;/code&gt; but can&#39;t find it inside the browser &lt;code&gt;elements&lt;/code&gt; tab, chances are it&#39;s because there was a &lt;code&gt;.remove()&lt;/code&gt; put on the elements. (JS)
+    If I notice that there are elements inside &lt;code&gt;view:source&lt;/code&gt; but can't find it inside the browser &lt;code&gt;elements&lt;/code&gt; tab, chances are it's because there was a &lt;code&gt;.remove()&lt;/code&gt; put on the elements. (JS)
 
     &lt;code&gt;localStorage&lt;/code&gt; is nice and lighter weight than cookies.
 
-    &lt;code&gt;Intl.DateTimeFormat().resolvedOptions().timeZone ? Intl.DateTimeFormat().resolvedOptions().timeZone&lt;/code&gt; returns the users&#39;s timezone! However, this is currently supported on only very limited modern browsers. (JS)
+    &lt;code&gt;Intl.DateTimeFormat().resolvedOptions().timeZone ? Intl.DateTimeFormat().resolvedOptions().timeZone&lt;/code&gt; returns the users's timezone! However, this is currently supported on only very limited modern browsers. (JS)
 
 
 This post is a part of the [#100dayosfcode](http://www.thecodingdiaries.com/the-100daysofcode-challenge/) challenge.
@@ -488,7 +508,7 @@ This post is a part of the [#100dayosfcode](http://www.thecodingdiaries.com/the-
         <item>
                 <title>&lt;span data-rel=&quot;title&quot;&gt;SASSConf NYC Reportback (2014)&lt;/span&gt;</title>
                 <description>&lt;p&gt;
-  I went to &lt;a href=&quot;sassconf.com&quot;&gt;SASSConf&lt;/a&gt; (my first SASS Conference!) in October 2014 and had a blast. The conference &amp;#8212; organized by &lt;a href=&quot;https://twitter.com/itsmisscs&quot;&gt;@itsmisscs&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/Snugug&quot;&gt;@Snugug&lt;/a&gt; and supported by a team of volunteers &amp;#8212; had probably the most robust agenda in a conference I&#39;d seen for a while.
+  I went to &lt;a href=&quot;sassconf.com&quot;&gt;SASSConf&lt;/a&gt; (my first SASS Conference!) in October 2014 and had a blast. The conference &amp;#8212; organized by &lt;a href=&quot;https://twitter.com/itsmisscs&quot;&gt;@itsmisscs&lt;/a&gt; and &lt;a href=&quot;https://twitter.com/Snugug&quot;&gt;@Snugug&lt;/a&gt; and supported by a team of volunteers &amp;#8212; had probably the most robust agenda in a conference I'd seen for a while.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -499,14 +519,14 @@ This post is a part of the [#100dayosfcode](http://www.thecodingdiaries.com/the-
   The first day of the conference was set aside for scheduled speaker talks, the second day was set aside for two back-to-back workshops (you could choose from one of two during the morning and afternoon), and the third day was set aside for an un-conference. A lot of care was put into everything from speaker accommodations and food to technical learning opportunities. Oh &amp;#8212; and the after-party on Friday encompassed a karoake and open bar that took place on a boat. A boat.
 &lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-4.jpg&quot; alt=&quot;A boat!&quot; width=&quot;100%&quot; /&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2015/02/photo-4.jpg&quot; alt=&quot;A boat!&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;
   Before I get into more beautiful boat pictures, though, let me recap my main three technical takeaways from the conference:
 &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;strong&gt;1. What&#39;s the point? Don&#39;t Repeat Yourself. (DRY)&lt;/strong&gt;&lt;br /&gt; Instead of writing straight CSS in a single file for a single component, organize your CSS into different files based on meaning (e.g. the names of your partials can be _buttons.scss, _colors.scss, _layout.scss), and use variables and nesting to keep the CSS organized nicely. Doing this helps get rid of repetitive styles.
+  &lt;strong&gt;1. What's the point? Don't Repeat Yourself. (DRY)&lt;/strong&gt;&lt;br /&gt; Instead of writing straight CSS in a single file for a single component, organize your CSS into different files based on meaning (e.g. the names of your partials can be _buttons.scss, _colors.scss, _layout.scss), and use variables and nesting to keep the CSS organized nicely. Doing this helps get rid of repetitive styles.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -514,7 +534,7 @@ This post is a part of the [#100dayosfcode](http://www.thecodingdiaries.com/the-
 &lt;/p&gt;
 
 &lt;p&gt;
-  However, my takeaway was that it wasn&#39;t important to go out and use every SASS feature or accompanying tool available. You should use SASS in a way that makes sense for your project, keeping in mind that it&#39;s supposed to _help _you write CSS more cleanly and follow the DRY way of thinking.
+  However, my takeaway was that it wasn't important to go out and use every SASS feature or accompanying tool available. You should use SASS in a way that makes sense for your project, keeping in mind that it's supposed to _help _you write CSS more cleanly and follow the DRY way of thinking.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -526,11 +546,11 @@ This post is a part of the [#100dayosfcode](http://www.thecodingdiaries.com/the-
 &lt;/p&gt;
 
 &lt;p&gt;
-  In mobile first, you&#39;re developing for mobile devices from the start &amp;#8212; making sure your website looks great on phones and tablets &amp;#8212; before adding CSS styles that change the layout of the page as you stretch the page. Basically, one of the advantages of &quot;mobile first&quot; is that you don&#39;t need to specify a breakpoint size to target mobile devices only.
+  In mobile first, you're developing for mobile devices from the start &amp;#8212; making sure your website looks great on phones and tablets &amp;#8212; before adding CSS styles that change the layout of the page as you stretch the page. Basically, one of the advantages of &quot;mobile first&quot; is that you don't need to specify a breakpoint size to target mobile devices only.
 &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;em&gt;(Side note: I&#39;m super glad I hopped on the mobile-first train, since I ended up suggesting it to my coworker, and we made a decision to go with it, and it made every part of the redesign project a lot easier.)&lt;/em&gt;
+  &lt;em&gt;(Side note: I'm super glad I hopped on the mobile-first train, since I ended up suggesting it to my coworker, and we made a decision to go with it, and it made every part of the redesign project a lot easier.)&lt;/em&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -604,7 +624,7 @@ $bp-full: 1200px;`
     &quot;Static (un-automated) documentation is a lie waiting to happen. Live style guides are great.&quot; &amp;#8211; anonymous.
   &lt;/li&gt;
   &lt;li&gt;
-    Basically, the argument for &quot;living style guides&quot; (style guides that developers don&#39;t manually have to update, because it updates automatically with CSS commits) is that style guides are fluid and will change. The design will change.
+    Basically, the argument for &quot;living style guides&quot; (style guides that developers don't manually have to update, because it updates automatically with CSS commits) is that style guides are fluid and will change. The design will change.
   &lt;/li&gt;
   &lt;li&gt;
     Meetup.com has an example of a robust style guide: github.com/meetup/meetup-swatches
@@ -656,7 +676,7 @@ $bp-full: 1200px;`
     More advanced features include: SASS lets you iterate over numbers, lists, and maps. You can also use @for, @each, and @while.
   &lt;/li&gt;
   &lt;li&gt;
-    &quot;Pairing between a designer and a developer is awesome because you&#39;re learning from each other.&quot; &amp;#8211; &lt;a href=&quot;http://twitter.com/jina&quot;&gt;@jina&lt;/a&gt; (I say this from experience: I totally agree!)
+    &quot;Pairing between a designer and a developer is awesome because you're learning from each other.&quot; &amp;#8211; &lt;a href=&quot;http://twitter.com/jina&quot;&gt;@jina&lt;/a&gt; (I say this from experience: I totally agree!)
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -693,7 +713,7 @@ $bp-full: 1200px;`
 &lt;/p&gt;
 
 &lt;p&gt;
-  Guess where the conference was hosted &amp;#8212; at Scholastic Inc.! The last time I&#39;d been in the building was 10 years ago, when I&#39;d won a writing award for a short story as a teenager.
+  Guess where the conference was hosted &amp;#8212; at Scholastic Inc.! The last time I'd been in the building was 10 years ago, when I'd won a writing award for a short story as a teenager.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -2488,7 +2508,7 @@ $ python manage.py runserver&lt;/pre&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; I found another good tutorial! The founder behind Coding for Entrepreneurs Youtube series demonstrates the creation of a Django project in virtualenv on his mac:&amp;lt;/p&amp;gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; I found another good tutorial! The founder behind Coding for Entrepreneurs Youtube series demonstrates the creation of a Django project in virtualenv on his mac:&amp;lt;/p&amp;gt;&lt;/p&gt;
 
 &lt;p&gt;
 &lt;/p&gt;
@@ -2895,7 +2915,7 @@ TRUE AND FALSE -&amp;gt; if has false in it, false.&lt;/pre&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    Start with an empty list&lt;br /&gt; &lt;code class=&quot;prettyprint&quot;&gt;elements = &amp;#91;&amp;#93;&lt;/code&gt;&lt;br /&gt; , then use the range function to count from 0 to 5 &lt;pre class=&quot;prettyprint&quot;&gt;for i in range(0,6):
+    Start with an empty list&lt;br /&gt; &lt;code class=&quot;prettyprint&quot;&gt;elements = &amp;#91;&amp;#93;&lt;/code&gt;&lt;br /&gt; , then use the range function to count from 0 to 5&amp;lt;/p&amp;gt; &lt;pre class=&quot;prettyprint&quot;&gt;for i in range(0,6):
      print &amp;#34;Adding %d to the list.&amp;#34; % i
      #append is a function that lists understand
      elements.append(i)&lt;/pre&gt;
@@ -3362,8 +3382,8 @@ print thing.tangerine&lt;/pre&gt;
   &lt;/li&gt;
   &lt;li&gt;
     Links &amp;#8212; yet again in older versions of IE &amp;#8212; suddenly stopped working. (Hint: wrapping &lt;a&gt; tags around &lt;button&gt; elements is actually not valid.)
-  
-
+  &amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
 
 &lt;p&gt;
   &amp;#8230; so yeah, I now make it a habit of running my code through the validator just in case I missed something. Markup issues seem so easy to fix on the surface, but the validator can help a lot when you have a *lot* of nested tags.
@@ -3628,7 +3648,7 @@ print thing.tangerine&lt;/pre&gt;
                 <title>&lt;span data-rel=&quot;title&quot;&gt;Using the &amp;#8220;not&amp;#8221; selector in jQuery&lt;/span&gt;</title>
                 <description>&lt;p&gt;
   Was trying to figure out how to select every &lt;li&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt; item in a row except the one with a class of &amp;#8220;active.&amp;#8221; As always, &lt;/span&gt;&lt;a style=&quot;font-size: 16px;&quot; href=&quot;http://stackoverflow.com/questions/520250/jquery-if-div-doesnt-have-class-x&quot; target=&quot;_blank&quot;&gt;Stackoverflow&lt;/a&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt; reminded me that jQuery came with &amp;#8220;:not.&amp;#8221;&lt;/span&gt;
-
+&amp;lt;/p&amp;gt;
 
 &lt;p&gt;
   &lt;span style=&quot;font-size: 16px;&quot;&gt;Example:&lt;/span&gt;
@@ -3654,22 +3674,22 @@ print thing.tangerine&lt;/pre&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    a short, self contained, correct, example
+    a short, self contained, correct, example&amp;lt;/span&amp;gt;
   &lt;/li&gt;
   &lt;li&gt;
-    steps to reproduce
+    steps to reproduce&amp;lt;/span&amp;gt;
   &lt;/li&gt;
   &lt;li&gt;
-    input
+    input&amp;lt;/span&amp;gt;
   &lt;/li&gt;
   &lt;li&gt;
-    expected output
+    expected output&amp;lt;/span&amp;gt;
   &lt;/li&gt;
   &lt;li&gt;
-    actual output
+    actual output&amp;lt;/span&amp;gt;
   &lt;/li&gt;
   &lt;li&gt;
-    software and operating system versions
+    software and operating system versions&amp;lt;/span&amp;gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -4066,7 +4086,7 @@ print thing.tangerine&lt;/pre&gt;
         <item>
                 <title>&lt;span data-rel=&quot;title&quot;&gt;Why I&amp;#8217;m Falling More And More In Love With Sublime Text&lt;/span&gt;</title>
                 <description>&lt;p&gt;
-  Over the past week I&amp;#8217;ve discovered that not only can I copy the file path of my document by right-clicking and selecting &amp;#8220;copy file path&amp;#8221; in &amp;lt;a href=&amp;#8221;http://www.sublimetext.com/&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;Sublime Text, the text editor also allows me to short-handedly insert a comment by typing command-/ on the mac.
+  Over the past week I&amp;#8217;ve discovered that not only can I copy the file path of my document by right-clicking and selecting &amp;#8220;copy file path&amp;#8221; in &amp;lt;a href=&amp;#8221;http://www.sublimetext.com/&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;Sublime Text&amp;lt;/a&amp;gt;, the text editor also allows me to short-handedly insert a comment by typing command-/ on the mac.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -4124,11 +4144,11 @@ print thing.tangerine&lt;/pre&gt;
         <item>
                 <title>&lt;span data-rel=&quot;title&quot;&gt;First impressions of CodeSchool&amp;#8217;s jQuery: First Flight&lt;/span&gt;</title>
                 <description>&lt;p&gt;
-  Codeschool is the author of &amp;lt;a href=&amp;#8221;http://tryruby.org&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;Try Ruby and &amp;lt;a href=&amp;#8221;http://try.github.com&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;Try Git. I just watched the first video in their &amp;lt;a href=&amp;#8221;http://www.codeschool.com/courses/jquery-air-first-flight&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;jQuery: First Flight series, and attempted some of the follow-up exercises.
+  Codeschool is the author of &amp;lt;a href=&amp;#8221;http://tryruby.org&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;Try Ruby&amp;lt;/a&amp;gt; and &amp;lt;a href=&amp;#8221;http://try.github.com&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;Try Git&amp;lt;/a&amp;gt;. I just watched the first video in their &amp;lt;a href=&amp;#8221;http://www.codeschool.com/courses/jquery-air-first-flight&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;jQuery: First Flight&amp;lt;/a&amp;gt; series, and attempted some of the follow-up exercises.
 &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;strong&gt;Verdict:&lt;/strong&gt; I&amp;#8217;m impressed! I like the polished look, the try-it-yourself exercises, the gamified set-up (you &amp;#8220;earn&amp;#8221; points for answering questions correctly and &amp;#8220;spend&amp;#8221; points on hints), and the fact that you can &amp;lt;a href=&amp;#8221;http://courseware.codeschool.com.s3.amazonaws.com/jquery_air_slides.pdf&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;download the slides from each video for reference as you complete the exercises.
+  &lt;strong&gt;Verdict:&lt;/strong&gt; I&amp;#8217;m impressed! I like the polished look, the try-it-yourself exercises, the gamified set-up (you &amp;#8220;earn&amp;#8221; points for answering questions correctly and &amp;#8220;spend&amp;#8221; points on hints), and the fact that you can &amp;lt;a href=&amp;#8221;http://courseware.codeschool.com.s3.amazonaws.com/jquery_air_slides.pdf&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;download the slides&amp;lt;/a&amp;gt; from each video for reference as you complete the exercises.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -4136,7 +4156,7 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
-  Bonus: I think they mighty&amp;#8217;ve gotten the pianist from &amp;lt;a href=&amp;#8221;http://www.mertonshow.com/about&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;The Merton Show or something to front all of their introductory videos. The intro songs are all hilarious.
+  Bonus: I think they mighty&amp;#8217;ve gotten the pianist from &amp;lt;a href=&amp;#8221;http://www.mertonshow.com/about&amp;#8221; target=&amp;#8221;_blank&amp;#8221;&amp;gt;The Merton Show&amp;lt;/a&amp;gt; or something to front all of their introductory videos. The intro songs are all hilarious.
 &lt;/p&gt;
 </description>
                 <link>http://thecodingdiaries.com/first-impressions-of-codeschools-jquery-first-flight/</link>
@@ -4177,7 +4197,7 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
-  3) Similarly, you can call your Javascript file (conventionally named script.js) by putting &amp;lt;script src=&amp;#8221;script.js&amp;#8221;&amp;gt; in your HTML &amp;#8212; right before your  tag, so that the cool extra animation/behavioral effects you&amp;#8217;re loading doesn&amp;#8217;t interfere with your more essential content.
+  3) Similarly, you can call your Javascript file (conventionally named script.js) by putting &amp;lt;script src=&amp;#8221;script.js&amp;#8221;&amp;gt;&amp;lt;/script&amp;gt; in your HTML &amp;#8212; right before your &amp;lt;/body&amp;gt; tag, so that the cool extra animation/behavioral effects you&amp;#8217;re loading doesn&amp;#8217;t interfere with your more essential content.
 &lt;/p&gt;
 
 &lt;p&gt;
@@ -4330,7 +4350,7 @@ print thing.tangerine&lt;/pre&gt;
 
         <item>
                 <title>&lt;span data-rel=&quot;title&quot;&gt;Note To Self: Remember To Close Tags&lt;/span&gt;</title>
-                <description>&lt;p&gt;… and end jQuery line breaks with semicolons (;). And don’t forget the % before the } closing bracket in Mason. And don’t forget the question mark at the beginning of a bracket in PHP &lt;code&gt;(&amp;lt;?php)&lt;/code&gt;. &lt;/p&gt;
+                <description>&lt;p&gt;… and end jQuery line breaks with semicolons (;). And don’t forget the % before the } closing bracket in Mason. And don’t forget the question mark at the beginning of a bracket in PHP &lt;code&gt;(&amp;lt;?php)&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Always saves time to pay attention to the small details when you’re setting foot in a new language. :-)&lt;/p&gt;
 </description>
@@ -4443,7 +4463,7 @@ print thing.tangerine&lt;/pre&gt;
     I &lt;em&gt;can&lt;/em&gt; record pretty high quality on music on my iphone using the Multitrack DAW app if I decrease the input signal. I should&amp;#8217;ve figured this out earlier!
   &lt;/li&gt;
   &lt;li&gt;
-    In &amp;lt;a href=http://www.optimizely.com&quot; target=&quot;_blank&quot;&amp;gt;Optimizely, an web optimization and A/B testing tool, there &lt;em&gt;is&lt;/em&gt; a way to target changes sitewide using substrings.
+    In &amp;lt;a href=http://www.optimizely.com&quot; target=&quot;_blank&quot;&amp;gt;Optimizely&amp;lt;/a&amp;gt;, an web optimization and A/B testing tool, there &lt;em&gt;is&lt;/em&gt; a way to target changes sitewide using substrings.
   &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&amp;lt;/span&amp;gt;&lt;/p&gt;
@@ -4514,7 +4534,7 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 
 &lt;div class=&quot;steps&quot;&gt;
-  Key takeaways from Day 2&amp;#8217;s video: 
+  Key takeaways from Day 2&amp;#8217;s video:&amp;lt;/p&amp;gt; 
   
   &lt;blockquote&gt;
     &lt;p&gt;
@@ -4568,11 +4588,11 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 
 &lt;p&gt;
-  &lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2012/05/metacodingdiaries-300x164.jpg&quot; alt=&quot;image&quot; title=&quot;Hey, it&#39;s blurrier but larger!&quot; width=&quot;300&quot; height=&quot;164&quot; class=&quot;infographic&quot; /&gt;
+  &lt;img src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2012/05/metacodingdiaries-300x164.jpg&quot; alt=&quot;image&quot; title=&quot;Hey, it's blurrier but larger!&quot; width=&quot;300&quot; height=&quot;164&quot; class=&quot;infographic&quot; /&gt;
 &lt;/p&gt;
 
 &lt;div class=&quot;steps&quot;&gt;
-  &lt;strong&gt;Step 1:&lt;/strong&gt;&lt;br /&gt; Save the image in its original, high-quality size.&lt;br /&gt; &lt;strong&gt;Step 2:&lt;/strong&gt;&lt;br /&gt; Upload the high-quality image into PicMonkey (or another photo editor) and find the heights for when the image is resized to width=300 and for when the image is resized to width=800 
+  &lt;strong&gt;Step 1:&lt;/strong&gt;&lt;br /&gt; Save the image in its original, high-quality size.&lt;br /&gt; &lt;strong&gt;Step 2:&lt;/strong&gt;&lt;br /&gt; Upload the high-quality image into PicMonkey (or another photo editor) and find the heights for when the image is resized to width=300 and for when the image is resized to width=800&amp;lt;/p&amp;gt; 
   
   &lt;p&gt;
     Copy and paste the following script to the top of the WordPress post. Switch out the heights that you found from picmonkey.
@@ -4585,25 +4605,25 @@ print thing.tangerine&lt;/pre&gt;
     &lt;strong&gt;Step 3:&lt;/strong&gt;&lt;br /&gt; Get rid of the tags in the image on the post. So
   &lt;/p&gt;&amp;lt;pre class=&quot;syntax {CSS}&amp;gt;
   
-  &lt;a href=&quot;IMAGE URL&quot;&gt;&lt;img class=&quot;wp-image&quot; title=&quot;P1&quot; src=&quot;IMAGE SOURCE&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;648&quot; /&gt;&lt;/a&gt; 
+  &lt;a href=&quot;IMAGE URL&quot;&gt;&lt;img class=&quot;wp-image&quot; title=&quot;P1&quot; src=&quot;IMAGE SOURCE&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;648&quot; /&gt;&lt;/a&gt;&amp;lt;/pre&amp;gt; 
   
   &lt;p&gt;
     becomes
   &lt;/p&gt;&amp;lt;pre class=&quot;syntax {css}&amp;gt;
   
-  &lt;img class=&quot;wp-image&quot; title=&quot;P1&quot; src=&quot;IMAGE URL&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;648&quot; /&gt; 
+  &lt;img class=&quot;wp-image&quot; title=&quot;P1&quot; src=&quot;IMAGE URL&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;648&quot; /&gt;&amp;lt;/pre&amp;gt; 
   
   &lt;p&gt;
     &lt;strong&gt;Step 4: &lt;/strong&gt;&lt;br /&gt; Change the class to be equal to &amp;#8220;infographic1&amp;#8243;, and edit out the title to whatever you desire.
   &lt;/p&gt;&amp;lt;pre class=&quot;syntax {css}&amp;gt;&amp;gt;
   
-  &lt;img class=&quot;wp-image&quot; title=&quot;P1&quot; src=&quot;IMAGE URL&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;648&quot; /&gt; 
+  &lt;img class=&quot;wp-image&quot; title=&quot;P1&quot; src=&quot;IMAGE URL&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;648&quot; /&gt;&amp;lt;/pre&amp;gt; 
   
   &lt;p&gt;
     becomes
   &lt;/p&gt;&amp;lt;pre class=&quot;syntax {css}&amp;gt;
   
-  &lt;img class=&quot;infographic1&quot; title=&quot;IMAGE TITLE&quot; src=&quot;IMAGE URL&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;648&quot; /&gt; 
+  &lt;img class=&quot;infographic1&quot; title=&quot;IMAGE TITLE&quot; src=&quot;IMAGE URL&quot; alt=&quot;&quot; width=&quot;300&quot; height=&quot;648&quot; /&gt;&amp;lt;/pre&amp;gt; 
   
   &lt;p&gt;
     &lt;strong&gt;Step 5:&lt;/strong&gt;&lt;br /&gt; Click &amp;#8220;preview&amp;#8221; to check that the zoomification effect is working. Double check the other steps if it&amp;#8217;s not.
@@ -4643,7 +4663,7 @@ print thing.tangerine&lt;/pre&gt;
 &lt;/p&gt;
 
 &lt;div class=&quot;steps&quot;&gt;
-  &amp;#8216;I am a string. That&amp;#8217;s great!&amp;#8221; &amp;lt;-- Wrong.&lt;br /&gt; &#39;I am a string. That\&#39;s great!&quot; &amp;lt;-- Right.
+  &amp;#8216;I am a string. That&amp;#8217;s great!&amp;#8221; &amp;lt;-- Wrong.&lt;br /&gt; 'I am a string. That\'s great!&quot; &amp;lt;-- Right.
 &lt;/div&gt;
 
 &lt;p&gt;
@@ -4794,7 +4814,7 @@ print thing.tangerine&lt;/pre&gt;
                 <description>&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;div class=&quot;resources&quot;&gt;
-  &lt;strong&gt;Resources:&lt;/strong&gt; 
+  &lt;strong&gt;Resources:&lt;/strong&gt;&amp;lt;/p&amp;gt; 
   
   &lt;ul&gt;
     &lt;li&gt;
@@ -4967,7 +4987,7 @@ box-shadow: 5px 5px 7px rgba(63,33,33,.7);
                 <description>&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;p&gt;
-  &lt;strong&gt;UPDATE:&lt;strong&gt; Picnik is closed. Picmonkey.com works similarly! 
+  &lt;strong&gt;UPDATE:&lt;strong&gt; Picnik is closed. Picmonkey.com works similarly!&amp;lt;/p&amp;gt; 
   
   &lt;div class=&quot;resources&quot;&gt;
     &lt;strong&gt;Resource:&lt;/strong&gt; &lt;a title=&quot;picnik.com&quot; href=&quot;http://www.picnik.com&quot; target=&quot;_blank&quot;&gt;Picnik.com (the free and easy way)&lt;/a&gt;
@@ -4982,16 +5002,16 @@ box-shadow: 5px 5px 7px rgba(63,33,33,.7);
   &lt;/p&gt;
   
   &lt;div class=&quot;steps&quot;&gt;
-    &lt;strong&gt;1.&lt;/strong&gt; Go to picnik.com&lt;br /&gt; &lt;strong&gt;2.&lt;/strong&gt; Click on &amp;#8220;get started.&amp;#8221;&lt;br /&gt; &lt;strong&gt;3.&lt;/strong&gt; Upload a photo.&lt;br /&gt; &lt;strong&gt;4.&lt;/strong&gt; Click on the &amp;#8220;resize&amp;#8221; button to make it scroll down. Now you can reformat the image you uploaded to any size you want. The first field signifies the width, and the second field signifies the height. So 49 x 51 would be equivalent to 49 px (or pixels) wide, 51 px (or pixels) tall. In HTML, you might end up doing the same thing by typing &lt;code&gt;&amp;lt;img src=&amp;#8221;URL of Image&amp;#8221; width=&amp;#8221;49&amp;#8243; height=&amp;#8221;51&amp;#8243;&amp;gt;&lt;/code&gt;.&lt;br /&gt; &lt;strong&gt;5.&lt;/strong&gt; Click &amp;#8220;apply&amp;#8221; and &amp;#8220;save.&amp;#8221; 
+    &lt;strong&gt;1.&lt;/strong&gt; Go to picnik.com&lt;br /&gt; &lt;strong&gt;2.&lt;/strong&gt; Click on &amp;#8220;get started.&amp;#8221;&lt;br /&gt; &lt;strong&gt;3.&lt;/strong&gt; Upload a photo.&lt;br /&gt; &lt;strong&gt;4.&lt;/strong&gt; Click on the &amp;#8220;resize&amp;#8221; button to make it scroll down. Now you can reformat the image you uploaded to any size you want. The first field signifies the width, and the second field signifies the height. So 49 x 51 would be equivalent to 49 px (or pixels) wide, 51 px (or pixels) tall. In HTML, you might end up doing the same thing by typing &lt;code&gt;&amp;lt;img src=&amp;#8221;URL of Image&amp;#8221; width=&amp;#8221;49&amp;#8243; height=&amp;#8221;51&amp;#8243;&amp;gt;&lt;/code&gt;.&lt;br /&gt; &lt;strong&gt;5.&lt;/strong&gt; Click &amp;#8220;apply&amp;#8221; and &amp;#8220;save.&amp;#8221;&amp;lt;/p&amp;gt; 
     
     &lt;p&gt;
       &lt;center&gt;
         &lt;img class=&quot;alignnone size-full wp-image-110&quot; title=&quot;picnik1&quot; src=&quot;http://www.thecodingdiaries.com/wp-content/uploads/2012/01/picnik11.png&quot; alt=&quot;&quot; width=&quot;227&quot; height=&quot;200&quot; /&gt;
-      &lt;/center&gt; 
+      &lt;/center&gt;&amp;lt;/div&amp;gt; 
       
       &lt;p&gt;
         There are also a few other cool effects in Picnik that let you put text on your image, change its coloring, doodle on it, etc. Have fun clicking around!
-      &lt;/p&gt;
+      &lt;/p&gt;&amp;lt;/span&amp;gt;
 &lt;/p&gt;&lt;/div&gt;&lt;/strong&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
                 <link>http://thecodingdiaries.com/day-2-resizing-images-the-free-way/</link>
@@ -5125,7 +5145,7 @@ box-shadow: 5px 5px 7px rgba(63,33,33,.7);
   
   &lt;div class=&quot;steps&quot;&gt;
     &lt;strong&gt;Possible Implication #3:&lt;/strong&gt;: Your pretty, user-friendly, A/B tested website happens to be supporting scholarship grants for girls who would otherwise lack access to an education. You send out a donation ask to your 1000 new subscribers, and .5% converts. The 5 people who send you checks give enough to support the scholarships of three girls. One of them grows up to be a doctor. &lt;s&gt;You save&lt;/s&gt; She happens to be at the right time and place to save the life of an infant. &lt;del datetims=&quot;2012-01-01T19:28:47+00:00&quot;&gt;You save&lt;/del&gt; The infant grows up to be a superhero who saves the world.
-  &lt;/div&gt;
+  &lt;/div&gt;&amp;lt;/span&amp;gt;
 &lt;/p&gt;
 </description>
                 <link>http://thecodingdiaries.com/learning-how-to-code-for-the-web-heres-why-its-satisfying/</link>
@@ -5548,7 +5568,7 @@ As noted, our main programming constraint is the fact that our API is limited to
 
 &lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h2&gt;
 
-&lt;p&gt;Please take a look at []()
+&lt;p&gt;Please take a look at &lt;a href=&quot;&quot;&gt;&lt;/a&gt;
 or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you’d like.&lt;/p&gt;
 </description>
                 <link>http://thecodingdiaries.com/lessons/2011/12/29/jekyll-introduction</link>
@@ -5590,7 +5610,7 @@ or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you’d like.&l
                 <description>&lt;p&gt;&lt;span data-rel=&quot;content&quot;&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;div class=&quot;resources&quot;&gt;
-  &lt;strong&gt;Resources:&lt;/strong&gt; 
+  &lt;strong&gt;Resources:&lt;/strong&gt;&amp;lt;/p&amp;gt; 
   
   &lt;ol&gt;
     &lt;li&gt;
@@ -5603,7 +5623,7 @@ or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you’d like.&l
       &lt;strong&gt;&lt;a href=&quot;http://w3schools.com/html/html_doctype.asp&quot;&gt;W3Schools&lt;/a&gt;&lt;/strong&gt;
     &lt;/li&gt;
     &lt;p&gt;
-      &amp;#8212; W3Schools has been criticized for being a go-to resource (see &lt;a href=&quot;http://w3fools.com/&quot;&gt;W3Fools.com&lt;/a&gt;), but it&amp;#8217;s not a bad tutorial to start with if you want a quick way to scratch the surface of what HTML is about.   
+      &amp;#8212; W3Schools has been criticized for being a go-to resource (see &lt;a href=&quot;http://w3fools.com/&quot;&gt;W3Fools.com&lt;/a&gt;), but it&amp;#8217;s not a bad tutorial to start with if you want a quick way to scratch the surface of what HTML is about. &amp;lt;/ol&amp;gt; &amp;lt;/div&amp;gt; 
       
       &lt;p&gt;
         My advice for you &amp;#8212; as you scan through the recommended tutorials &amp;#8212; is to type out the HTML you learn in Notepad++ or Text Wrangler. Learning by &lt;em&gt;doing&lt;/em&gt; is the fastest route, and you&amp;#8217;ll also familiarize yourself with typing out tags such as &amp;#8220;&amp;lt;&quot; or &quot;&amp;gt;&amp;#8220;.
@@ -5646,7 +5666,7 @@ or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you’d like.&l
   &lt;li&gt;
     List Item 3
   &lt;/li&gt;
-  	
+  	&amp;lt;/pre&amp;gt;
   
   
   &lt;p&gt;
@@ -5763,7 +5783,7 @@ Paragraph Text Paragraph Text Paragraph Text Paragraph Text Paragraph Text Parag
   &lt;p&gt;
     ^See the horizontal line?
     
-  &lt;/p&gt;
+  &lt;/p&gt;&amp;lt;/div&amp;gt;
   
   
   &lt;p&gt;
@@ -5777,9 +5797,9 @@ Paragraph Text Paragraph Text Paragraph Text Paragraph Text Paragraph Text Parag
   
   
   &lt;p&gt;
-    &amp;nbsp;
-    
-    
+    &amp;nbsp;&amp;lt;/li&amp;gt;
+    &amp;lt;/ul&amp;gt;
+    &amp;lt;/span&amp;gt;
 &lt;/p&gt;&lt;/ul&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/p&gt;&lt;/ol&gt;&lt;/div&gt;
 </description>
                 <link>http://thecodingdiaries.com/why-am-i-learning-html-and-css/</link>
