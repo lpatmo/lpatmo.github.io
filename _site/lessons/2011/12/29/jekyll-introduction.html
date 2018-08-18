@@ -1,0 +1,902 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Jekyll Introduction</title>
+    
+    <meta name="author" content="Linda Peng">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap styles -->
+    <link href="/assets/themes//bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link href="/assets/themes//bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Sticky Footer -->
+    <link href="/assets/themes//bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
+    
+    <!-- Custom styles -->
+    <link href="/assets/themes//css/syntax.css?body=1" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes//css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+    <link href='//fonts.googleapis.com/css?family=Unkempt' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  <body>
+    <div id="wrap">
+<!--       <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">The Coding Diaries</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/archive">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories">The Diaries</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags">Tags</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
+      </nav> -->
+
+      <div class="container">
+              <div class="page-header">
+            <h1><a href="/">The Coding Diaries</a>  <small>Front-end dev with no CS degree. My hope is for this blog to be helpful for others starting out too.</small></h1>
+      </div>
+        
+<div class="page-header">
+  <h1>Jekyll Introduction <small>Supporting tagline</small></h1>
+</div>
+
+<div class="row post-full">
+  <div class="col-md-6">
+<!--     <div class="date">
+      <span>29 December 2011</span>
+    </div> -->
+    <small>lessons</small>
+    <div class="content">
+      
+<p>This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
+Directly following the intro we’ll learn exactly <em>how</em> Jekyll does what it does.</p>
+
+<h2 id="overview">Overview</h2>
+
+<h3 id="what-is-jekyll">What is Jekyll?</h3>
+
+<p>Jekyll is a parsing engine bundled as a ruby gem used to build static websites from
+dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as “a simple, blog aware, static site generator”.</p>
+
+<h3 id="examples">Examples</h3>
+
+<p>This website is created with Jekyll. <a href="https://github.com/mojombo/jekyll/wiki/Sites">Other Jekyll websites</a>.</p>
+
+<h3 id="what-does-jekyll-do">What does Jekyll Do?</h3>
+
+<p>Jekyll is a ruby gem you install on your local system.
+Once there you can call <code>jekyll --server</code> on a directory and provided that directory
+is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files,
+compute categories, tags, permalinks, and construct your pages from layout templates and partials.</p>
+
+<p>Once parsed, Jekyll stores the result in a self-contained static <code>_site</code> folder.
+The intention here is that you can serve all contents in this folder statically from a plain static web-server.</p>
+
+<p>You can think of Jekyll as a normalish dynamic blog but rather than parsing content, templates, and tags
+on each request, Jekyll does this once <em>beforehand</em> and caches the <em>entire website</em> in a folder for serving statically.</p>
+
+<h3 id="jekyll-is-not-blogging-software">Jekyll is Not Blogging Software</h3>
+
+<p><strong>Jekyll is a parsing engine.</strong></p>
+
+<p>Jekyll does not come with any content nor does it have any templates or design elements.
+This is a common source of confusion when getting started.
+Jekyll does not come with anything you actually use or see on your website - you have to make it.</p>
+
+<h3 id="why-should-i-care">Why Should I Care?</h3>
+
+<p>Jekyll is very minimalistic and very efficient.
+The most important thing to realize about Jekyll is that it creates a static representation of your website requiring only a static web-server.
+Traditional dynamic blogs like Wordpress require a database and server-side code.
+Heavily trafficked dynamic blogs must employ a caching layer that ultimately performs the same job Jekyll sets out to do; serve static content.</p>
+
+<p>Therefore if you like to keep things simple and you prefer the command-line over an admin panel UI then give Jekyll a try.</p>
+
+<p><strong>Developers like Jekyll because we can write content like we write code:</strong></p>
+
+<ul>
+  <li>Ability to write content in markdown or textile in your favorite text-editor.</li>
+  <li>Ability to write and preview your content via localhost.</li>
+  <li>No internet connection required.</li>
+  <li>Ability to publish via git.</li>
+  <li>Ability to host your blog on a static web-server.</li>
+  <li>Ability to host freely on GitHub Pages.</li>
+  <li>No database required.</li>
+</ul>
+
+<h1 id="how-jekyll-works">How Jekyll Works</h1>
+
+<p>The following is a complete but concise outline of exactly how Jekyll works.</p>
+
+<p>Be aware that core concepts are introduced in rapid succession without code examples.
+This information is not intended to specifically teach you how to do anything, rather it
+is intended to give you the <em>full picture</em> relative to what is going on in Jekyll-world.</p>
+
+<p>Learning these core concepts should help you avoid common frustrations and ultimately
+help you better understand the code examples contained throughout Jekyll-Bootstrap.</p>
+
+<h2 id="initial-setup">Initial Setup</h2>
+
+<p>After <a href="/index.html#start-now">installing jekyll</a> you’ll need to format your website directory in a way jekyll expects.
+Jekyll-bootstrap conveniently provides the base directory format.</p>
+
+<h3 id="the-jekyll-application-base-format">The Jekyll Application Base Format</h3>
+
+<p>Jekyll expects your website directory to be laid out like so:</p>
+
+<pre><code>.
+|-- _config.yml
+|-- _includes
+|-- _layouts
+|   |-- default.html
+|   |-- post.html
+|-- _posts
+|   |-- 2011-10-25-open-source-is-good.markdown
+|   |-- 2011-04-26-hello-world.markdown
+|-- _site
+|-- index.html
+|-- assets
+    |-- css
+        |-- style.css
+    |-- javascripts
+</code></pre>
+
+<ul>
+  <li>
+    <p><strong>_config.yml</strong>
+  Stores configuration data.</p>
+  </li>
+  <li>
+    <p><strong>_includes</strong>
+  This folder is for partial views.</p>
+  </li>
+  <li>
+    <p><strong>_layouts</strong>
+  This folder is for the main templates your content will be inserted into.
+  You can have different layouts for different pages or page sections.</p>
+  </li>
+  <li>
+    <p><strong>_posts</strong>
+  This folder contains your dynamic content/posts.
+  the naming format is required to be <code>@YEAR-MONTH-DATE-title.MARKUP@</code>.</p>
+  </li>
+  <li>
+    <p><strong>_site</strong>
+  This is where the generated site will be placed once Jekyll is done transforming it.</p>
+  </li>
+  <li>
+    <p><strong>assets</strong>
+  This folder is not part of the standard jekyll structure.
+  The assets folder represents <em>any generic</em> folder you happen to create in your root directory.
+  Directories and files not properly formatted for jekyll will be left untouched for you to serve normally.</p>
+  </li>
+</ul>
+
+<p>(read more: <a href="https://github.com/mojombo/jekyll/wiki/Usage">https://github.com/mojombo/jekyll/wiki/Usage</a>)</p>
+
+<h3 id="jekyll-configuration">Jekyll Configuration</h3>
+
+<p>Jekyll supports various configuration options that are fully outlined here:
+(<a href="https://github.com/mojombo/jekyll/wiki/Configuration">https://github.com/mojombo/jekyll/wiki/Configuration</a>)</p>
+
+<h2 id="content-in-jekyll">Content in Jekyll</h2>
+
+<p>Content in Jekyll is either a post or a page.
+These content “objects” get inserted into one or more templates to build the final output for its respective static-page.</p>
+
+<h3 id="posts-and-pages">Posts and Pages</h3>
+
+<p>Both posts and pages should be written in markdown, textile, or HTML and may also contain Liquid templating syntax.
+Both posts and pages can have meta-data assigned on a per-page basis such as title, url path, as well as arbitrary custom meta-data.</p>
+
+<h3 id="working-with-posts">Working With Posts</h3>
+
+<p><strong>Creating a Post</strong>
+Posts are created by properly formatting a file and placing it the <code>_posts</code> folder.</p>
+
+<p><strong>Formatting</strong>
+A post must have a valid filename in the form <code>YEAR-MONTH-DATE-title.MARKUP</code> and be placed in the <code>_posts</code> directory.
+If the data format is invalid Jekyll will not recognize the file as a post. The date and title are automatically parsed from the filename of the post file.
+Additionally, each file must have <a href="https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter">YAML Front-Matter</a> prepended to its content.
+YAML Front-Matter is a valid YAML syntax specifying meta-data for the given file.</p>
+
+<p><strong>Order</strong>
+Ordering is an important part of Jekyll but it is hard to specify a custom ordering strategy.
+Only reverse chronological and chronological ordering is supported in Jekyll.</p>
+
+<p>Since the date is hard-coded into the filename format, to change the order, you must change the dates in the filenames.</p>
+
+<p><strong>Tags</strong>
+Posts can have tags associated with them as part of their meta-data.
+Tags may be placed on posts by providing them in the post’s YAML front matter.
+You have access to the post-specific tags in the templates. These tags also get added to the sitewide collection.</p>
+
+<p><strong>Categories</strong>
+Posts may be categorized by providing one or more categories in the YAML front matter.
+Categories offer more significance over tags in that they can be reflected in the URL path to the given post.
+Note categories in Jekyll work in a specific way.
+If you define more than one category you are defining a category hierarchy “set”.
+Example:</p>
+
+<pre><code>---
+title :  Hello World
+categories : [lessons, beginner]
+---
+</code></pre>
+
+<p>This defines the category hierarchy “lessons/beginner”. Note this is <em>one category</em> node in Jekyll.
+You won’t find “lessons” and “beginner” as two separate categories unless you define them elsewhere as singular categories.</p>
+
+<h3 id="working-with-pages">Working With Pages</h3>
+
+<p><strong>Creating a Page</strong>
+Pages are created by properly formatting a file and placing it anywhere in the root directory or subdirectories that do <em>not</em> start with an underscore.</p>
+
+<p><strong>Formatting</strong>
+In order to register as a Jekyll page the file must contain <a href="https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter">YAML Front-Matter</a>.
+Registering a page means 1) that Jekyll will process the page and 2) that the page object will be available in the <code>site.pages</code> array for inclusion into your templates.</p>
+
+<p><strong>Categories and Tags</strong>
+Pages do not compute categories nor tags so defining them will have no effect.</p>
+
+<p><strong>Sub-Directories</strong>
+If pages are defined in sub-directories, the path to the page will be reflected in the url.
+Example:</p>
+
+<pre><code>.
+|-- people
+    |-- bob
+        |-- essay.html
+</code></pre>
+
+<p>This page will be available at <code>http://yourdomain.com/people/bob/essay.html</code></p>
+
+<p><strong>Recommended Pages</strong></p>
+
+<ul>
+  <li><strong>index.html</strong>
+You will always want to define the root index.html page as this will display on your root URL.</li>
+  <li><strong>404.html</strong>
+Create a root 404.html page and GitHub Pages will serve it as your 404 response.</li>
+  <li><strong>sitemap.html</strong>
+Generating a sitemap is good practice for SEO.</li>
+  <li><strong>about.html</strong>
+A nice about page is easy to do and gives the human perspective to your website.</li>
+</ul>
+
+<h2 id="templates-in-jekyll">Templates in Jekyll</h2>
+
+<p>Templates are used to contain a page’s or post’s content.
+All templates have access to a global site object variable: <code>site</code> as well as a page object variable: <code>page</code>.
+The site variable holds all accessible content and metadata relative to the site.
+The page variable holds accessible data for the given page or post being rendered at that point.</p>
+
+<p><strong>Create a Template</strong>
+Templates are created by properly formatting a file and placing it in the <code>_layouts</code> directory.</p>
+
+<p><strong>Formatting</strong>
+Templates should be coded in HTML and contain YAML Front Matter.
+All templates can contain Liquid code to work with your site’s data.</p>
+
+<p><strong>Rending Page/Post Content in a Template</strong>
+There is a special variable in all templates named : <code>content</code>.
+The <code>content</code> variable holds the page/post content including any sub-template content previously defined.
+Render the content variable wherever you want your main content to be injected into your template:</p>
+
+<pre><code>...
+&lt;body&gt;
+  &lt;div id="sidebar"&gt; ... &lt;/div&gt;
+  &lt;div id="main"&gt;
+    &#123;{content}&#125;
+  &lt;/div&gt;
+&lt;/body&gt;
+...</code></pre>
+
+<h3 id="sub-templates">Sub-Templates</h3>
+
+<p>Sub-templates are exactly templates with the only difference being they
+define another “root” layout/template within their YAML Front Matter.
+This essentially means a template will render inside of another template.</p>
+
+<h3 id="includes">Includes</h3>
+<p>In Jekyll you can define include files by placing them in the <code>_includes</code> folder.
+Includes are NOT templates, rather they are just code snippets that get included into templates.
+In this way, you can treat the code inside includes as if it was native to the parent template.</p>
+
+<p>Any valid template code may be used in includes.</p>
+
+<h2 id="using-liquid-for-templating">Using Liquid for Templating</h2>
+
+<p>Templating is perhaps the most confusing and frustrating part of Jekyll.
+This is mainly due to the fact that Jekyll templates must use the Liquid Templating Language.</p>
+
+<h3 id="what-is-liquid">What is Liquid?</h3>
+
+<p><a href="https://github.com/Shopify/liquid">Liquid</a> is a secure templating language developed by <a href="http://shopify.com">Shopify</a>.
+Liquid is designed for end-users to be able to execute logic within template files
+without imposing any security risk on the hosting server.</p>
+
+<p>Jekyll uses Liquid to generate the post content within the final page layout structure and as the primary interface for working with
+your site and post/page data.</p>
+
+<h3 id="why-do-we-have-to-use-liquid">Why Do We Have to Use Liquid?</h3>
+
+<p>GitHub uses Jekyll to power <a href="http://pages.github.com/">GitHub Pages</a>.
+GitHub cannot afford to run arbitrary code on their servers so they lock developers down via Liquid.</p>
+
+<h3 id="liquid-is-not-programmer-friendly">Liquid is Not Programmer-Friendly.</h3>
+
+<p>The short story is liquid is not real code and its not intended to execute real code.
+The point being you can’t do jackshit in liquid that hasn’t been allowed explicitly by the implementation.
+What’s more you can only access data-structures that have been explicitly passed to the template.</p>
+
+<p>In Jekyll’s case it is not possible to alter what is passed to Liquid without hacking the gem or running custom plugins.
+Both of which cannot be supported by GitHub Pages.</p>
+
+<p>As a programmer - this is very frustrating.</p>
+
+<p>But rather than look a gift horse in the mouth we are going to
+suck it up and view it as an opportunity to work around limitations and adopt client-side solutions when possible.</p>
+
+<p><strong>Aside</strong>
+My personal stance is to not invest time trying to hack liquid. It’s really unnecessary
+<em>from a programmer’s</em> perspective. That is to say if you have the ability to run custom plugins (i.e. run arbitrary ruby code)
+you are better off sticking with ruby. Toward that end I’ve built <a href="http://github.com/plusjade/mustache-with-jekyll">Mustache-with-Jekyll</a></p>
+
+<h2 id="static-assets">Static Assets</h2>
+
+<p>Static assets are any file in the root or non-underscored subfolders that are not pages.
+That is they have no valid YAML Front Matter and are thus not treated as Jekyll Pages.</p>
+
+<p>Static assets should be used for images, css, and javascript files.</p>
+
+<h2 id="how-jekyll-parses-files">How Jekyll Parses Files</h2>
+
+<p>Remember Jekyll is a processing engine. There are two main types of parsing in Jekyll.</p>
+
+<ul>
+  <li><strong>Content parsing.</strong>
+  This is done with textile or markdown.</li>
+  <li><strong>Template parsing.</strong>
+This is done with the liquid templating language.</li>
+</ul>
+
+<p>And thus there are two main types of file formats needed for this parsing.</p>
+
+<ul>
+  <li><strong>Post and Page files.</strong>
+All content in Jekyll is either a post or a page so valid posts and pages are parsed with markdown or textile.</li>
+  <li><strong>Template files.</strong>
+  These files go in <code>_layouts</code> folder and contain your blogs <strong>templates</strong>. They should be made in HTML with the help of Liquid syntax.
+  Since include files are simply injected into templates they are essentially parsed as if they were native to the template.</li>
+</ul>
+
+<p><strong>Arbitrary files and folders.</strong>
+Files that <em>are not</em> valid pages are treated as static content and pass through
+Jekyll untouched and reside on your blog in the exact structure and format they originally existed in.</p>
+
+<h3 id="formatting-files-for-parsing">Formatting Files for Parsing.</h3>
+
+<p>We’ve outlined the need for valid formatting using <strong>YAML Front Matter</strong>.
+Templates, posts, and pages all need to provide valid YAML Front Matter even if the Matter is empty.
+This is the only way Jekyll knows you want the file processed.</p>
+
+<p>YAML Front Matter must be prepended to the top of template/post/page files:</p>
+
+<pre><code>---
+layout: post
+category : pages
+tags : [how-to, jekyll]
+---
+
+... contents ...
+</code></pre>
+
+<p>Three hyphens on a new line start the Front-Matter block and three hyphens on a new line end the block.
+The data inside the block must be valid YAML.</p>
+
+<p>Configuration parameters for YAML Front-Matter is outlined here:
+<a href="https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter">A comprehensive explanation of YAML Front Matter</a></p>
+
+<h4 id="defining-layouts-for-posts-and-templates-parsing">Defining Layouts for Posts and Templates Parsing.</h4>
+
+<p>The <code>layout</code> parameter in the YAML Front Matter defines the template file for which the given post or template should be injected into.
+If a template file specifies its own layout, it is effectively being used as a <code>sub-template.</code>
+That is to say loading a post file into a template file that refers to another template file with work in the way you’d expect; as a nested sub-template.</p>
+
+<h2 id="how-jekyll-generates-the-final-static-files">How Jekyll Generates the Final Static Files.</h2>
+
+<p>Ultimately, Jekyll’s job is to generate a static representation of your website.
+The following is an outline of how that’s done:</p>
+
+<ol>
+  <li>
+    <p><strong>Jekyll collects data.</strong>
+  Jekyll scans the posts directory and collects all posts files as post objects. It then scans the layout assets and collects those and finally scans other directories in search of pages.</p>
+  </li>
+  <li>
+    <p><strong>Jekyll computes data.</strong>
+  Jekyll takes these objects, computes metadata (permalinks, tags, categories, titles, dates) from them and constructs one
+  big <code>site</code> object that holds all the posts, pages, layouts, and respective metadata.
+  At this stage your site is one big computed ruby object.</p>
+  </li>
+  <li>
+    <p><strong>Jekyll liquifies posts and templates.</strong>
+  Next jekyll loops through each post file and converts (through markdown or textile) and <strong>liquifies</strong> the post inside of its respective layout(s).
+  Once the post is parsed and liquified inside the the proper layout structure, the layout itself is “liquified”.
+ <strong>Liquification</strong> is defined as follows: Jekyll initiates a Liquid template, and passes a simpler hash representation of the ruby site object as well as a simpler
+  hash representation of the ruby post object. These simplified data structures are what you have access to in the templates.</p>
+  </li>
+  <li>
+    <p><strong>Jekyll generates output.</strong>
+ Finally the liquid templates are “rendered”, thereby processing any liquid syntax provided in the templates
+ and saving the final, static representation of the file.</p>
+  </li>
+</ol>
+
+<p><strong>Notes.</strong>
+Because Jekyll computes the entire site in one fell swoop, each template is given access to
+a global <code>site</code> hash that contains useful data. It is this data that you’ll iterate through and format
+using the Liquid tags and filters in order to render it onto a given page.</p>
+
+<p>Remember, in Jekyll you are an end-user. Your API has only two components:</p>
+
+<ol>
+  <li>The manner in which you setup your directory.</li>
+  <li>The liquid syntax and variables passed into the liquid templates.</li>
+</ol>
+
+<p>All the data objects available to you in the templates via Liquid are outlined in the <strong>API Section</strong> of Jekyll-Bootstrap.
+You can also read the original documentation here: <a href="https://github.com/mojombo/jekyll/wiki/Template-Data">https://github.com/mojombo/jekyll/wiki/Template-Data</a></p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>I hope this paints a clearer picture of what Jekyll is doing and why it works the way it does.
+As noted, our main programming constraint is the fact that our API is limited to what is accessible via Liquid and Liquid only.</p>
+
+<p>Jekyll-bootstrap is intended to provide helper methods and strategies aimed at making it more intuitive and easier to work with Jekyll =)</p>
+
+<p><strong>Thank you</strong> for reading this far.</p>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>Please take a look at <a href=""></a>
+or jump right into <a href="">Usage</a> if you’d like.</p>
+
+    </div>
+
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/categories.html#lessons-ref">
+    		lessons <span>1</span>
+    	</a></li>
+    
+  
+
+
+    </ul>
+    
+
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-tags"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#intro-ref">intro <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#beginner-ref">beginner <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#jekyll-ref">jekyll <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#tutorial-ref">tutorial <span>1</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+  
+<!--     <hr>
+    <ul class="pagination">
+    
+      <li class="prev"><a href="/getting-started-with-r/" title="<span data-rel="title">Day 1: Getting Started With R</span>">&laquo; Previous</a></li>
+    
+      <li><a href="/archive.html">Archive</a></li>
+    
+      <li class="next"><a href="/learning-how-to-code-for-the-web-heres-why-its-satisfying/" title="<span data-rel="title">Learning How To Code ==>> Saving The World. Sort Of. Well, It&#8217;s A Possibility.</span>">Next &raquo;</a></li>
+    
+    </ul>
+    <hr> -->
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    
+    var disqus_developer = 1;
+    var disqus_shortname = 'thecodingdiaries'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+
+
+   <div class="col-md-3">
+      <ul class="notes">
+        <li class="notes" style="padding: 1em; word-wrap: break-word; overflow: hidden;">Hi, I'm Linda! I enjoy going to tech meetups, learning web development, and blogging about the learning path. Follow me <a href="http://bit.ly/1epoq9z" target="_blank">@LPnotes</a></li>
+      </ul>
+          <!-- Begin MailChimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+              #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+              /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <div id="mc_embed_signup">
+            <form action="//thecodingdiaries.us4.list-manage.com/subscribe/post?u=3c05880570e60e42c378657f6&amp;id=58b71c85bd" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+              <h2>Subscribe to The Coding Diaries</h2>
+            <div class="mc-field-group">
+              <label for="mce-EMAIL">Email Address </label>
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+            </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_3c05880570e60e42c378657f6_58b71c85bd" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </div>
+            </form>
+            </div>
+
+            <!--End mc_embed_signup-->
+   </div>
+   <div class="col-md-3">
+
+    <ul class="sidebar">
+      
+        <li><a href="/what-i-have-been-working-on/">What I've been working on (update after three years!)</a></li>
+      
+        <li><a href="/notes-from-strange-loop/">Notes from Strange Loop</a></li>
+      
+        <li><a href="/how-to-create-multiple-forks-of-a-git-repo/">How to create multiple forks of a git repo</a></li>
+      
+        <li><a href="/day-9-100daysofcode/"><span data-rel="title">Day 9: #100daysofcode</span></a></li>
+      
+        <li><a href="/day-8-100daysofcode/">Day 8: #100daysofcode</a></li>
+      
+        <li><a href="/day-7-100daysofcode/"><span data-rel="title">Day 7: #100daysofcode</span></a></li>
+      
+        <li><a href="/day-6-100daysofcode/"><span data-rel="title">Day 6: #100daysofcode</span></a></li>
+      
+        <li><a href="/day-5-100daysofcode/"><span data-rel="title">Day 5: #100daysofcode</span></a></li>
+      
+        <li><a href="/day-4-random-100daysofocode/"><span data-rel="title">Day 4: Random #100daysofocode</span></a></li>
+      
+        <li><a href="/day-3-random-100daysofcode/"><span data-rel="title">Day 3: Random #100daysofcode</span></a></li>
+      
+        <li><a href="/day-1-random-100daysofcode/">100daysofcode Challenge Diary Log</a></li>
+      
+        <li><a href="/the-100daysofcode-challenge/"><span data-rel="title">The #100daysofcode Share-One-Thing-You-Learn Challenge</span></a></li>
+      
+        <li><a href="/sassconf-nyc-reportback-2014/"><span data-rel="title">SASSConf NYC Reportback (2014)</span></a></li>
+      
+        <li><a href="/on-the-road-to-competency-two-helpful-searching-tips/"><span data-rel="title">On the road to competency &#8211; two tips</span></a></li>
+      
+        <li><a href="/learning-tdd/"><span data-rel="title">Learning TDD</span></a></li>
+      
+        <li><a href="/learning-to-code-but-feeling-lost-i-interviewed-some-experts-and-heres-what-i-found-part-ii/"><span data-rel="title">Learning to code, but feeling lost? I interviewed some experts, and here’s what I found. (Part II)</span></a></li>
+      
+        <li><a href="/learning-to-code-but-feeling-lost-i-interviewed-some-experts-and-heres-what-i-found/"><span data-rel="title">Learning to code, but feeling lost? I interviewed some experts, and here&#8217;s what I found. (PART I)</span></a></li>
+      
+        <li><a href="/how-to-volunteer-in-the-nyc-tech-community-with-little-to-no-effort-and-gain-a-lot-in-the-process/"><span data-rel="title">How to volunteer in the NYC tech community with little to no effort (and gain a lot in the process!)</span></a></li>
+      
+        <li><a href="/using-vvv-to-develop-wordpress-sites-locally-alternative-to-using-mamp-pro/"><span data-rel="title">Using VVV to develop multiple WordPress sites locally (alternative to using MAMP Pro!)</span></a></li>
+      
+        <li><a href="/my-original-motivation-for-learning-how-to-code/"><span data-rel="title">Actionify the News</span></a></li>
+      
+        <li><a href="/comedy-hack-day-reportback/"><span data-rel="title">Comedy Hack Day Reportback</span></a></li>
+      
+        <li><a href="/quizzing-yourself-is-the-best-way-maybe-more-learning-how-to-code-revelations/"><span data-rel="title">Quizzing Yourself Is The Best Way, Maybe? (More Learning-How-To-Code Revelations)</span></a></li>
+      
+        <li><a href="/tech-meetup-appreciation-post-with-photos/"><span data-rel="title">Tech Meetup Appreciation Post (With Photos!)</span></a></li>
+      
+        <li><a href="/re-reading-eloquent-javascript/"><span data-rel="title">Re-reading Eloquent Javascript</span></a></li>
+      
+        <li><a href="/review-getting-started-with-django-video-series-on-vimeo-kickstarter-backed-part-i/"><span data-rel="title">REVIEW: Getting Started with Django Video Series on Vimeo (Kickstarter-backed), Part I</span></a></li>
+      
+        <li><a href="/learning-to-code-tip-find-a-study-partner/"><span data-rel="title">LEARNING TO CODE TIP: Find a Study Partner</span></a></li>
+      
+        <li><a href="/its-not-that-youre-not-smart-its-just-that-repetition-is-often-what-it-takes/"><span data-rel="title">&#8220;It’s not that you’re not smart – it’s just that repetition is often what it takes.&#8221;</span></a></li>
+      
+        <li><a href="/more-pythondjango-revelations/"><span data-rel="title">More Python/Django Revelations</span></a></li>
+      
+        <li><a href="/may-2014-to-do-list/"><span data-rel="title">May 2014 To-Do List</span></a></li>
+      
+        <li><a href="/resource-orm-query-api-from-the-full-web-framework-python-django-tutorial/"><span data-rel="title">RESOURCE: Querying your Django Web App Without Using SQL</span></a></li>
+      
+        <li><a href="/installing-django-with-virtualenv/"><span data-rel="title">Installing Django With Virtualenv</span></a></li>
+      
+        <li><a href="/what-i-learned-from-participating-in-techcrunch-disrupts-2014-hackathon/"><span data-rel="title">What I learned from participating in TechCrunch Disrupt&#8217;s 2014 Hackathon</span></a></li>
+      
+        <li><a href="/why-you-should-go-to-a-hackathon/"><span data-rel="title">10 Reasons I Encourage Friends To Go To Hackathons</span></a></li>
+      
+        <li><a href="/review-coding-for-entrepreneurs-video-series-tutorial-build-a-django-app/"><span data-rel="title">REVIEW: Coding for Entrepreneurs Video Series Tutorial (Build a Django App)</span></a></li>
+      
+        <li><a href="/udacitys-intro-to-object-oriented-programming-class/"><span data-rel="title">Udacity&#8217;s Intro to Object-Oriented Programming Class</span></a></li>
+      
+        <li><a href="/review-zed-shaws-learn-python-the-hard-way-chapters-1-43/"><span data-rel="title">REVIEW: Zed Shaw&#8217;s &#8216;Learn Python The Hard Way&#8217; (Chapters 1-43)</span></a></li>
+      
+        <li><a href="/the-growth-stages-of-reacting-to-error-messages-web-developer-style/"><span data-rel="title">The Growth Stages of Reacting to Error Messages, Web-Developer Style</span></a></li>
+      
+        <li><a href="/yay-i-got-this-two-gold-star-difficulty-question-on-udacity-right/"><span data-rel="title">OMG, I got a two-gold-star-difficulty question on Udacity right!</span></a></li>
+      
+        <li><a href="/well-played-alleynyc/"><span data-rel="title">Well played, AlleyNYC: Free Tech Co-Working on Sundays!</span></a></li>
+      
+        <li><a href="/feeling-like-an-idiot/"><span data-rel="title">Feeling like an idiot</span></a></li>
+      
+        <li><a href="/be-a-creator-not-a-consumer-also-some-advice-about-college-majors/"><span data-rel="title">Be a Creator, not a Consumer (also: some advice about choosing what to study in college)</span></a></li>
+      
+        <li><a href="/javascript-vs-python-simple-naming-differences/"><span data-rel="title">Javascript vs. Python: Simple Naming Differences</span></a></li>
+      
+        <li><a href="/learning-python-the-hard-way/"><span data-rel="title">Learning Python the Hard Way</span></a></li>
+      
+        <li><a href="/angularjs-firebase/"><span data-rel="title">Neat, short (20 minute) introduction to AngularJS + Firebase</span></a></li>
+      
+        <li><a href="/yes-coding-can-be-fun/"><span data-rel="title">Yes, Coding Can Be Fun</span></a></li>
+      
+        <li><a href="/w3-validator-is-a-lifesaver/"><span data-rel="title">W3 Validator is a lifesaver</span></a></li>
+      
+        <li><a href="/the-biggest-mistake-you-can-make-while-learning-how-to-code/"><span data-rel="title">The Biggest Mistake You Can Make While Learning How To Code</span></a></li>
+      
+        <li><a href="/some-thoughts-on-human-invention/"><span data-rel="title">Some Thoughts on Human Invention</span></a></li>
+      
+        <li><a href="/calling-myself-a-front-end-web-developer/"><span data-rel="title">Calling myself a front-end web developer</span></a></li>
+      
+        <li><a href="/never-going-back-after-git/"><span data-rel="title">Never going back after git</span></a></li>
+      
+        <li><a href="/reflections-on-write-speak-code-nyc-june-20th-22nd-2013/"><span data-rel="title">Reflections on Write-Speak-Code NYC &#8211; June 20th-22nd 2013</span></a></li>
+      
+        <li><a href="/using-the-not-selector-in-jquery/"><span data-rel="title">Using the &#8220;not&#8221; selector in jQuery</span></a></li>
+      
+        <li><a href="/how-to-write-a-good-bug-report/"><span data-rel="title">How to write a good bug report</span></a></li>
+      
+        <li><a href="/front-end-vs-back-end/"><span data-rel="title">Front-end vs. Back-end</span></a></li>
+      
+        <li><a href="/thank-goodness-i-save-all-my-bug-solutions-in-e-mails/"><span data-rel="title">Thank goodness I save all my bug solutions in e-mails</span></a></li>
+      
+        <li><a href="/notes-from-seattle-tech-hn-meetup-speaker-justin-kan/"><span data-rel="title">Notes from Seattle Tech HN Meetup &#8212; Speaker: Justin Kan</span></a></li>
+      
+        <li><a href="/finding-text-in-a-particular-file-using-grep/"><span data-rel="title">Finding text in a particular file using grep</span></a></li>
+      
+        <li><a href="/deploying-to-heroku/"><span data-rel="title">Deploying to Heroku</span></a></li>
+      
+        <li><a href="/configuring-the-terminal-to-open-sublime-text-files/"><span data-rel="title">Configuring the terminal to open Sublime Text files with the &#8216;subl&#8217; command</span></a></li>
+      
+        <li><a href="/teaching-a-beginner-lessons-0-and-1-of-zed-shaws-learn-python-the-hard-way/"><span data-rel="title">Teaching a beginner Lessons 0 and 1 of Zed Shaw&#8217;s Learn Python The Hard Way</span></a></li>
+      
+        <li><a href="/someone-once-asked-me/"><span data-rel="title">Someone once asked me&#8230;</span></a></li>
+      
+        <li><a href="/zed-shaw-is-amazing/"><span data-rel="title">Zed Shaw is amazing</span></a></li>
+      
+        <li><a href="/a-nice-cheatsheet-for-finding-social-media-graphic-dimensions/"><span data-rel="title">A nice cheatsheet for creating graphics for social media</span></a></li>
+      
+        <li><a href="/the-coding-diaries-spring-2013-resolutions/"><span data-rel="title">The Coding Diaries: Spring 2013 Resolutions</span></a></li>
+      
+        <li><a href="/chrome-developer-tools-where-you-have-you-been-in-my-life/"><span data-rel="title">Chrome Developer Tools, where you have you been in my life?</span></a></li>
+      
+        <li><a href="/why-im-falling-more-and-more-in-love-with-sublime-text/"><span data-rel="title">Why I&#8217;m Falling More And More In Love With Sublime Text</span></a></li>
+      
+        <li><a href="/book-review-the-css3-anthology-by-rachel-andrew/"><span data-rel="title">Book Review: &#8220;The CSS3 Anthology&#8221; by Rachel Andrew (5 Stars)</span></a></li>
+      
+        <li><a href="/first-impressions-of-codeschools-jquery-first-flight/"><span data-rel="title">First impressions of CodeSchool&#8217;s jQuery: First Flight</span></a></li>
+      
+        <li><a href="/the-tipping-point-for-me/"><span data-rel="title">The light bulb moment for me&#8230;</span></a></li>
+      
+        <li><a href="/sublime-the-text-editor-is-pretty/"><span data-rel="title">&#8216;Sublime&#8217; (The Text Editor) Is Pretty</span></a></li>
+      
+        <li><a href="/how-i-converted-to-mac-from-pc/"><span data-rel="title">How I Converted To Mac From PC</span></a></li>
+      
+        <li><a href="/hacker-news-readers-you-make-me-laugh/"><span data-rel="title">Hacker News Readers, You Make Me Laugh</span></a></li>
+      
+        <li><a href="/erm-hi-ftp/"><span data-rel="title">Erm. Hi. FTP.</span></a></li>
+      
+        <li><a href="/note-to-self-remember-to-close-tags/"><span data-rel="title">Note To Self: Remember To Close Tags</span></a></li>
+      
+        <li><a href="/html-and-css-book/"><span data-rel="title">REVIEW: HTML and CSS Book by Jon Duckett</span></a></li>
+      
+        <li><a href="/did-you-know-you-can-preview-your-randomly-saved-html-and-php-files-on-your-web-browser/"><span data-rel="title">Did you know you can preview your randomly saved .html and .php files on your web browser?</span></a></li>
+      
+        <li><a href="/some-day-im-going-to-make-a-scrolling-infographic-page-like-this-too/"><span data-rel="title">Some Day I&#8217;m Going To Make A Scrolling Infographic Page Like This Too</span></a></li>
+      
+        <li><a href="/things-i-should-have-figured-out-earlier-but-didnt-until-people-talked-to-me/"><span data-rel="title">Things I Should Have Figured Out Earlier, But Didn&#8217;t Until People Talked To Me</span></a></li>
+      
+        <li><a href="/my-set-up-space-for-learning-front-end-web-development/"><span data-rel="title">My Set-Up Environment For Learning From Tech Books</span></a></li>
+      
+        <li><a href="/no-thanks-you-dont-deserve-it/"><span data-rel="title">&#8220;No Thanks, You Don&#8217;t Deserve It.&#8221;</span></a></li>
+      
+        <li><a href="/day-2-of-tutsplus-coms-free-jquery-in-30-days-course/"><span data-rel="title">What I&#8217;m Learning From TutsPlus.com&#8217;s jQuery In 30 Days E-mails (Free)</span></a></li>
+      
+        <li><a href="/how-to-zoomify-a-graphic-in-5-steps-the-beginner-jquery-way/"><span data-rel="title">How To Magnify A Graphic In 5 Steps (The Beginner jQuery Way)</span></a></li>
+      
+        <li><a href="/magic/"><span data-rel="title">Magic</span></a></li>
+      
+        <li><a href="/small-lesson/"><span data-rel="title">Small Lesson</span></a></li>
+      
+        <li><a href="/data-design-meaning/"><span data-rel="title">A 30-Minute Youtube Talk On Data And Design</span></a></li>
+      
+        <li><a href="/day-1-jquery-fail/"><span data-rel="title">Lessons Learned From Beginner jQuery Fail</span></a></li>
+      
+        <li><a href="/photoshop-finally/"><span data-rel="title">Photoshop! Finally.</span></a></li>
+      
+        <li><a href="/day-2-getting-started-with-css/"><span data-rel="title">How To Get Started With CSS</span></a></li>
+      
+        <li><a href="/why-your-css-and-javascript-might-not-be-working-in-your-wordpress-post/"><span data-rel="title">Why Your CSS and Javascript Might Not Be Working In Your WordPress Post</span></a></li>
+      
+        <li><a href="/day-2-resizing-images-the-free-way/"><span data-rel="title">Day 2: Resizing Images For The Blog</span></a></li>
+      
+        <li><a href="/resource-john-d-cooks-intro-to-r-for-programmers/"><span data-rel="title">Resource: John D. Cook&#8217;s Intro. To R For Programmers</span></a></li>
+      
+        <li><a href="/day-1-the-difference-between-wordpress-org-and-wordpress-com/"><span data-rel="title">Day 1: The Difference Between WordPress.org and WordPress.com</span></a></li>
+      
+        <li><a href="/what-is-version-control-well-i-discovered-its-importance-the-hard-way/"><span data-rel="title">Source Control: How I Discovered Its Importance The Hard Way</span></a></li>
+      
+        <li><a href="/learning-how-to-code-for-the-web-heres-why-its-satisfying/"><span data-rel="title">Learning How To Code ==>> Saving The World. Sort Of. Well, It&#8217;s A Possibility.</span></a></li>
+      
+        <li><a href="/lessons/2011/12/29/jekyll-introduction">Jekyll Introduction</a></li>
+      
+        <li><a href="/getting-started-with-r/"><span data-rel="title">Day 1: Getting Started With R</span></a></li>
+      
+        <li><a href="/why-am-i-learning-html-and-css/"><span data-rel="title">Day 1: Getting Started With HTML</span></a></li>
+      
+        <li><a href="/10-lessons-i-learned-from-designing-an-online-community-using-wordpress-and-buddypress/"><span data-rel="title">10 Lessons I Learned From Designing An Online Community Using WordPress and Buddypress</span></a></li>
+      
+    </ul>
+
+
+  </div>
+</div>
+
+
+      </div>
+
+    </div>
+
+    <div id="footer">
+     <!--  <div class="container">
+        <p>&copy; 2018 Linda Peng
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+        </p>
+      </div> -->
+    </div>
+
+    
+
+
+
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/assets/themes//bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
