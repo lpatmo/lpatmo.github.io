@@ -1,5 +1,5 @@
 ---
-title: UPDATE AFTER THREE YEARS: What I have been working on
+title: What I have been working on (UPDATE AFTER THREE YEARS)
 author: LP
 layout: post
 permalink: /what-i-have-been-working-on/
